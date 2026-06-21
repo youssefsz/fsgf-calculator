@@ -288,6 +288,12 @@ export const fr: Translations = {
     contact:
       "Si vous avez des questions concernant ces conditions, vous pouvez inspecter le code source ou contacter le créateur sur youssef.tn.",
   },
+  notFound: {
+    title: "Page introuvable",
+    description:
+      "La page que vous recherchez n'existe pas ou a été déplacée.",
+    backHome: "Retour à l'accueil",
+  },
   seo: {
     defaultTitle: "Calculateur de notes FSGF",
     titleTemplate: "{title} | Calculateur de notes FSGF",

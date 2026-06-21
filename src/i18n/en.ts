@@ -284,6 +284,12 @@ export const en = {
     contact:
       "If you have questions about these terms, you may inspect the source code or contact the creator at youssef.tn.",
   },
+  notFound: {
+    title: "Page not found",
+    description:
+      "The page you're looking for doesn't exist or has been moved.",
+    backHome: "Back to homepage",
+  },
   seo: {
     defaultTitle: "FSGF Grade Calculator",
     titleTemplate: "{title} | FSGF Grade Calculator",
