@@ -121,8 +121,7 @@ The preview server prints its address in the terminal (default: `http://localhos
 
 ### Prerequisites
 
-- **Node.js** 22.12 or newer (see `engines` in `package.json`)
-- **pnpm** 9 or newer
+- **Node.js** 22.12 or newer (see `engines` in `package.json`). Node ships with [Corepack](https://nodejs.org/api/corepack.html), which manages pnpm automatically — you do **not** need to install pnpm yourself.
 
 ### Installation
 
@@ -131,7 +130,11 @@ The preview server prints its address in the terminal (default: `http://localhos
 git clone https://github.com/youssefsz/fsgf-calculator.git
 cd fsgf-calculator
 
-# Install dependencies
+# Enable Corepack (one-time, per machine)
+corepack enable
+
+# Install dependencies — Corepack pins pnpm to the version
+# declared in the "packageManager" field of package.json
 pnpm install
 
 # Start the dev server
