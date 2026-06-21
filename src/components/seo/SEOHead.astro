@@ -18,7 +18,7 @@ const {
   alternates,
   canonicalPath,
   siteUrl,
-  ogImage = "/favicon.svg",
+  ogImage = "/og-image.png",
 } = Astro.props
 
 const canonicalUrl = new URL(canonicalPath, siteUrl).toString()
@@ -47,8 +47,13 @@ const xDefault = alternates.en
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonicalUrl} />
 <meta property="og:image" content={ogImageUrl} />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="FSGF Grade Calculator" />
 <meta property="og:site_name" content="FSGF Grade Calculator" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={ogImageUrl} />
+<meta name="twitter:image:alt" content="FSGF Grade Calculator" />

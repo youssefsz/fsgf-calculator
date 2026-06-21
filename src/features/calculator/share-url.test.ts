@@ -39,6 +39,13 @@ describe("share URL round-trip", () => {
     expect(decodeShareSnapshot(encoded)).toEqual(snapshot)
   })
 
+  it("preserves Unicode text in snapshots", () => {
+    const snapshot = makeSnapshot()
+    snapshot.parcoursCode = "Mathématiques-رياضيات"
+    const encoded = encodeShareSnapshot(snapshot)
+    expect(decodeShareSnapshot(encoded)).toEqual(snapshot)
+  })
+
   it("produces a URL-safe token (no padding, no +, /, =)", () => {
     const encoded = encodeShareSnapshot(makeSnapshot())
     const token = encoded.split(".")[1] ?? ""

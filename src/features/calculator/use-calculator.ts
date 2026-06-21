@@ -347,22 +347,9 @@ export function useCalculator(): CalculatorState & CalculatorActions {
         return true
       }
     } catch {
-      // fall through to legacy path
-    }
-    try {
-      const textarea = document.createElement("textarea")
-      textarea.value = url
-      textarea.setAttribute("readonly", "")
-      textarea.style.position = "absolute"
-      textarea.style.left = "-9999px"
-      document.body.appendChild(textarea)
-      textarea.select()
-      const ok = document.execCommand("copy")
-      document.body.removeChild(textarea)
-      return ok
-    } catch {
       return false
     }
+    return false
   }, [parcours, academicYear])
 
   return {

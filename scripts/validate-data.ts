@@ -1,6 +1,7 @@
 import { readdir, readFile } from "node:fs/promises"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
+import { z } from "zod"
 import {
   parcoursIndexSchema,
   parcoursPlanFileSchema,
@@ -69,7 +70,7 @@ async function main() {
   const indexResult = parcoursIndexSchema.safeParse(indexRaw)
   if (!indexResult.success) {
     error(`index.json schema validation failed: ${indexResult.error.message}`)
-    console.error(indexResult.error.flatten())
+    console.error(z.prettifyError(indexResult.error))
   }
   const index: ParcoursIndex | undefined = indexResult.success
     ? indexResult.data
@@ -137,7 +138,7 @@ async function main() {
           error(
             `Parcours file ${entry.dataFile} failed schema validation: ${fileResult.error.message}`
           )
-          console.error(fileResult.error.flatten())
+          console.error(z.prettifyError(fileResult.error))
           continue
         }
         const plan = fileResult.data
@@ -153,19 +154,19 @@ async function main() {
           )
         }
 
-        if (!plan.parcours.institution) {
+        if (entry.hasPlan && !plan.parcours.institution) {
           warn(`${entry.code}: parcours.institution is missing`)
         }
-        if (!plan.parcours.degree_type) {
+        if (entry.hasPlan && !plan.parcours.degree_type) {
           warn(`${entry.code}: parcours.degree_type is missing`)
         }
-        if (!plan.parcours.domain) {
+        if (entry.hasPlan && !plan.parcours.domain) {
           warn(`${entry.code}: parcours.domain is missing`)
         }
-        if (!plan.parcours.mention) {
+        if (entry.hasPlan && !plan.parcours.mention) {
           warn(`${entry.code}: parcours.mention is missing`)
         }
-        if (!plan.parcours.specialty) {
+        if (entry.hasPlan && !plan.parcours.specialty) {
           warn(`${entry.code}: parcours.specialty is missing`)
         }
 
@@ -199,11 +200,16 @@ async function main() {
           )
         }
 
+        const detectedSourceWarnings: string[] = []
+        if (!entry.hasPlan && plan.parcours.scrape_status === "no_plan") {
+          detectedSourceWarnings.push("No study-plan table found")
+        }
+
         for (const semester of plan.parcours.semesters) {
           for (const ue of semester.teaching_units) {
             if (ue.subjects.length === 0) {
-              warn(
-                `${entry.code}: Semester ${semester.number} UE ${ue.code} has no subject rows`
+              detectedSourceWarnings.push(
+                `Semester ${semester.number} UE ${ue.code} has no subject rows`
               )
             }
             for (const subject of ue.subjects) {
@@ -212,12 +218,20 @@ async function main() {
                   `${entry.code}: Subject ${subject.code} in UE ${ue.code} has non-positive coefficient`
                 )
               }
-              if (subject.credits === null) {
-                warn(
-                  `${entry.code}: Subject ${subject.code} in UE ${ue.code} has null credits`
-                )
-              }
             }
+          }
+        }
+
+        const declaredSourceWarnings = new Set(plan.parcours.warnings)
+        const detectedSourceWarningSet = new Set(detectedSourceWarnings)
+        for (const warning of detectedSourceWarnings) {
+          if (!declaredSourceWarnings.has(warning)) {
+            error(`${entry.code}: undocumented source limitation: ${warning}`)
+          }
+        }
+        for (const warning of plan.parcours.warnings) {
+          if (!detectedSourceWarningSet.has(warning)) {
+            error(`${entry.code}: stale source warning: ${warning}`)
           }
         }
       } catch (e) {

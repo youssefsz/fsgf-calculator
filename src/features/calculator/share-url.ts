@@ -9,8 +9,15 @@ const SHARE_PREFIX = `v${CALCULATION_SCHEMA_VERSION}.`
 
 function toBase64Url(input: string): string {
   if (typeof btoa === "function") {
-    const binary = btoa(unescape(encodeURIComponent(input)))
-    return binary.replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "")
+    const bytes = new TextEncoder().encode(input)
+    let binary = ""
+    for (const byte of bytes) {
+      binary += String.fromCharCode(byte)
+    }
+    return btoa(binary)
+      .replace(/\+/g, "-")
+      .replace(/\//g, "_")
+      .replace(/=+$/, "")
   }
   const buffer = Buffer.from(input, "utf-8")
   return buffer
@@ -26,7 +33,11 @@ function fromBase64Url(input: string): string {
   const full =
     remainder === 0 ? padded : padded + "=".repeat(4 - remainder)
   if (typeof atob === "function") {
-    return decodeURIComponent(escape(atob(full)))
+    const binary = atob(full)
+    const bytes = Uint8Array.from(binary, (character) =>
+      character.charCodeAt(0)
+    )
+    return new TextDecoder("utf-8", { fatal: true }).decode(bytes)
   }
   return Buffer.from(full, "base64").toString("utf-8")
 }

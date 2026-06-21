@@ -85,7 +85,7 @@ export const parcoursIndexEntrySchema = z.object({
 
 export const parcoursIndexSchema = z.object({
   schemaVersion: z.literal(1),
-  generatedAt: z.string().datetime({ offset: true }),
+  generatedAt: z.iso.datetime({ offset: true }),
   university: z.string(),
   institution: z.string(),
   establishmentId: z.string(),
