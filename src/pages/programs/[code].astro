@@ -1,6 +1,5 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro"
-import { Button } from "@/components/ui/button"
 import { en } from "@/i18n/en"
 import { getAlternateRoutes, ROUTES } from "@/i18n/routes"
 import { loadIndex, loadPlan } from "@/lib/data.server"
@@ -94,17 +93,25 @@ const structuredData = [
 
   <article class="max-w-3xl space-y-8">
     <header class="space-y-4">
-      <div class="flex items-start justify-between gap-4">
+      <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
         <div>
           <p class="font-mono text-sm text-primary">{entry.code}</p>
           <h1 class="text-2xl font-bold tracking-tight text-foreground">{entry.specialty}</h1>
         </div>
         {entry.hasPlan ? (
-          <Button asChild>
-            <a href={calculatorHref}>{t.programs.calculateFor}</a>
-          </Button>
+          <a
+            href={calculatorHref}
+            class="inline-flex h-9 w-full items-center justify-center gap-1.5 self-start rounded-lg border border-transparent bg-primary px-3 text-sm font-medium text-center text-primary-foreground shadow-sm transition-colors hover:bg-primary/80 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none sm:h-8 sm:w-auto sm:whitespace-nowrap"
+          >
+            {t.programs.calculateFor}
+          </a>
         ) : (
-          <Button disabled>{t.programs.notAvailable}</Button>
+          <span
+            class="inline-flex h-9 w-full items-center justify-center gap-1.5 self-start rounded-lg border border-transparent bg-primary/40 px-3 text-sm font-medium text-center text-primary-foreground/80 shadow-sm sm:h-8 sm:w-auto sm:whitespace-nowrap"
+            aria-disabled="true"
+          >
+            {t.programs.notAvailable}
+          </span>
         )}
       </div>
 

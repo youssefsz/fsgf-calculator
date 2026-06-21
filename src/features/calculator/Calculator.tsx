@@ -264,11 +264,11 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
             data-loading={indexLoading}
             aria-hidden="true"
           >
-            <div className="space-y-2">
+            <div className="min-w-0 space-y-2">
               <div className="skeleton-shimmer h-3.5 w-28 rounded-md" />
               <div className="skeleton-shimmer h-11 w-full rounded-xl" />
             </div>
-            <div className="space-y-2">
+            <div className="min-w-0 space-y-2">
               <div className="skeleton-shimmer h-3.5 w-24 rounded-md" />
               <div className="skeleton-shimmer h-11 w-full rounded-xl" />
             </div>
@@ -282,7 +282,7 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
             }`}
             aria-hidden={indexLoading}
           >
-            <div className="space-y-2">
+            <div className="min-w-0 space-y-2">
               <Label
                 htmlFor="program-select"
                 className="text-sm font-semibold text-foreground"
@@ -302,7 +302,7 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
               />
             </div>
 
-            <div className="space-y-2">
+            <div className="min-w-0 space-y-2">
               <Label
                 htmlFor="year-select"
                 className="text-sm font-semibold text-foreground"
@@ -321,7 +321,7 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
               >
                 <SelectTrigger
                   id="year-select"
-                  className="h-11 w-full rounded-xl bg-background px-3 text-base shadow-2xs"
+                  className="h-11 w-full min-w-0 rounded-xl bg-background px-3 text-base shadow-2xs"
                 >
                   <SelectValue placeholder={t.calculator.selectYear} />
                 </SelectTrigger>
