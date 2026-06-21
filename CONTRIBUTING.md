@@ -11,13 +11,21 @@ reports, fixes, documentation, translations, and programme data.
 
 ## Prerequisites
 
-- **Node.js** 22.12 or newer (see `engines` in `package.json`)
-- **pnpm** 9 or newer
+- **Node.js** 22.12 or newer (see `engines` in `package.json`).
+
+pnpm is pinned via the `packageManager` field in `package.json` and
+managed by [Corepack](https://nodejs.org/api/corepack.html), which ships
+with Node. You do not need to install pnpm manually — Corepack downloads
+the exact pinned version on first use.
 
 ```bash
-corepack enable
-pnpm install
+corepack enable      # one-time, per machine
+pnpm install         # uses the pinned pnpm version automatically
 ```
+
+If you already have a different pnpm installed globally, Corepack
+overrides it only inside this repository, so your other projects are
+unaffected.
 
 ## Project layout
 
