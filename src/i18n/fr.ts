@@ -8,10 +8,11 @@ export const fr: Translations = {
       "Estimez vos moyennes pour la Faculté des Sciences de Gafsa. Moyennes par matière, UE, semestre et année universitaire basées sur les coefficients officiels des plans d'études.",
   },
   nav: {
+    calculate: "Calculer",
     programs: "Parcours",
     methodology: "Méthodologie",
     dataStatus: "État des données",
-    privacy: "Confidentialité",
+    terms: "Conditions",
   },
   language: {
     label: "Langue",
@@ -242,6 +243,50 @@ export const fr: Translations = {
     questionsTitle: "Questions",
     questions:
       "Si vous avez des questions sur cette notice de confidentialité ou sur le calculateur, vous pouvez inspecter le code source ou contacter les mainteneurs du projet.",
+  },
+  footer: {
+    privacy: "Confidentialité",
+    terms: "Conditions d'utilisation",
+    openSource: "Projet open-source",
+    sourceCode: "Code source",
+    createdBy: "Créé par",
+    notOfficial:
+      "Ce n'est pas un site officiel de l'université. Il est construit à partir de données accessibles publiquement sur",
+    rights: "Tous droits réservés.",
+  },
+  terms: {
+    title: "Conditions d'utilisation",
+    description:
+      "Conditions régissant l'utilisation du Calculateur de notes FSGF.",
+    intro:
+      "En accédant au Calculateur de notes FSGF ou en l'utilisant, vous acceptez les présentes conditions. Veuillez les lire attentivement.",
+    acceptanceTitle: "Acceptation des conditions",
+    acceptance:
+      "En utilisant cette application, vous reconnaissez avoir lu, compris et accepté d'être lié par ces conditions. Si vous n'êtes pas d'accord, veuillez cesser d'utiliser l'application.",
+    purposeTitle: "Objet de l'application",
+    purpose:
+      "Le Calculateur de notes FSGF est un outil gratuit et open-source créé par Youssef Dhibi pour aider les étudiants de la Faculté des Sciences de Gafsa à estimer leurs moyennes académiques. Il utilise des données accessibles publiquement depuis parcours-lmd.salima.tn pour effectuer des calculs locaux dans votre navigateur.",
+    notOfficialTitle: "Pas un site officiel de l'université",
+    notOfficial:
+      "Cette application n'est pas affiliée, approuvée ou connectée à la Faculté des Sciences de Gafsa ou à toute institution universitaire. C'est un projet open-source indépendant construit à partir de données accessibles publiquement.",
+    noGuaranteeTitle: "Aucune garantie d'exactitude",
+    noGuarantee:
+      "Les résultats produits par ce calculateur sont des estimations à titre indicatif uniquement. Ils ne constituent pas des résultats académiques officiels et ne doivent pas servir de base pour les décisions de réussite, d'échec, de validation de crédits ou de progression académique. Référez-vous toujours à l'université pour les résultats officiels.",
+    dataPrivacyTitle: "Données et confidentialité",
+    dataPrivacy:
+      "Tous les calculs et préférences sont stockés localement sur votre appareil. Nous ne collectons pas de données personnelles, ne requérons pas de compte et ne transmettons pas vos notes à un serveur. Pour plus de détails, consultez notre notice de confidentialité.",
+    intellectualPropertyTitle: "Propriété intellectuelle",
+    intellectualProperty:
+      "C'est un projet open-source. Le code source est disponible pour inspection et contribution. Le design, le code et le contenu sont protégés par les lois applicables en matière de propriété intellectuelle. Vous pouvez reproduire, distribuer ou créer des œuvres dérivées tel que permis par la licence open source applicable au code source.",
+    limitationsTitle: "Limitation de responsabilité",
+    limitations:
+      "L'application est fournie « en l'état » sans garanties d'aucune sorte. Le créateur ne sera pas responsable des dommages directs, indirects, accessoires ou consécutifs résultant de votre utilisation ou de votre incapacité à utiliser l'application.",
+    changesTitle: "Modifications de ces conditions",
+    changes:
+      "Nous nous réservons le droit de mettre à jour ou de modifier ces conditions à tout moment. L'utilisation continue de l'application après la publication des modifications constitue l'acceptation des conditions révisées.",
+    contactTitle: "Contact",
+    contact:
+      "Si vous avez des questions concernant ces conditions, vous pouvez inspecter le code source ou contacter le créateur sur youssef.tn.",
   },
   seo: {
     defaultTitle: "Calculateur de notes FSGF",

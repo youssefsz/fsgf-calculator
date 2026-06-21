@@ -10,6 +10,7 @@ export type RouteKey =
   | "methodology"
   | "dataStatus"
   | "privacy"
+  | "terms"
 
 export const ROUTES: Record<RouteKey, Record<Locale, string>> = {
   home: { en: "/", fr: "/fr" },
@@ -18,6 +19,7 @@ export const ROUTES: Record<RouteKey, Record<Locale, string>> = {
   methodology: { en: "/methodology", fr: "/fr/methodologie" },
   dataStatus: { en: "/data-status", fr: "/fr/etat-des-donnees" },
   privacy: { en: "/privacy", fr: "/fr/confidentialite" },
+  terms: { en: "/terms", fr: "/fr/conditions" },
 }
 
 export function localizeRoute(

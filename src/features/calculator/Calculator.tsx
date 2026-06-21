@@ -11,6 +11,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 import { en } from "@/i18n/en"
 import { fr } from "@/i18n/fr"
 import {
@@ -300,23 +301,35 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
             <ResetDialog onReset={resetCalculation} t={t} />
           </div>
 
-          {yearResult?.semesterResults.map((semester) => (
-            <SemesterSection
-              key={semester.semesterNumber}
-              semester={semester}
-              plan={plan.parcours}
-              grades={grades}
-              selections={selections}
-              optionalGroups={optionalGroups}
-              directUeGrades={directUeGrades}
-              onSubjectGrade={setSubjectGrade}
-              onFormulaOverride={setFormulaOverride}
-              onToggleUe={setUeIncluded}
-              onChooseOptionalUe={chooseOptionalUe}
-              onDirectUeGrade={setDirectUeGrade}
-              t={t}
-            />
-          ))}
+          {yearResult ? (
+            <Tabs defaultValue={String(yearResult.semesterResults[0]?.semesterNumber ?? 1)}>
+              <TabsList>
+                {yearResult.semesterResults.map((semester) => (
+                  <TabsTrigger key={semester.semesterNumber} value={String(semester.semesterNumber)}>
+                    {t.calculator.semester.replace("{semester}", String(semester.semesterNumber))}
+                  </TabsTrigger>
+                ))}
+              </TabsList>
+              {yearResult.semesterResults.map((semester) => (
+                <TabsContent key={semester.semesterNumber} value={String(semester.semesterNumber)}>
+                  <SemesterSection
+                    semester={semester}
+                    plan={plan.parcours}
+                    grades={grades}
+                    selections={selections}
+                    optionalGroups={optionalGroups}
+                    directUeGrades={directUeGrades}
+                    onSubjectGrade={setSubjectGrade}
+                    onFormulaOverride={setFormulaOverride}
+                    onToggleUe={setUeIncluded}
+                    onChooseOptionalUe={chooseOptionalUe}
+                    onDirectUeGrade={setDirectUeGrade}
+                    t={t}
+                  />
+                </TabsContent>
+              ))}
+            </Tabs>
+          ) : null}
 
           <ResultsPanel yearResult={yearResult} t={t} />
 

@@ -6,10 +6,11 @@ export const en = {
       "Estimate your averages for the Faculté des Sciences de Gafsa. Subject, UE, semester, and academic-year estimates based on official study-plan coefficients.",
   },
   nav: {
+    calculate: "Calculate",
     programs: "Programs",
     methodology: "Methodology",
     dataStatus: "Data status",
-    privacy: "Privacy",
+    terms: "Terms",
   },
   language: {
     label: "Language",
@@ -238,6 +239,50 @@ export const en = {
     questionsTitle: "Questions",
     questions:
       "If you have questions about this privacy notice or the calculator, you can inspect the source code or contact the project maintainers.",
+  },
+  footer: {
+    privacy: "Privacy",
+    terms: "Terms of use",
+    openSource: "Open-source project",
+    sourceCode: "Source code",
+    createdBy: "Created by",
+    notOfficial:
+      "This is not an official university website. It is built using publicly accessible data from",
+    rights: "All rights reserved.",
+  },
+  terms: {
+    title: "Terms of Use",
+    description:
+      "Terms and conditions governing the use of the FSGF Grade Calculator.",
+    intro:
+      "By accessing or using the FSGF Grade Calculator, you agree to the following terms. Please read them carefully.",
+    acceptanceTitle: "Acceptance of terms",
+    acceptance:
+      "By using this application, you acknowledge that you have read, understood, and agree to be bound by these terms. If you do not agree, please discontinue use of the application.",
+    purposeTitle: "Purpose of the application",
+    purpose:
+      "The FSGF Grade Calculator is a free, open-source tool created by Youssef Dhibi to help students of the Faculté des Sciences de Gafsa estimate their academic averages. It uses publicly accessible data from parcours-lmd.salima.tn to perform local calculations in your browser.",
+    notOfficialTitle: "Not an official university website",
+    notOfficial:
+      "This application is not affiliated with, endorsed by, or connected to the Faculté des Sciences de Gafsa or any university institution. It is an independent open-source project built using publicly available data.",
+    noGuaranteeTitle: "No guarantee of accuracy",
+    noGuarantee:
+      "The results produced by this calculator are estimates for personal reference only. They do not constitute official academic results and should not be relied upon for pass/fail decisions, credit validation, or academic progression. Always refer to the university for official results.",
+    dataPrivacyTitle: "Data and privacy",
+    dataPrivacy:
+      "All calculations and preferences are stored locally on your device. We do not collect personal data, require accounts, or transmit your grades to any server. For full details, please review our Privacy notice.",
+    intellectualPropertyTitle: "Intellectual property",
+    intellectualProperty:
+      "This is an open-source project. The source code is available for inspection and contribution. The design, code, and content are protected by applicable intellectual property laws. You may reproduce, distribute, or create derivative works as permitted by the open-source license applicable to the source code.",
+    limitationsTitle: "Limitation of liability",
+    limitations:
+      "The application is provided \"as is\" without warranties of any kind. The creator shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of or inability to use the application.",
+    changesTitle: "Changes to these terms",
+    changes:
+      "We reserve the right to update or modify these terms at any time. Continued use of the application after changes are posted constitutes acceptance of the revised terms.",
+    contactTitle: "Contact",
+    contact:
+      "If you have questions about these terms, you may inspect the source code or contact the creator at youssef.tn.",
   },
   seo: {
     defaultTitle: "FSGF Grade Calculator",

@@ -285,6 +285,7 @@ describe("Calculator", () => {
     expect(
       screen.getByRole("heading", { level: 3, name: /semester 1/i })
     ).toBeInTheDocument()
+    await userEvent.click(screen.getByRole("tab", { name: /semester 2/i }))
     expect(
       screen.getByRole("heading", { level: 3, name: /semester 2/i })
     ).toBeInTheDocument()

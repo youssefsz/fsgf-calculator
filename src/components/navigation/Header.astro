@@ -21,10 +21,10 @@ const otherLabel = locale === "en" ? t.language.fr : t.language.en
 const otherPath = alternates[otherLocale]
 
 const navItems: { key: RouteKey; label: string }[] = [
+  { key: "home", label: t.nav.calculate },
   { key: "programs", label: t.nav.programs },
   { key: "methodology", label: t.nav.methodology },
   { key: "dataStatus", label: t.nav.dataStatus },
-  { key: "privacy", label: t.nav.privacy },
 ]
 
 function isActive(key: RouteKey): boolean {

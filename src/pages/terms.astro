@@ -1,0 +1,73 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro"
+import { en } from "@/i18n/en"
+import { getAlternateRoutes, ROUTES } from "@/i18n/routes"
+
+const locale = "en" as const
+const t = en
+const alternates = getAlternateRoutes("terms")
+const title = t.seo.titleTemplate.replace("{title}", t.terms.title)
+---
+
+<BaseLayout
+  title={title}
+  description={t.terms.description}
+  locale={locale}
+  alternates={alternates}
+  canonicalPath={ROUTES.terms[locale]}
+  currentRoute="terms"
+>
+  <article class="max-w-3xl space-y-8">
+    <header class="space-y-2">
+      <h1 class="text-2xl font-bold tracking-tight">{t.terms.title}</h1>
+      <p class="text-muted-foreground">{t.terms.description}</p>
+    </header>
+
+    <p>{t.terms.intro}</p>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.terms.acceptanceTitle}</h2>
+      <p class="text-muted-foreground">{t.terms.acceptance}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.terms.purposeTitle}</h2>
+      <p class="text-muted-foreground">{t.terms.purpose}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.terms.notOfficialTitle}</h2>
+      <p class="text-muted-foreground">{t.terms.notOfficial}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.terms.noGuaranteeTitle}</h2>
+      <p class="text-muted-foreground">{t.terms.noGuarantee}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.terms.dataPrivacyTitle}</h2>
+      <p class="text-muted-foreground">{t.terms.dataPrivacy}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.terms.intellectualPropertyTitle}</h2>
+      <p class="text-muted-foreground">{t.terms.intellectualProperty}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.terms.limitationsTitle}</h2>
+      <p class="text-muted-foreground">{t.terms.limitations}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.terms.changesTitle}</h2>
+      <p class="text-muted-foreground">{t.terms.changes}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.terms.contactTitle}</h2>
+      <p class="text-muted-foreground">{t.terms.contact}</p>
+    </section>
+  </article>
+</BaseLayout>
