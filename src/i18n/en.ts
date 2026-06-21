@@ -11,6 +11,9 @@ export const en = {
     methodology: "Methodology",
     dataStatus: "Data status",
     terms: "Terms",
+    openMenu: "Open menu",
+    closeMenu: "Close menu",
+    menu: "Main menu",
   },
   language: {
     label: "Language",

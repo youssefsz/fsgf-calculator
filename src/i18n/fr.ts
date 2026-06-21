@@ -13,6 +13,9 @@ export const fr: Translations = {
     methodology: "Méthodologie",
     dataStatus: "État des données",
     terms: "Conditions",
+    openMenu: "Ouvrir le menu",
+    closeMenu: "Fermer le menu",
+    menu: "Menu principal",
   },
   language: {
     label: "Langue",
