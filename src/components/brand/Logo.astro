@@ -1,0 +1,48 @@
+---
+import logoLight from "@/assets/logo/logo-light.png"
+import logoDark from "@/assets/logo/logo-dark.png"
+
+interface Props {
+  size?: "sm" | "md" | "lg"
+  alt: string
+  class?: string
+}
+
+const { size = "md", alt, class: className } = Astro.props
+
+const sizeClasses: Record<NonNullable<Props["size"]>, string> = {
+  sm: "h-6",
+  md: "h-8",
+  lg: "h-10",
+}
+---
+
+<img
+  src={logoLight.src}
+  width={logoLight.width}
+  height={logoLight.height}
+  alt={alt}
+  decoding="async"
+  loading="eager"
+  fetchpriority="high"
+  class:list={[
+    sizeClasses[size],
+    "w-auto dark:hidden",
+    className,
+  ]}
+/>
+<img
+  src={logoDark.src}
+  width={logoDark.width}
+  height={logoDark.height}
+  alt=""
+  aria-hidden="true"
+  decoding="async"
+  loading="eager"
+  fetchpriority="high"
+  class:list={[
+    sizeClasses[size],
+    "hidden w-auto dark:block",
+    className,
+  ]}
+/>

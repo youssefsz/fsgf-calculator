@@ -1,6 +1,7 @@
 ---
 import { ThemeDropdown } from "@/components/theme/ThemeDropdown"
 import { MobileNav } from "@/components/navigation/MobileNav"
+import Logo from "@/components/brand/Logo.astro"
 import type { Locale, RouteKey } from "@/i18n/routes"
 import { ROUTES } from "@/i18n/routes"
 
@@ -37,12 +38,13 @@ function isActive(key: RouteKey): boolean {
 ---
 
 <header class="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
-  <div class="mx-auto flex h-14 max-w-5xl items-center justify-between gap-2 px-4">
+  <div class="mx-auto flex h-16 max-w-5xl items-center justify-between gap-2 px-4">
     <a
       href={ROUTES.home[locale]}
-      class="text-sm font-semibold tracking-tight"
+      class="inline-flex items-center transition-opacity hover:opacity-80"
+      aria-label={t.site.name}
     >
-      {t.site.name}
+      <Logo size="lg" alt={t.site.name} />
     </a>
 
     <nav
