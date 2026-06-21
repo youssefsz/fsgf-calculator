@@ -53,6 +53,8 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
     grades,
     directUeGrades,
     invalidStateCleared,
+    hydratedFromShare,
+    shareSnapshot,
     selectParcours,
     selectYear,
     setUeIncluded,
@@ -62,7 +64,10 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
     setFormulaOverride,
     resetCalculation,
     retryLoadPlan,
+    copyShareLink,
   } = useCalculator()
+
+  const requestedCodeFromShare = shareSnapshot?.parcoursCode
 
   const cachedIndex = React.useSyncExternalStore(
     subscribeToIndexCache,
@@ -73,6 +78,42 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
   const indexLoading = cachedIndex === null
   const [indexError, setIndexError] = React.useState<string | null>(null)
   const appliedPreselection = React.useRef<string | null>(null)
+  const [userPickedProgram, setUserPickedProgram] = React.useState(false)
+  const shareProgramMissing =
+    !!requestedCodeFromShare &&
+    !!cachedIndex &&
+    !cachedIndex.parcours.some((p) => p.code === requestedCodeFromShare) &&
+    !userPickedProgram
+
+  const [shareFeedback, setShareFeedback] = React.useState<
+    | { kind: "success"; message: string }
+    | { kind: "error"; message: string }
+    | null
+  >(null)
+  const shareFeedbackTimer = React.useRef<number | null>(null)
+  React.useEffect(() => {
+    return () => {
+      if (shareFeedbackTimer.current !== null) {
+        window.clearTimeout(shareFeedbackTimer.current)
+      }
+    }
+  }, [])
+
+  const handleCopyShareLink = React.useCallback(async () => {
+    const ok = await copyShareLink()
+    if (ok) {
+      setShareFeedback({ kind: "success", message: t.calculator.shareLinkCopied })
+    } else {
+      setShareFeedback({ kind: "error", message: t.calculator.shareLinkFailed })
+    }
+    if (shareFeedbackTimer.current !== null) {
+      window.clearTimeout(shareFeedbackTimer.current)
+    }
+    shareFeedbackTimer.current = window.setTimeout(() => {
+      setShareFeedback(null)
+      shareFeedbackTimer.current = null
+    }, 2500)
+  }, [copyShareLink, t])
 
   React.useEffect(() => {
     if (cachedIndex) return
@@ -81,7 +122,8 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
     fetchIndex()
       .then((data) => {
         if (cancelled) return
-        const requestedCode = getRequestedProgramCode()
+        const requestedCode =
+          requestedCodeFromShare ?? getRequestedProgramCode()
         if (requestedCode) {
           const found = data.parcours.find((p) => p.code === requestedCode)
           if (found) {
@@ -97,10 +139,11 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
     return () => {
       cancelled = true
     }
-  }, [cachedIndex, getRequestedProgramCode, selectParcours])
+  }, [cachedIndex, getRequestedProgramCode, selectParcours, requestedCodeFromShare])
 
   React.useEffect(() => {
-    const requestedCode = getRequestedProgramCode()
+    const requestedCode =
+      requestedCodeFromShare ?? getRequestedProgramCode()
     if (
       !cachedIndex ||
       !requestedCode ||
@@ -114,7 +157,7 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
       appliedPreselection.current = requestedCode
       selectParcours(found)
     }
-  }, [cachedIndex, getRequestedProgramCode, selectParcours])
+  }, [cachedIndex, getRequestedProgramCode, selectParcours, requestedCodeFromShare])
 
   const yearResult = useYearResult(
     plan,
@@ -143,7 +186,8 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
               setIndexError(null)
               fetchIndex()
                 .then((data) => {
-                  const requestedCode = getRequestedProgramCode()
+                  const requestedCode =
+                    requestedCodeFromShare ?? getRequestedProgramCode()
                   if (requestedCode) {
                     const found = data.parcours.find(
                       (p) => p.code === requestedCode
@@ -176,6 +220,32 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
         <p className="text-sm text-muted-foreground">
           {t.calculator.invalidStateRemoved}
         </p>
+      ) : null}
+
+      {hydratedFromShare ? (
+        <p className="text-sm text-muted-foreground">
+          {t.calculator.sharedFromLink}
+        </p>
+      ) : null}
+
+      {shareProgramMissing ? (
+        <p className="text-sm text-destructive">
+          {t.calculator.sharedProgramNotFound}
+        </p>
+      ) : null}
+
+      {shareFeedback ? (
+        <div
+          role="status"
+          aria-live="polite"
+          className={`fixed bottom-4 left-1/2 z-50 -translate-x-1/2 rounded-lg border px-3 py-2 text-sm shadow-md ${
+            shareFeedback.kind === "success"
+              ? "border-accent/40 bg-accent/15 text-accent-foreground"
+              : "border-destructive/40 bg-destructive/10 text-destructive"
+          }`}
+        >
+          {shareFeedback.message}
+        </div>
       ) : null}
 
       <section
@@ -223,7 +293,10 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
                 id="program-select"
                 programs={index}
                 value={parcours?.code ?? null}
-                onSelect={(entry) => selectParcours(entry)}
+                onSelect={(entry) => {
+                  setUserPickedProgram(true)
+                  selectParcours(entry)
+                }}
                 disabled={indexLoading}
                 t={t}
               />
@@ -294,11 +367,22 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
 
       {plan && academicYear && parcours?.hasPlan ? (
         <div className="space-y-8">
-          <div className="flex items-center justify-between rounded-xl bg-accent/10 p-4">
+          <div className="flex items-center justify-between gap-3 rounded-xl bg-accent/10 p-4">
             <h2 className="text-lg font-semibold text-accent-foreground">
               {t.calculator.enterGrades}
             </h2>
-            <ResetDialog onReset={resetCalculation} t={t} />
+            <div className="flex items-center gap-2">
+              <Button
+                type="button"
+                variant="outline"
+                size="sm"
+                onClick={handleCopyShareLink}
+                disabled={!parcours || academicYear === null}
+              >
+                {t.calculator.shareLink}
+              </Button>
+              <ResetDialog onReset={resetCalculation} t={t} />
+            </div>
           </div>
 
           {yearResult ? (

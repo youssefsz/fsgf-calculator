@@ -31,6 +31,11 @@ import {
   removeCalculation,
   saveCalculation,
 } from "./persistence"
+import {
+  encodeShareSnapshot,
+  readShareSnapshotFromUrl,
+  SHARE_QUERY_PARAM,
+} from "./share-url"
 
 export interface CalculatorState {
   parcours: ParcoursIndexEntry | null
@@ -42,6 +47,8 @@ export interface CalculatorState {
   grades: GradeEntryMap
   directUeGrades: DirectUeGradeMap
   invalidStateCleared: boolean
+  hydratedFromShare: boolean
+  shareSnapshot: CalculationSnapshot | null
 }
 
 export interface CalculatorActions {
@@ -54,6 +61,7 @@ export interface CalculatorActions {
   setFormulaOverride: (subjectCode: string, formula: FormulaConfig) => void
   resetCalculation: () => void
   retryLoadPlan: () => void
+  copyShareLink: () => Promise<boolean>
 }
 
 function buildSnapshotFromState(
@@ -85,6 +93,12 @@ export function useCalculator(): CalculatorState & CalculatorActions {
   const [grades, setGrades] = useState<GradeEntryMap>({})
   const [directUeGrades, setDirectUeGrades] = useState<DirectUeGradeMap>({})
   const [invalidStateCleared, setInvalidStateCleared] = useState(false)
+  const [hydratedFromShare, setHydratedFromShare] = useState(false)
+
+  const [shareSnapshot] = useState<CalculationSnapshot | null>(() => {
+    if (typeof window === "undefined") return null
+    return readShareSnapshotFromUrl(window.location.search)
+  })
 
   const selectParcours = useCallback((entry: ParcoursIndexEntry | null) => {
     setParcours(entry)
@@ -134,20 +148,37 @@ export function useCalculator(): CalculatorState & CalculatorActions {
       .then((loadedPlan) => {
         if (cancelled) return
         setPlan(loadedPlan)
-        const year =
-          latestYearRef.current ?? parcours.academicYears[0]?.year ?? 1
-        if (latestYearRef.current === null) {
-          setAcademicYear(year)
-        }
-        const saved = loadCalculation(parcours.code, year)
-        if (saved) {
-          setSelections(saved.unitSelections)
-          setGrades(saved.subjectGrades)
-          setDirectUeGrades(saved.directUeGrades)
+        const shared = shareSnapshot
+        const isMatchingShare =
+          shared !== null &&
+          shared.parcoursCode === parcours.code &&
+          parcours.academicYears.some((y) => y.year === shared.academicYear)
+        if (isMatchingShare && shared) {
+          const year = shared.academicYear
+          if (latestYearRef.current === null) {
+            setAcademicYear(year)
+          }
+          setSelections(shared.unitSelections)
+          setGrades(shared.subjectGrades)
+          setDirectUeGrades(shared.directUeGrades)
+          setHydratedFromShare(true)
         } else {
-          setSelections(getInitialSelections(loadedPlan.parcours.semesters))
-          setGrades({})
-          setDirectUeGrades({})
+          const year =
+            latestYearRef.current ?? parcours.academicYears[0]?.year ?? 1
+          if (latestYearRef.current === null) {
+            setAcademicYear(year)
+          }
+          const saved = loadCalculation(parcours.code, year)
+          if (saved) {
+            setSelections(saved.unitSelections)
+            setGrades(saved.subjectGrades)
+            setDirectUeGrades(saved.directUeGrades)
+          } else {
+            setSelections(getInitialSelections(loadedPlan.parcours.semesters))
+            setGrades({})
+            setDirectUeGrades({})
+          }
+          setHydratedFromShare(false)
         }
         setInvalidStateCleared(false)
       })
@@ -162,6 +193,10 @@ export function useCalculator(): CalculatorState & CalculatorActions {
     return () => {
       cancelled = true
     }
+    // shareSnapshot is intentionally excluded: it is a mount-time constant
+    // read from window.location.search via useState lazy init, and adding
+    // it to deps would re-fetch the plan on every state change.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [parcours])
 
   useEffect(() => {
@@ -175,6 +210,32 @@ export function useCalculator(): CalculatorState & CalculatorActions {
     )
     saveCalculation(snapshot)
   }, [parcours, academicYear, selections, grades, directUeGrades])
+
+  useEffect(() => {
+    if (typeof window === "undefined") return
+    if (!parcours || academicYear === null) return
+    if (planLoading) return
+    const snapshot = buildSnapshotFromState(
+      parcours.code,
+      academicYear,
+      selections,
+      grades,
+      directUeGrades
+    )
+    const token = encodeShareSnapshot(snapshot)
+    const url = new URL(window.location.href)
+    if (url.searchParams.get(SHARE_QUERY_PARAM) === token) return
+    url.searchParams.set(SHARE_QUERY_PARAM, token)
+    const next = `${url.pathname}?${url.searchParams.toString()}${url.hash}`
+    window.history.replaceState(window.history.state, "", next)
+  }, [
+    parcours,
+    academicYear,
+    selections,
+    grades,
+    directUeGrades,
+    planLoading,
+  ])
 
   const setUeIncluded = useCallback((ueCode: string, included: boolean) => {
     setSelections((prev) => ({
@@ -276,6 +337,34 @@ export function useCalculator(): CalculatorState & CalculatorActions {
       })
   }, [parcours, academicYear])
 
+  const copyShareLink = useCallback(async (): Promise<boolean> => {
+    if (typeof window === "undefined") return false
+    if (!parcours || academicYear === null) return false
+    const url = window.location.href
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(url)
+        return true
+      }
+    } catch {
+      // fall through to legacy path
+    }
+    try {
+      const textarea = document.createElement("textarea")
+      textarea.value = url
+      textarea.setAttribute("readonly", "")
+      textarea.style.position = "absolute"
+      textarea.style.left = "-9999px"
+      document.body.appendChild(textarea)
+      textarea.select()
+      const ok = document.execCommand("copy")
+      document.body.removeChild(textarea)
+      return ok
+    } catch {
+      return false
+    }
+  }, [parcours, academicYear])
+
   return {
     parcours,
     academicYear,
@@ -286,6 +375,8 @@ export function useCalculator(): CalculatorState & CalculatorActions {
     grades,
     directUeGrades,
     invalidStateCleared,
+    hydratedFromShare,
+    shareSnapshot,
     selectParcours,
     selectYear,
     setUeIncluded,
@@ -295,6 +386,7 @@ export function useCalculator(): CalculatorState & CalculatorActions {
     setFormulaOverride,
     resetCalculation,
     retryLoadPlan,
+    copyShareLink,
   }
 }
 

@@ -118,6 +118,12 @@ export const en = {
     saveNotice: "Progress is saved automatically on this device.",
     invalidStateRemoved:
       "Saved calculation data was invalid or outdated and has been cleared.",
+    shareLink: "Copy share link",
+    shareLinkCopied: "Share link copied to clipboard",
+    shareLinkFailed: "Could not copy the link. Please copy it from the address bar.",
+    sharedFromLink: "Loaded from a shared link.",
+    sharedProgramNotFound:
+      "This shared link points to a program that isn't available. Pick a program below to continue.",
   },
   landing: {
     title: "Estimate your FSGF grades",

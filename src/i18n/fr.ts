@@ -122,6 +122,13 @@ export const fr: Translations = {
     saveNotice: "La progression est enregistrée automatiquement sur cet appareil.",
     invalidStateRemoved:
       "Les données de calcul enregistrées étaient invalides ou obsolètes et ont été effacées.",
+    shareLink: "Copier le lien de partage",
+    shareLinkCopied: "Lien de partage copié dans le presse-papiers",
+    shareLinkFailed:
+      "Impossible de copier le lien. Veuillez le copier depuis la barre d'adresse.",
+    sharedFromLink: "Chargé depuis un lien partagé.",
+    sharedProgramNotFound:
+      "Ce lien partagé pointe vers un parcours indisponible. Sélectionnez un parcours ci-dessous pour continuer.",
   },
   landing: {
     title: "Estimez vos notes FSGF",

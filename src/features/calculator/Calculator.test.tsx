@@ -211,11 +211,21 @@ describe("Calculator", () => {
   beforeEach(() => {
     mockFetch()
     window.localStorage.clear()
+    window.history.replaceState(
+      window.history.state,
+      "",
+      window.location.pathname
+    )
   })
 
   afterEach(() => {
     vi.restoreAllMocks()
     window.localStorage.clear()
+    window.history.replaceState(
+      window.history.state,
+      "",
+      window.location.pathname
+    )
   })
 
   it("renders English copy by default", async () => {
@@ -463,5 +473,78 @@ describe("Calculator", () => {
     await userEvent.keyboard("{ArrowDown}{Enter}")
 
     expect(getProgramCombobox()).toHaveTextContent("TEST01 — Test Specialty")
+  })
+
+  it("hydrates program and grades from a shared URL on initial load", async () => {
+    const snapshot = {
+      schemaVersion: 1,
+      parcoursCode: "TEST01",
+      academicYear: 1,
+      unitSelections: {},
+      subjectGrades: {
+        S1: { mode: "direct" as const, direct: 14 },
+      },
+      directUeGrades: {},
+    }
+    const token = `v1.${btoa(JSON.stringify(snapshot))}`
+      .replace(/\+/g, "-")
+      .replace(/\//g, "_")
+      .replace(/=+$/, "")
+    window.history.replaceState(
+      window.history.state,
+      "",
+      `${window.location.pathname}?s=${token}`
+    )
+
+    await renderCalculator("en")
+    await waitForPlanLoaded()
+
+    expect(getProgramCombobox()).toHaveTextContent("TEST01 — Test Specialty")
+    expect(screen.getByText(/loaded from a shared link/i)).toBeInTheDocument()
+    const directInput = screen.getByLabelText(/direct grade/i)
+    expect(directInput).toHaveValue(14)
+  })
+
+  it("writes a share token to the URL after grades are entered", async () => {
+    await renderCalculator("en")
+    await selectProgram("TEST01", "TEST01 — Test Specialty (Licence)")
+    await waitForPlanLoaded()
+
+    const examInput = screen.getAllByLabelText(/exam/i)[0]
+    await userEvent.type(examInput, "15")
+
+    await waitFor(() => {
+      const url = new URL(window.location.href)
+      const token = url.searchParams.get("s")
+      expect(token).toBeTruthy()
+      expect(token).toMatch(/^v1\.[A-Za-z0-9_-]+$/)
+    })
+  })
+
+  it("shows the shared-program-not-found notice when the URL points to a missing program", async () => {
+    const snapshot = {
+      schemaVersion: 1,
+      parcoursCode: "DOES_NOT_EXIST",
+      academicYear: 1,
+      unitSelections: {},
+      subjectGrades: {},
+      directUeGrades: {},
+    }
+    const token = `v1.${btoa(JSON.stringify(snapshot))}`
+      .replace(/\+/g, "-")
+      .replace(/\//g, "_")
+      .replace(/=+$/, "")
+    window.history.replaceState(
+      window.history.state,
+      "",
+      `${window.location.pathname}?s=${token}`
+    )
+
+    await renderCalculator("en")
+    await waitFor(() => {
+      expect(
+        screen.getByText(/isn't available/i)
+      ).toBeInTheDocument()
+    })
   })
 })
