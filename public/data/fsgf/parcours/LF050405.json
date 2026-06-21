@@ -1,0 +1,1048 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF050405",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Sciences de la vie",
+    "listed_specialty": "Biologie integrative",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=Vk5UFlp1BGUDKlo7UnIHMA==&etab=A2YCNwo+",
+    "institution": "INSTITUT SUPERIEUR DES LANGUES DE GABES",
+    "degree_type": "Licence Fondamentale",
+    "domain": "Sciences et technologies",
+    "mention": "Sciences de la vie",
+    "specialty": "Biologie integrative",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "054154",
+            "name": "Chimie",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054282",
+                "name": "Chimie Générale",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              },
+              {
+                "code": "054283",
+                "name": "Chimie organique",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "054155",
+            "name": "Biologie cellulaire Génétique",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054285",
+                "name": "Génétique",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              },
+              {
+                "code": "054284",
+                "name": "Biologie cellulaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "054156",
+            "name": "diversité du vivant",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054286",
+                "name": "Biologie animale",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              },
+              {
+                "code": "054287",
+                "name": "Biologie Végétale",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "054153",
+            "name": "Math physique",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "54280",
+                "name": "Math appliquées",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "054281",
+                "name": "Physique",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 43
+                }
+              }
+            ]
+          },
+          {
+            "code": "054152",
+            "name": "C2i, Langues",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "54276",
+                "name": "C2i",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "54277",
+                "name": "Anglais",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "54278",
+                "name": "Droits de l'homme",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "054159",
+            "name": "Biologie moléculaire et Microbiologie",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054293",
+                "name": "Biologie moléculaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              },
+              {
+                "code": "054294",
+                "name": "Microbiologie",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "054158",
+            "name": "Biochimie structurale et Techniques d'analyses biochimiques",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054291",
+                "name": "Biochimie structurale",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "054292",
+                "name": "Techniques d'analyse biochimiques",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "054157",
+            "name": "C2i, Langues et Droits de l'homme",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "54288",
+                "name": "C2i",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "54289",
+                "name": "Anglais",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "54290",
+                "name": "droits de l'homme",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "054161",
+            "name": "Biologie et physiologie animale",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054299",
+                "name": "Physiologie animale 1",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              },
+              {
+                "code": "054298",
+                "name": "Biologie animale 1",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "054162",
+            "name": "Biologie et physiologie végétale 1",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054300",
+                "name": "Biologie végétale 1",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              },
+              {
+                "code": "054301",
+                "name": "Physiologie végétale 1",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "054163",
+            "name": "Génétique moléculaire et Enzymiologie",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054302",
+                "name": "Génétique moléculaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "054303",
+                "name": "Enzymologie",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "054160",
+            "name": "Anglais, TIC et culture de l'entreprise",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "54296",
+                "name": "Tic et multimédia",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "54295",
+                "name": "Anglais",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "054297",
+                "name": "Culture de l'entreprise",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "054166",
+            "name": "Biologie et Physiologie animale 2",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054309",
+                "name": "Physiologie animale 2",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              },
+              {
+                "code": "054310",
+                "name": "Biologie animale 2",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "054167",
+            "name": "Biologie et Physiologie Végétale 2",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054311",
+                "name": "Physiologie Végétale 2",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              },
+              {
+                "code": "054312",
+                "name": "Biologie Végétale 2",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "054165",
+            "name": "Immunologie et Biochimie métabolique",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054307",
+                "name": "Immunologie",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              },
+              {
+                "code": "054308",
+                "name": "biochimie métabolique",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "054164",
+            "name": "Anglais, culture de l'entreprise et Bioéthique et biosécurité",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "054305",
+                "name": "Culture de l'entreprise",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "54304",
+                "name": "Anglais",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "054306",
+                "name": "bioéthique et biosécurité",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "065059",
+            "name": "Ecologie et biodiversité",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "065133",
+                "name": "Ecologie des populations et des peuplements et biodiversité",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              },
+              {
+                "code": "065132",
+                "name": "Ecologie Génerale",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "065058",
+            "name": "Biologie de développement",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "065130",
+                "name": "Biologie du développement Animal",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              },
+              {
+                "code": "065131",
+                "name": "Biologie du développement Végétale",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "065060",
+            "name": "Génétique Evolutive",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "065135",
+                "name": "Génétique des Populations",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              },
+              {
+                "code": "65134",
+                "name": "Génétique quantitative",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 17.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "065057",
+            "name": "Anglais, culture de l'entreprise et biostatistiques",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "65401",
+                "name": "Création d'entreprise (création d'entreprise)",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "65400",
+                "name": "Anglais",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "65402",
+                "name": "Biostatistiques",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "65064",
+            "name": "Biologie évolutive",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "65145",
+                "name": "Relation intra et interspécifiques et interactions durables",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 17.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              },
+              {
+                "code": "65146",
+                "name": "Evolution de la terre et du monde vivant",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 17.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "065062",
+            "name": "Communication et Evolution",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "065138",
+                "name": "Communication Cellulaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              },
+              {
+                "code": "065139",
+                "name": "Communication intra et interspécifique",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 17.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "065061",
+            "name": "Régulations fonctionnelles",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "065136",
+                "name": "Régulations fonctionnelles chez les animeaux",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              },
+              {
+                "code": "065137",
+                "name": "Régulations fonctionnelles chez les végétaux",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "65400",
+            "name": "Langue, bases de données et bioinformatique",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "65140",
+                "name": "Bases de données",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "65141",
+                "name": "Bioinformatique",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "65142",
+                "name": "Anglais / langues",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

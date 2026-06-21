@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI577499",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Exactes et Technologies",
+    "listed_mention": "Mathématiques",
+    "listed_specialty": "Tronc Commun",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=VExXGgskAGFXZgd9DjYEMgEnDztQbQ==&etab=UzZZbAg8",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence",
+    "domain": "Sciences Exactes et Technologies",
+    "mention": "Mathématiques",
+    "specialty": "Tronc Commun",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "577399130",
+            "name": "Algorithmique et programmation 1",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "577399113",
+                "name": "Algorithmique et programmation 1",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "577399110",
+            "name": "Algèbre 1",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "577399110",
+                "name": "Algèbre 1",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "577399120",
+            "name": "Analyse 1",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "577399120",
+                "name": "Analyse 1",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "577399140",
+            "name": "Transversale",
+            "credits": 6,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "577399115",
+                "name": "Simulation statistique avec R",
+                "coefficient": 1,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "577399114",
+                "name": "Anglais 1",
+                "coefficient": 1,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999880498",
+            "name": "UO1.25/26",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169931061",
+                "name": "Logique Mathématique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 1.5,
+                  "tutorial": 1.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169931062",
+                "name": "Eléments complexes et applications",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 1.5,
+                  "tutorial": 1.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999880044",
+            "name": "UO1.24/25",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169930203",
+                "name": "Logique Mathématique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169930204",
+                "name": "Groupe symétrique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999874600",
+            "name": "UO1.20/21",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169920064",
+                "name": "Logique Mathématique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169920065",
+                "name": "Stat Elem",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "577399220",
+            "name": "Analyse et probabilités",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "577399212",
+                "name": "Analyse 2",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "577399213",
+                "name": "Probabilitès discrètes",
+                "coefficient": 2,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "577399210",
+            "name": "Algèbre 2",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "577399211",
+                "name": "Algèbre 2",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "577399230",
+            "name": "Algorithmique et programmation 2",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "577399214",
+                "name": "Algorithmique et programmation 2",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "577399240",
+            "name": "Transversale",
+            "credits": 6,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "577399216",
+                "name": "Simulation numèrique 1 avec python",
+                "coefficient": 1,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "577399215",
+                "name": "Anglais 2",
+                "coefficient": 1,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999874601",
+            "name": "UO2.20/21",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169920067",
+                "name": "Thermo",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169920066",
+                "name": "Courbes paramétrés",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999880370",
+            "name": "UO2.24/25",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169930767",
+                "name": "Courbes paramétrés",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 1.5,
+                  "tutorial": 1.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169930768",
+                "name": "statique des fluides",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 1.5,
+                  "tutorial": 1.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

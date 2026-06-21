@@ -1,0 +1,814 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI571898",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Exactes et Technologies",
+    "listed_mention": "Physique",
+    "listed_specialty": "Tronc commun",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=U0tYFQ0iUDFQYVErDjAAOlVzCDxQbA==&etab=AGUANVtv",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence",
+    "domain": "Sciences Exactes et Technologies",
+    "mention": "Physique",
+    "specialty": "Tronc commun",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "571899110",
+            "name": "Mathématiques 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899112",
+                "name": "Analyse",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "571899111",
+                "name": "Algébre",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899120",
+            "name": "Chimie",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899113",
+                "name": "Chimie Générale",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899130",
+            "name": "Physique 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899115",
+                "name": "Optique géométique & instruments",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              },
+              {
+                "code": "571899114",
+                "name": "Mécanique 1",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899140",
+            "name": "Physique 2",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899116",
+                "name": "Electrostatique",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899150",
+            "name": "Informatique 1",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571899117",
+                "name": "Algorithmique & Programmation",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899160",
+            "name": "Unité transversale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571899118",
+                "name": "Technique de communication",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "571899119",
+                "name": "2 CN",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "571899250",
+            "name": "Informatique 2",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571899217",
+                "name": "Programmation et interfaçage",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899240",
+            "name": "Chimie 2",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899216",
+                "name": "Chimie inorganique & cinétique",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899230",
+            "name": "Physique 4",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899215",
+                "name": "Electrocinétique & circuits électriques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              },
+              {
+                "code": "571899214",
+                "name": "Magnétostatique & Phénomènes d'induction",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899220",
+            "name": "Physique 3",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899213",
+                "name": "Mécanique 2",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899210",
+            "name": "Mathématiques 2",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899211",
+                "name": "Algébre 2",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "571899212",
+                "name": "Analyse 2",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899260",
+            "name": "Unité transversale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571899218",
+                "name": "Technique de communication",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "571899219",
+                "name": "2CN",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "571899320",
+            "name": "Mécanique des fluides & Thermodynamique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899314",
+                "name": "Thermodynamique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "571899313",
+                "name": "Mécanique des Fluids",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899330",
+            "name": "Electromagnétisme dans le vide & Electronique 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899316",
+                "name": "Electronique analogique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "571899315",
+                "name": "Electromagnétisme dans le vide",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899340",
+            "name": "Activités Pratiques",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571899317",
+                "name": "Stage,prototypage , travail sur terrain , projet personnel",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 42,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "571898310",
+            "name": "Mathématiques3 et Métrologie",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571898311",
+                "name": "Mathématiques 3",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "571898312",
+                "name": "Métrologie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "57189832023",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "365263333",
+                "name": "culture d'entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "365263334",
+                "name": "anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999873616",
+            "name": "UE.20/21",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169918133",
+                "name": "Astrophysique",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "571899430",
+            "name": "Physique des ondes , Relativité restrente & Introduction à la physique quantique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899416",
+                "name": "Intrroduction à la physique quantique & Relativité restreinte",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "571899415",
+                "name": "Physique des ondes",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899410",
+            "name": "Mathématiques 4 & Mécanique des solides",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899412",
+                "name": "Mécanique des solides",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "571899411",
+                "name": "Mathématique 4",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899420",
+            "name": "Electromagnétisme dans la matière & Electronique numèrique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571899414",
+                "name": "Electronique numérique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              },
+              {
+                "code": "571899413",
+                "name": "Electromagnétisme dans la matiére",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899440",
+            "name": "Activités pratiques",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571899417",
+                "name": "Stage, prototypage , travail sue terrain , projet personnel...",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 42,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "571899450",
+            "name": "Unités transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571899418",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "571899419",
+                "name": "Culture d'entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999874125",
+            "name": "UO4.20/21",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169919130",
+                "name": "Physique nucléaire",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

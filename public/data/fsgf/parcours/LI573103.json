@@ -1,0 +1,736 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI573103",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Exactes et Technologies",
+    "listed_mention": "Science de l’Informatique \"Computer Science\"",
+    "listed_specialty": "Génie Logiciel et Système d'Information",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=ABhYFQAvB2ZRYFAqAz8AMwkvCzU=&etab=VzJZbA46",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence",
+    "domain": "Sciences Exactes et Technologies",
+    "mention": "Science de l’Informatique \"Computer Science\"",
+    "specialty": "Génie Logiciel et Système d'Information",
+    "semesters": [
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "573103350",
+            "name": "CPOO",
+            "credits": 7,
+            "coefficient": 3.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103314",
+                "name": "Conception des systémes d'information",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "573103315",
+                "name": "Programmation Java",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 42,
+                  "integrated_course": null,
+                  "total": 63
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103330",
+            "name": "Bases de données et réseaux",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103316",
+                "name": "Ingénierie des bases de données",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "573103317",
+                "name": "Services des réseaux",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103320",
+            "name": "Automates et optimisation",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103313",
+                "name": "Graphes et optimisation",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "573103312",
+                "name": "Théorie des langages des Automates",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103310",
+            "name": "Probabilité",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103311",
+                "name": "Probabilité et statistique",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103340",
+            "name": "Langue et culture",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "573103319",
+                "name": "Gestion d'entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "573103318",
+                "name": "Anglais 3",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "169905586",
+            "name": "UEO310",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169914902",
+                "name": "Web design",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169914903",
+                "name": "Génie Logiciel",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "573103410",
+            "name": "Bases de données",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103412",
+                "name": "Administration des bases de données",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "573103411",
+                "name": "Entrepôts de données",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103430",
+            "name": "Compilation & tests",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103416",
+                "name": "Tests de logiciels (certification ISTQB)",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "573103415",
+                "name": "Techniques de compilation",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103420",
+            "name": "Indexation et Web",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103414",
+                "name": "Technologies et programmation web",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "573103413",
+                "name": "Techniques d'indexation",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103440",
+            "name": "Intelligece artificielle",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103417",
+                "name": "Fondements de l'intelligence artificielle (programmation IA)",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103450",
+            "name": "Langue et éthique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "573103420",
+                "name": "Projet fedéré (methode Agile)",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "573103418",
+                "name": "Anglais 4",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "573103419",
+                "name": "Droit d'informatique,protection des données et éthique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999873786",
+            "name": "UO4.20/21",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169918474",
+                "name": "Introduction à l'IOT",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169918473",
+                "name": "Administration des systèmes et des réseaux",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "573103520",
+            "name": "Développement d'applications",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103522",
+                "name": "Développement d'applications réparties",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "573103521",
+                "name": "Développement Mobile",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103530",
+            "name": "Machine Learning et sécurité",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103531",
+                "name": "Machine Learning",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "573103532",
+                "name": "Sécurité informatique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103540",
+            "name": "Architecture SOA et services Web",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103541",
+                "name": "Architecture SOA et services Web",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103510",
+            "name": "Cloud & Big Data",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103512",
+                "name": "Virtualisation et Cloud",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "573103511",
+                "name": "Framework et techniques Big Data",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573103550",
+            "name": "Langue et Entreprenariat",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "573103553",
+                "name": "Préparation à l'environement professionnel",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "573103552",
+                "name": "Entreprenariat",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "573103551",
+                "name": "Anglais 5",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999875118",
+            "name": "UEO310",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169921039",
+                "name": "Python avancé",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169921040",
+                "name": "Préparation à la Certification Cisco",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "573103610",
+            "name": "Projet de fin d'études",
+            "credits": 30,
+            "coefficient": 15,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573103611",
+                "name": "PFE",
+                "coefficient": 15,
+                "credits": 30,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

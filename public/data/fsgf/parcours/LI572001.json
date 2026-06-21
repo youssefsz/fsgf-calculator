@@ -1,0 +1,860 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI572001",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Exactes et Technologies",
+    "listed_mention": "Sciences du Vivant",
+    "listed_specialty": "Biologie Moléculaire et Cellulaire",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=UUkDTg4hBWQGN1YsATxQYlJ0AT0=&etab=B2JWYw46",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence",
+    "domain": "Sciences Exactes et Technologies",
+    "mention": "Sciences du Vivant",
+    "specialty": "Biologie Moléculaire et Cellulaire",
+    "semesters": [
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "572001330",
+            "name": "Biologie et Génétique moléculaire",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001332",
+                "name": "Génétique moléculaire",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "572001331",
+                "name": "Biologie moléculaire",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001320",
+            "name": "Physiologie animale et végétale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001322",
+                "name": "Physiologie végétale",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "572001321",
+                "name": "Systémes physiologiques et homéostasie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001340",
+            "name": "Activités pratiques",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "572001341",
+                "name": "Activités Pratiques",
+                "coefficient": 2.5,
+                "credits": 5,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001310",
+            "name": "Biochimie métabolique et enzymologie",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001312",
+                "name": "Enzymologie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "572001311",
+                "name": "Métabolisme et Bioénergétique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001350",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "572001351",
+                "name": "au choix",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "572001352",
+                "name": "au choix",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999875280",
+            "name": "UEO3",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169921323",
+                "name": "Diversité des végétaux des algues aux ptéridophytes",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169921324",
+                "name": "Culture de cellules Animales",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "169905652",
+            "name": "UEO3 /2023",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169927605",
+                "name": "Culture de cellules Animales",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169927604",
+                "name": "Diversité des végétaux des algues aux ptéridophytes",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "572001440",
+            "name": "Activités pratiques",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "572001441",
+                "name": "Activités pratiques",
+                "coefficient": 2.5,
+                "credits": 5,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001430",
+            "name": "Ecologie et Immunologie",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001432",
+                "name": "Immunologie Fondamentale",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "572001431",
+                "name": "Ecologie et Biodiversité",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001420",
+            "name": "Diversité du viivant",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001422",
+                "name": "Diversité des végétaux phanérogames",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": 0,
+                  "total": 35
+                }
+              },
+              {
+                "code": "572001421",
+                "name": "Diversité et phylogénie des deutérostomiens",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": 0,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001410",
+            "name": "Physiologie animale et végétale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001411",
+                "name": "Régulations physiologiques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "572001412",
+                "name": "Physiologie végétale 2",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001450",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "572001451",
+                "name": "au choix",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "572001452",
+                "name": "au choix",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "169905655",
+            "name": "UEO4",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169915320",
+                "name": "Pharmacologie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169915319",
+                "name": "Techniques d'analyses",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "572001720",
+            "name": "Immunologie, cycles et différenciation cellulaire",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001721",
+                "name": "immunologie moléculaire",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "572001722",
+                "name": "cycles et différenciations cellulaires",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001710",
+            "name": "Approches biotechnologiques",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001711",
+                "name": "génie génitique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "572001712",
+                "name": "biotechnologies et applications",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001740",
+            "name": "Activités pratiques",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "572001741",
+                "name": "Activités pratiques",
+                "coefficient": 2.5,
+                "credits": 5,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 42,
+                  "integrated_course": 0,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001730",
+            "name": "Biochimie et génétique des populations",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001731",
+                "name": "régulation métabolique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "572001732",
+                "name": "génétique des populations",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001750",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "572001751",
+                "name": "au choix de l'établissement1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 28,
+                  "total": 28
+                }
+              },
+              {
+                "code": "572001752",
+                "name": "au choix de l'établissement2",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 28,
+                  "total": 28
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "572001840",
+            "name": "Activités pratiques",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "572001841",
+                "name": "Activités pratiques",
+                "coefficient": 2.5,
+                "credits": 5,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 42,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001820",
+            "name": "Développement et régulation",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001821",
+                "name": "développement animal et régulation",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "572001822",
+                "name": "développement végétal et régulation",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001810",
+            "name": "Neurophisiologie et endocrinologie moléculaire",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001811",
+                "name": "neurophysiologie et signalisation cellulaire",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "572001812",
+                "name": "endocrinologie moléculaire",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001830",
+            "name": "Microbiologie moléculaire et génomique",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "572001831",
+                "name": "microbiologie et virologie moléculaire",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "572001832",
+                "name": "génomique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "572001850",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "572001851",
+                "name": "au choix de l'établissement1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 28,
+                  "total": 28
+                }
+              },
+              {
+                "code": "572001852",
+                "name": "au choix de l'établissement 2",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 28,
+                  "total": 28
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

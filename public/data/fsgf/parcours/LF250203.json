@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF250203",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences appliquées et technologies",
+    "listed_mention": "Mathématiques (2014-2015)",
+    "listed_specialty": "Mathématiques",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=W0MDQQolWT9cb1QuAj8BLAY8&etab=BGEANVhs",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Fondamentale",
+    "domain": "Sciences appliquées et technologies",
+    "mention": "Mathématiques (2014-2015)",
+    "specialty": "Mathématiques",
+    "semesters": [
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "25415428",
+            "name": "Calcul intégral",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "65896990",
+                "name": "calcul intégral",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415427",
+            "name": "Algébre",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "65896989",
+                "name": "algébre",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415429",
+            "name": "Topologie",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "65896991",
+                "name": "topologie sur les espaces métriques",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415430",
+            "name": "Unité transversale",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "65896993",
+                "name": "shémas numériques pour les EDO",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "65896992",
+                "name": "anglais 5",
+                "coefficient": 1.5,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "169901650",
+            "name": "Option5.16/17",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169903276",
+                "name": "Variables complexe",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "25415433",
+            "name": "Module 2",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "65896996",
+                "name": "module 2",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415432",
+            "name": "Module 1",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "65896995",
+                "name": "module 1",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415431",
+            "name": "Calcul différentiel",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "65896994",
+                "name": "calcul différentiel",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415434",
+            "name": "Unité transversale",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "65896998",
+                "name": "statistiques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "65896997",
+                "name": "méthodologie",
+                "coefficient": 1.5,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

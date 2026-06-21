@@ -1,0 +1,1244 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF053008",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Génie mécanique",
+    "listed_specialty": "Matériaux et Procédés de production",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=W0MFRwkmUTBTelUzBzhRfAg5&etab=BmNZbFxo",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Fondamentale",
+    "domain": "Sciences et technologies",
+    "mention": "Génie mécanique",
+    "specialty": "Matériaux et Procédés de production",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "56258",
+            "name": "mathématiques 1",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56301",
+                "name": "algébre 1",
+                "coefficient": 4,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "56300",
+                "name": "analyse 1",
+                "coefficient": 4,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "56259",
+            "name": "physique1",
+            "credits": 7,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56303",
+                "name": "introduction à la thermodynamique",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56304",
+                "name": "atelier de physique 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56302",
+                "name": "Electrostatique et magnétostatique",
+                "coefficient": 4,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 31.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "56260",
+            "name": "informatique 1",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56305",
+                "name": "Algorithmique et programmation",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56307",
+                "name": "atelier d'informatique 1",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56306",
+                "name": "architecture",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "56261",
+            "name": "matériaux 1",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56309",
+                "name": "traitement thermique des matériaux",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56310",
+                "name": "atelier des matériaux 1",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56308",
+                "name": "Matériaux métalliques",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "56262",
+            "name": "unités transversales",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "56313",
+                "name": "droits de l'homme 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56311",
+                "name": "anglais 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56312",
+                "name": "C2I1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "56263",
+            "name": "mathématiques 2",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56315",
+                "name": "algébre 2",
+                "coefficient": 4,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "56314",
+                "name": "analyse 2",
+                "coefficient": 4,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "56264",
+            "name": "physique",
+            "credits": 7,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56318",
+                "name": "Atelier de physique 2",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56316",
+                "name": "électromagnétisme et optique",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56317",
+                "name": "mécanique générale",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "56265",
+            "name": "conception mécanique 1",
+            "credits": 5,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56320",
+                "name": "technologie de construction",
+                "coefficient": 3,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56319",
+                "name": "outils de communications graphiques",
+                "coefficient": 3,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56321",
+                "name": "atelier de DAO",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "56266",
+            "name": "mécanique1",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56323",
+                "name": "résistance des matériaux",
+                "coefficient": 2,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56322",
+                "name": "Statique",
+                "coefficient": 2,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56324",
+                "name": "Atelier de Mécanique 1",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "56267",
+            "name": "unités transversales",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "56325",
+                "name": "anglais 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56327",
+                "name": "C2I-1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56328",
+                "name": "Droits de l'homme 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "56268",
+            "name": "mécanique 2",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56330",
+                "name": "Mécanique des systémes",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56331",
+                "name": "atelier de mécanique 2",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56329",
+                "name": "Cinématique et Dynamique des solides rigides",
+                "coefficient": 4,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "56269",
+            "name": "procédés et méthodes de production",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56332",
+                "name": "procédés d'obtention des piéces brutes",
+                "coefficient": 2.5,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56335",
+                "name": "ateliers de production mécanique",
+                "coefficient": 2.5,
+                "credits": 1.5,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 31.5,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56334",
+                "name": "techniques de production par usinage",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "56271",
+            "name": "mécanique des fluides et thermique",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56344",
+                "name": "atelier de mécanique des fluides et thermique",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56342",
+                "name": "Mécaniques des fluides",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56343",
+                "name": "transfert thermique",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "56270",
+            "name": "informatique industrielle",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56337",
+                "name": "circuits et shémas éléctriques",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56336",
+                "name": "automatique et automatismes",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56341",
+                "name": "ateliers d'informatiques industrielle",
+                "coefficient": 2,
+                "credits": 0.5,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 10.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "56272",
+            "name": "unités transversales",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56345",
+                "name": "anglais 3",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56347",
+                "name": "culture d'entreprise 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56346",
+                "name": "techniques de communication -francais 1",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "56273",
+            "name": "production mécanique",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56348",
+                "name": "gestion de la production",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56350",
+                "name": "GPAO",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56349",
+                "name": "métrologie et controle qualité",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "56274",
+            "name": "Conception mécanique 2",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56351",
+                "name": "transmission de puissance mécanique",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56353",
+                "name": "atelier de conception mécanique 2",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56352",
+                "name": "dimensionnement des éléments machines",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "56275",
+            "name": "matériaux 2",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56359",
+                "name": "atelier de matériaux 2",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56358",
+                "name": "choix des matériaux",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56357",
+                "name": "polyméres;composites et céramiques",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "56276",
+            "name": "unités transversales",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "56362",
+                "name": "culture d'entreprise 2",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56360",
+                "name": "anglais 4",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56361",
+                "name": "francais2",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "56277",
+            "name": "conception et fabrication assistée par ordinateur(CFAO)",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56366",
+                "name": "Ateliers de CAO et FAO",
+                "coefficient": 4,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 42,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "56363",
+                "name": "CAO",
+                "coefficient": 2,
+                "credits": 1.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56365",
+                "name": "FAO",
+                "coefficient": 2,
+                "credits": 1.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 12
+                }
+              }
+            ]
+          },
+          {
+            "code": "56278",
+            "name": "mécanique appliquée",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56370",
+                "name": "ateliers de mécanique appliquée",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56368",
+                "name": "mécanique vibratoire",
+                "coefficient": 2,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "56367",
+                "name": "mécaniques des solides élastiques",
+                "coefficient": 4,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "56279",
+            "name": "unités transversales",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "56373",
+                "name": "culture d'entreprise",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56371",
+                "name": "anglais 5",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56372",
+                "name": "francais 3",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "56280",
+            "name": "conception et production intégrée",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "56376",
+                "name": "ateliers de conception et production intégrée",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 42,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "56374",
+                "name": "analyse fonctionnelle",
+                "coefficient": 4,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "56375",
+                "name": "ingéniérie systéme",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "56281",
+            "name": "projet tutoré",
+            "credits": 6,
+            "coefficient": 8,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "56377",
+                "name": "ateliers de projet tutoré",
+                "coefficient": 8,
+                "credits": 6,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

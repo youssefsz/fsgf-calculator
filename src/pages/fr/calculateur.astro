@@ -1,0 +1,7 @@
+---
+const code = Astro.url.searchParams.get("code")
+const redirect = code ? `/fr?code=${encodeURIComponent(code)}` : "/fr"
+---
+
+<meta http-equiv="refresh" content={`0;url=${redirect}`} />
+<link rel="canonical" href={redirect} />

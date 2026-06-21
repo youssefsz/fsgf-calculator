@@ -1,0 +1,1102 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LA053599",
+    "listed_type": "Licence Appliquée",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Energétique",
+    "listed_specialty": "Tronc commun",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=U0tYHQ8gB2ZQeVQyAzkDLlFhWGw=&etab=UTRRZF9r",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Appliquée",
+    "domain": "Sciences et technologies",
+    "mention": "Energétique",
+    "specialty": "Tronc commun",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "051284",
+            "name": "Mathématiques 1",
+            "credits": 4,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051620",
+                "name": "Analyse 1",
+                "coefficient": 3,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 32.5
+                }
+              },
+              {
+                "code": "051621",
+                "name": "algebre 1",
+                "coefficient": 3,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 32.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "051285",
+            "name": "Physique 1",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051622",
+                "name": "Electrostatique & Magnétostatique",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051623",
+                "name": "Introduction à la thermodynamique",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051624",
+                "name": "Atelier de Physique 1",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "051286",
+            "name": "Informatique 1",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051625",
+                "name": "Algorithmique et programmation",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051626",
+                "name": "Architecture",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051627",
+                "name": "Atelier d’informatique 1",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "051287",
+            "name": "Thermodynamique appliquée",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051628",
+                "name": "Thermodynamique appliquée",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 43
+                }
+              },
+              {
+                "code": "051629",
+                "name": "Atelier de Thermodynamique appliquée",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "051288",
+            "name": "U.E. Transversales 1",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "051630",
+                "name": "Anglais 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051631",
+                "name": "C2I-1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051632",
+                "name": "droit de l'homme",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "169902499",
+            "name": "UO1 .16/17",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169904842",
+                "name": "Analyse des projets d'énergies propres",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169904843",
+                "name": "Optique Géométriques",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169904844",
+                "name": "Mini projets 1",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "051289",
+            "name": "Mathématiques 2",
+            "credits": 4,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051633",
+                "name": "Analyse 2",
+                "coefficient": 3,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 32.5
+                }
+              },
+              {
+                "code": "051634",
+                "name": "algebre 2",
+                "coefficient": 3,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 32.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "051290",
+            "name": "Physique 2",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051635",
+                "name": "Eléctromagnétisme et optique",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051636",
+                "name": "mecanique generale",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051637",
+                "name": "atelier de physique 2",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "051291",
+            "name": "Transfert de chaleur",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051638",
+                "name": "Conduction & Convection",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051640",
+                "name": "Rayonnement",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "51640",
+                "name": "Atelier de transfert de chaleur",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "051292",
+            "name": "Mécanique des fluides",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051641",
+                "name": "Statique & Cinématique des fluides",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051642",
+                "name": "Dynamique des fluides",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051643",
+                "name": "Atelier de Mécanique des fluides",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "051293",
+            "name": "U.E. Transversales 2",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "051644",
+                "name": "Anglais 2",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051645",
+                "name": "C2I-2",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051646",
+                "name": "Droits de l’Hommes 2",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "169902500",
+            "name": "UO2.16/17",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169904845",
+                "name": "Electrocinétique",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169904846",
+                "name": "Optique instrumentale",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169904847",
+                "name": "Mini projets 2",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "051296",
+            "name": "Electrotechnique",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051654",
+                "name": "Machines électriques",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051655",
+                "name": "Atelier d'electrotechnique",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051653",
+                "name": "Circuits Electriques",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "051295",
+            "name": "Matériaux",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051650",
+                "name": "Polymères et composites",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051651",
+                "name": "Semi-conducteurs",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051652",
+                "name": "Ateliers de matériaux",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "051297",
+            "name": "Combustion et impact sur l’Environnement",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051657",
+                "name": "Impact sur l’Environnement et traitement",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 32.5
+                }
+              },
+              {
+                "code": "051656",
+                "name": "Thermochimie de la combustion",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 32.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "051294",
+            "name": "Mesure et Instrumentation",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051647",
+                "name": "Théorie de la mesure et Traitement informatique",
+                "coefficient": 2,
+                "credits": 1.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051648",
+                "name": "Les capteurs",
+                "coefficient": 2,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051649",
+                "name": "Atelier de Mesures et Instrumentation",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "051298",
+            "name": "UE Unités transversales 3",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "051659",
+                "name": "Tech.Com : Français 1",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051658",
+                "name": "Anglais 3",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051660",
+                "name": "Culture d’entreprises 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "051301",
+            "name": "Chaudières Brûleurs et Echangeurs",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051667",
+                "name": "Chaudières et Brûleurs",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 20
+                }
+              },
+              {
+                "code": "051668",
+                "name": "Echangeurs",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 20
+                }
+              },
+              {
+                "code": "051669",
+                "name": "Atelier de Chaudières Brûleurs et Echangeurs",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 20
+                }
+              }
+            ]
+          },
+          {
+            "code": "051300",
+            "name": "Electronique de Puissance et Asservissement",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051664",
+                "name": "Electronique de Puissance",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 20
+                }
+              },
+              {
+                "code": "051665",
+                "name": "Asservissement",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 20
+                }
+              },
+              {
+                "code": "051666",
+                "name": "Atelier d’Electronique de Puissance et d’Asservissement",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 20
+                }
+              }
+            ]
+          },
+          {
+            "code": "051299",
+            "name": "Technologie de Conception",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051661",
+                "name": "Dessin technique",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051662",
+                "name": "Analyse fonctionnelle",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "051663",
+                "name": "Atelier de DAO",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "51999",
+            "name": "U Travaux personnalisés",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "51999",
+                "name": "travaux personnalisés",
+                "coefficient": 6,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 63,
+                  "integrated_course": null,
+                  "total": 63
+                }
+              }
+            ]
+          },
+          {
+            "code": "051302",
+            "name": "UE Unités transversales 4",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "051670",
+                "name": "Anglais 4",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051671",
+                "name": "Tech.Com :Français 2",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051672",
+                "name": "Culture d’entreprises 2",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

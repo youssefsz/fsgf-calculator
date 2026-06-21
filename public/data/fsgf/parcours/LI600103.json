@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI600103",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Agronomiques,Biotechnologie et Environnement",
+    "listed_mention": "Biotechnologie",
+    "listed_specialty": "Analyses Biologiques et Expérimentation",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=BBxTHgEuUjBXYQB6DjBRfAU/&etab=AWRVYAA0",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence",
+    "domain": "Sciences Agronomiques,Biotechnologie et Environnement",
+    "mention": "Biotechnologie",
+    "specialty": "Analyses Biologiques et Expérimentation",
+    "semesters": [
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "600103330",
+            "name": "Biologie moléculaire et Immunologie",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "600103331",
+                "name": "biologie moléculaire",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "600103332",
+                "name": "immunologie / immunotechnologie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103320",
+            "name": "Physiologie Animale / Végétale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "600103322",
+                "name": "physiologie végétale",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "600103321",
+                "name": "physiologie animale",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103310",
+            "name": "Biochimie et Enzymologie",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "600103311",
+                "name": "biochimie métabolique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "600103312",
+                "name": "enzymologie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103340",
+            "name": "Activités Pratiques",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "600103341",
+                "name": "activités pratiques",
+                "coefficient": 2.5,
+                "credits": 5,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103350",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "600103351",
+                "name": "au choix",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "600103352",
+                "name": "au choix",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "169905620",
+            "name": "UEO3",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169914977",
+                "name": "Microbiologie Alimentaire",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169914978",
+                "name": "Histologie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "600103440",
+            "name": "Activités Pratiques",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "600103441",
+                "name": "activités pratiques",
+                "coefficient": 2.5,
+                "credits": 5,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103430",
+            "name": "Analyses physicochimiques et métrologie",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "600103432",
+                "name": "métrologie et instrumentation",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "600103431",
+                "name": "analyses physicochimiques des biomolécules",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 0,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103420",
+            "name": "Analyses cellulaires et microbiologiques",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "600103421",
+                "name": "analyses cellulaires et tissulaires",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "600103422",
+                "name": "analyses microbiologiques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103410",
+            "name": "Analyses immunologiques et génétiques",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "600103411",
+                "name": "analyses immunologiques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "600103412",
+                "name": "analyses génétiques",
+                "coefficient": 1.5,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103450",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "600103451",
+                "name": "au choix",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "600103452",
+                "name": "au choix",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "169905640",
+            "name": "UEO4",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169915205",
+                "name": "Biotechnologie des enzymes industrielles",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 28,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169915206",
+                "name": "Traitement et valorisation des déchets",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 28,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "600103530",
+            "name": "Diagnostic parasito-myco-bactério-virologique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "60013515",
+                "name": "Diagnostic parasitologique et mycologique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "60013516",
+                "name": "Diagnostic bactériologique et virologique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103540",
+            "name": "Activités pratiques",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "60013517",
+                "name": "Activités pratiques",
+                "coefficient": 2.5,
+                "credits": 5,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 42,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103520",
+            "name": "Génétique et génie génétique",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "60013513",
+                "name": "Génétique moléculaire",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "60013514",
+                "name": "Génie génétique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103510",
+            "name": "Technologies cellulaires, tissulaires et reproduction / développement",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "60013511",
+                "name": "Technologies cellulaires et tissulaires et applications",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "60013512",
+                "name": "Technologies de la reproduction et dévelppement animal",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103550",
+            "name": "Unité Transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "60013518",
+                "name": "Au choix de l'etablissement 1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "60013519",
+                "name": "Au choix de l'etablissement 2",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "600103640",
+            "name": "Activités pratiques",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "60013618",
+                "name": "Activités pratiques",
+                "coefficient": 2.5,
+                "credits": 5,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 42,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103630",
+            "name": "Normes, certification et management du risque",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "60013616",
+                "name": "Normes et certification des laboratoires",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "60013617",
+                "name": "Management des risques",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 0,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103610",
+            "name": "Analyses toxicologiques et pharmacologie",
+            "credits": 5,
+            "coefficient": 2.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "60013611",
+                "name": "Analyses toxicologiques",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "60013612",
+                "name": "Pharmacologie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103620",
+            "name": "Génome/transcriptome /métabolome/protéome",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "60013613",
+                "name": "Génomique, transcriptomique et diagnostic moléculaire",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              },
+              {
+                "code": "60013614",
+                "name": "Protéomique,métabolomique et applications",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 38.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "600103650",
+            "name": "Unité Transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "60013619",
+                "name": "Au choix de l'établissement 1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "60013620",
+                "name": "Au choix de l'établissement 2",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

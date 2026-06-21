@@ -1,0 +1,894 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI571507",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Exactes et Technologies",
+    "listed_mention": "Chimie",
+    "listed_specialty": "Recherche",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=WkJWG19wVjcAMQd9Az1UY1RyW2E=&etab=A2YEMVxo",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence",
+    "domain": "Sciences Exactes et Technologies",
+    "mention": "Chimie",
+    "specialty": "Recherche",
+    "semesters": [
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "571507330",
+            "name": "Techniques d'Analyses 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507331",
+                "name": "Méthodes Spectroscopiques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 49
+                }
+              },
+              {
+                "code": "571507332",
+                "name": "Spectroscopie Atomique et Spectrométrie de Masse",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507320",
+            "name": "Mathématiques et Physique 3",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507322",
+                "name": "Physique 3",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "571507321",
+                "name": "Mathématiques 3",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507340",
+            "name": "Activités Pratiques",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571507341",
+                "name": "Activités Pratiques",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507310",
+            "name": "Chimie Organique et Inorganique 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507312",
+                "name": "Diagrammes de Phases et Applications",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              },
+              {
+                "code": "571507311",
+                "name": "Chimie Organique Générale",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507350",
+            "name": "Unité Transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571507352",
+                "name": "Informatique Appliquée",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "571507351",
+                "name": "Anglais Scientifique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999873456",
+            "name": "UEO360",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169917862",
+                "name": "Raffinage de pétrole",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169917863",
+                "name": "Cosmétique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999878004",
+            "name": "UO3.22/23",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169926463",
+                "name": "Raffinage de pétrole",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169926464",
+                "name": "Cosmétique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "571507440",
+            "name": "Activités Pratiques",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571507441",
+                "name": "Activités Pratiques",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507430",
+            "name": "Electrochimie et Applications",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507431",
+                "name": "Electrochimie et Applications",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507420",
+            "name": "Chimie Analytique",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507421",
+                "name": "Chimie Analytique",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 49
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507410",
+            "name": "Chimie Organique et Inorganique 2",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507412",
+                "name": "Structure et Propriétés des Solides",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              },
+              {
+                "code": "571507411",
+                "name": "Mécanismes Réactionnels",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507450",
+            "name": "Unité Transversale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571507452",
+                "name": "Informatique Appliquée",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "571507451",
+                "name": "Anglais Scientifique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "571507453",
+                "name": "Hygiène; Sécurité et Gestion de Laboratoire",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999873787",
+            "name": "UO4.20/21",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169918475",
+                "name": "Pollution atmosphérique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169918476",
+                "name": "Corrosion des métaux et protection",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "571507530",
+            "name": "Réactivité et fonctions en chimie organique",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507531",
+                "name": "réactivité et fonctions en chimie organique",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507510",
+            "name": "Thermodynamique /Cinétique et catalyse",
+            "credits": 7,
+            "coefficient": 3.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507512",
+                "name": "cinétique et catalyse",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              },
+              {
+                "code": "571507511",
+                "name": "thermodynamique",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507520",
+            "name": "Chimie de l'état solide /Chimie quantique",
+            "credits": 7,
+            "coefficient": 3.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507521",
+                "name": "chimie de l'état solide",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              },
+              {
+                "code": "571507522",
+                "name": "chimie quantique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507540",
+            "name": "Activités pratiques",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571507541",
+                "name": "activités pratiques",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507550",
+            "name": "Enseignements transversaux",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571507551",
+                "name": "métrologie chimique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "571507552",
+                "name": "normes et controle qualité",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999875279",
+            "name": "UO5.20/21",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169921321",
+                "name": "Pétrochimie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169921322",
+                "name": "Ciment",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "571507630",
+            "name": "Chimie organique avancée et chimie macromoléculaire",
+            "credits": 7,
+            "coefficient": 3.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507632",
+                "name": "chimie macromoléculaire",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              },
+              {
+                "code": "571507631",
+                "name": "chimie organique avancée",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 63
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507620",
+            "name": "Techniques d'analyses 2",
+            "credits": 7,
+            "coefficient": 3.5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507621",
+                "name": "procédés de séparation",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "571507622",
+                "name": "techniques chromatographiques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507610",
+            "name": "Chimie de coordination",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "571507611",
+                "name": "chimie et coordination",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507640",
+            "name": "Activités pratiques",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571507641",
+                "name": "activités pratiques",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "571507650",
+            "name": "Enseignemnts transversaux",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "571507651",
+                "name": "culture d'entreprise et management de projets",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "571507652",
+                "name": "didactique des sciences",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999877323",
+            "name": "UO6.20/21",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169925166",
+                "name": "Peinture et vernis",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169925167",
+                "name": "Chimie organique polyfonctionnelle",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI573638",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Exactes et Technologies",
+    "listed_mention": "Electronique, Electrotechnique et Automatique",
+    "listed_specialty": "Electronique Industrielle (Fac .des Sciences de Gafsa)",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=VU1THg4hWTgBMFIoU28BNQguDzEGOg==&etab=UDUDNgA0",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence",
+    "domain": "Sciences Exactes et Technologies",
+    "mention": "Electronique, Electrotechnique et Automatique",
+    "specialty": "Electronique Industrielle (Fac .des Sciences de Gafsa)",
+    "semesters": [
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "573638310",
+            "name": "Automatique 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573638312",
+                "name": "instrumentation et Métrologie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "573638311",
+                "name": "Automatique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573638320",
+            "name": "Traitement du signal 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573638321",
+                "name": "Traitement du signal analogique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              },
+              {
+                "code": "573638322",
+                "name": "Transmission des données",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573638330",
+            "name": "Electronique pour l'embarqué",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573638332",
+                "name": "Architectures des microprocesseurs et microcontrôleurs",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "573638331",
+                "name": "Fonctions d'électronique analogique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "573638340",
+            "name": "Transversale: Langues et compétences entrepreneuriale 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "573638342",
+                "name": "Anglais 3",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 13.5,
+                  "tutorial": 7.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "573638341",
+                "name": "Technique de communication 1",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 13.5,
+                  "tutorial": 7.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999873891",
+            "name": "UO3",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169918649",
+                "name": "Technologies des composants électriques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169918650",
+                "name": "Optoélectriques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999880490",
+            "name": "UO3.25/26",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169931045",
+                "name": "Electronique embarqué",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169931043",
+                "name": "Capteurs et actionneurs",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169931046",
+                "name": "Atelier Applications embarquées",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "573638430",
+            "name": "Production et transport de l'energie",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573638432",
+                "name": "Transport et distribution de l'énergie électrique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              },
+              {
+                "code": "573638431",
+                "name": "Production de l'énergie électrique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "573638420",
+            "name": "Micro-informatique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573638422",
+                "name": "Programmation en Assembleur",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              },
+              {
+                "code": "573638421",
+                "name": "Microprocesseurs et microcontrôleurs",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573638410",
+            "name": "Automatique 2",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573638411",
+                "name": "Asservissement et régulation continus",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              },
+              {
+                "code": "573638412",
+                "name": "Asservissement discrete",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "5736382513",
+            "name": "Langues et compétences entreprenariales 2",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "573638215",
+                "name": "Préparation à la certification en anglais 1",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 13.5,
+                  "tutorial": 7.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "573638216",
+                "name": "Culture Entreprenariale 1",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 13.5,
+                  "tutorial": 7.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999873927",
+            "name": "UO4",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169918720",
+                "name": "Distribution et exploitation de l'énergie",
+                "coefficient": 1.25,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169918721",
+                "name": "Variateurs de vitesse industriels 1: CMCC",
+                "coefficient": 1.25,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169918722",
+                "name": "Atelier :Variateurs de vitesse industriels 1: CMCC",
+                "coefficient": 0.5,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999880491",
+            "name": "UO4.25/26",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169931044",
+                "name": "Distribution et exploitation de l'énergie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169931047",
+                "name": "Automatique 2",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "573638520",
+            "name": "Electronique Industrielle",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573638521",
+                "name": "Compatibilité électromagnétique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "573638522",
+                "name": "Electronique de Puissance 2",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573638510",
+            "name": "Commande Industrielle",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573638511",
+                "name": "Commande des machines électriques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              },
+              {
+                "code": "573638512",
+                "name": "Schémas electrique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 52.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "573638530",
+            "name": "Droit",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "573638531",
+                "name": "Droit des affaires",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 13.5,
+                  "tutorial": 7.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "573638532",
+                "name": "Droit de travail, sécurité et assurance sociale",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 13.5,
+                  "tutorial": 7.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "573638540",
+            "name": "Langue et compétences entrepreneuriales 3",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "573638541",
+                "name": "Technique de communication Anglais 2",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 13.5,
+                  "tutorial": 7.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "573638542",
+                "name": "Culture entrepreneuriale 2",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 13.5,
+                  "tutorial": 7.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999875804",
+            "name": "UO5",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169922292",
+                "name": "régulation industrielle",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169922291",
+                "name": "supervision des processus",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "573630610",
+            "name": "Stage de fin d'études",
+            "credits": 30,
+            "coefficient": 15,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "573630611",
+                "name": "Stage de fin d'études",
+                "coefficient": 15,
+                "credits": 30,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 378,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 378
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

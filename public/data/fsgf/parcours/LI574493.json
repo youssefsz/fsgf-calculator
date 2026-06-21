@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI574493",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Exactes et Technologies",
+    "listed_mention": "Génie Energétique",
+    "listed_specialty": "Tronc commun (Fac .des Sciences de Gafsa)",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=AxsATQgnAGFVZAB6DzQDNQMlCT1XYA==&etab=B2JQZQo+",
+    "institution": "INSTITUT SUPERIEUR DES LANGUES DE GABES",
+    "degree_type": "Licence",
+    "domain": "Sciences Exactes et Technologies",
+    "mention": "Génie Energétique",
+    "specialty": "Tronc commun (Fac .des Sciences de Gafsa)",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "574493110",
+            "name": "Mathématiques 1",
+            "credits": 6,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "574493111",
+                "name": "Algébre 1",
+                "coefficient": 1,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "574493112",
+                "name": "Analyse 1",
+                "coefficient": 1,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "574493120",
+            "name": "Physique 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "574493223",
+                "name": "Atelier de physique 1",
+                "coefficient": 1,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "574493222",
+                "name": "Mécanique générale",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "574493221",
+                "name": "Electrostatique et magnétostatique",
+                "coefficient": 1,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "574493130",
+            "name": "Informatique 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "574493232",
+                "name": "Architecture des ordinateurs",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "574493231",
+                "name": "Algorithmique et programmation",
+                "coefficient": 1,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "574493233",
+                "name": "Atelier d'informatique 1",
+                "coefficient": 1,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "574493140",
+            "name": "Thermodynamique",
+            "credits": 6,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "574493141",
+                "name": "Introduction à la thermodynamique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "574493142",
+                "name": "Thermodynamique appliquée",
+                "coefficient": 2,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "574493143",
+                "name": "Atelier Thermodynamique appliquée",
+                "coefficient": 1,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "574493150",
+            "name": "Unité transversale 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "574493152",
+                "name": "Francais 1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "574493153",
+                "name": "Droit de travail , sécurité et assurance",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "574493151",
+                "name": "Anglais 1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "574493210",
+            "name": "Mathématique 2",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "574493261",
+                "name": "Algébre 2",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "574493262",
+                "name": "Analyse 2",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "574493220",
+            "name": "Physique 2",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "574493268",
+                "name": "Atelier de physique 2",
+                "coefficient": 1,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "574493266",
+                "name": "Electromagnétisme et optique",
+                "coefficient": 1,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "574493267",
+                "name": "Mécanique générale",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "574493230",
+            "name": "Transfert de chaleur",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "574493271",
+                "name": "Atelier de transfert de chaleur",
+                "coefficient": 0.5,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "574493269",
+                "name": "Conduction et convection",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "574493270",
+                "name": "Rayonnement",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "574493240",
+            "name": "Mécanique des fluides",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "574493273",
+                "name": "Dynamique des fluides",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "574493274",
+                "name": "Atelier Mécanique des fluides",
+                "coefficient": 1,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "574493272",
+                "name": "Statique et cinématique des fluides",
+                "coefficient": 1,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "574493250",
+            "name": "Unité transversale 2",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "574493277",
+                "name": "C2I",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "574493276",
+                "name": "Francais 2",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "574493275",
+                "name": "Anglais 2",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

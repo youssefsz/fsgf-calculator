@@ -1,0 +1,69 @@
+<script is:inline>
+  (function applyTheme() {
+    const STORAGE_KEY = "fsgf-calculator:theme"
+    const CLASS_NAME = "dark"
+
+    function getResolvedTheme(theme) {
+      if (theme === "dark") return "dark"
+      if (theme === "light") return "light"
+      if (
+        typeof window !== "undefined" &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+      ) {
+        return "dark"
+      }
+      return "light"
+    }
+
+    function apply(theme) {
+      const resolved = getResolvedTheme(theme)
+      const root = document.documentElement
+      if (resolved === "dark") {
+        root.classList.add(CLASS_NAME)
+      } else {
+        root.classList.remove(CLASS_NAME)
+      }
+      root.style.colorScheme = resolved
+    }
+
+    const stored =
+      typeof localStorage !== "undefined"
+        ? localStorage.getItem(STORAGE_KEY)
+        : null
+    const initialTheme = stored === "light" || stored === "dark" || stored === "system"
+      ? stored
+      : "system"
+    apply(initialTheme)
+
+    if (typeof window !== "undefined") {
+      const media = window.matchMedia("(prefers-color-scheme: dark)")
+
+      function onChange() {
+        const current = localStorage.getItem(STORAGE_KEY)
+        if (current === "system" || current === null) {
+          apply("system")
+        }
+      }
+
+      if (!media._fsgfThemeListener) {
+        media.addEventListener("change", onChange)
+        media._fsgfThemeListener = true
+      }
+
+      document.addEventListener("astro:before-swap", (ev) => {
+        const current = localStorage.getItem(STORAGE_KEY)
+        const theme =
+          current === "light" || current === "dark" || current === "system"
+            ? current
+            : "system"
+        const resolved = getResolvedTheme(theme)
+        if (resolved === "dark") {
+          ev.newDocument.documentElement.classList.add(CLASS_NAME)
+        } else {
+          ev.newDocument.documentElement.classList.remove(CLASS_NAME)
+        }
+        ev.newDocument.documentElement.style.colorScheme = resolved
+      })
+    }
+  })()
+</script>

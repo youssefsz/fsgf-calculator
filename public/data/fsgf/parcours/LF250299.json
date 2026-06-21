@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF250299",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences appliquées et technologies",
+    "listed_mention": "Mathématiques (2014-2015)",
+    "listed_specialty": "Tronc commun",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=Bx9ZGwAvAmQGNVUvDzJRfAIyCj4=&etab=B2IEMV9r",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Fondamentale",
+    "domain": "Sciences appliquées et technologies",
+    "mention": "Mathématiques (2014-2015)",
+    "specialty": "Tronc commun",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "0202502",
+            "name": "Algébre",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "0702075",
+                "name": "algébre 1",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "0202501",
+            "name": "Analyse",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "0702074",
+                "name": "analyse 1",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "0202503",
+            "name": "Informatique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "0702076",
+                "name": "algorithmique et programmation en langage C",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 28,
+                  "integrated_course": null,
+                  "total": 70
+                }
+              }
+            ]
+          },
+          {
+            "code": "0202504",
+            "name": "Unité transversale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "0702078",
+                "name": "droits de l'homme 1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "0702077",
+                "name": "anglais 1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "0702079",
+                "name": "préparation c2i 1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "005313018",
+            "name": "optionnelle 1",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "005313019",
+                "name": "Théorie des ensembles",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "0202507",
+            "name": "Physique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "0702082",
+                "name": "mécanique",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 70
+                }
+              }
+            ]
+          },
+          {
+            "code": "0202506",
+            "name": "Algébre",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "0702081",
+                "name": "algébre 2",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "0202505",
+            "name": "Analyse",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "0702080",
+                "name": "analyse 2",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "0202508",
+            "name": "Unité transversale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "0702083",
+                "name": "anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "0702085",
+                "name": "préparation c2i 1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "0702084",
+                "name": "droit de l'homme 1",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "005313016",
+            "name": "optionnelle 2",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "005313017",
+                "name": "Structures Algébriques",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

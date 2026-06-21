@@ -1,0 +1,1102 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LA053510",
+    "listed_type": "Licence Appliquée",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Energétique",
+    "listed_specialty": "Exploration et exploitation des gisements pétroliers",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=VU0HQg8gA2JQeVcxBz0EKQgwATw=&etab=B2JVYA87",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Appliquée",
+    "domain": "Sciences et technologies",
+    "mention": "Energétique",
+    "specialty": "Exploration et exploitation des gisements pétroliers",
+    "semesters": [
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "25820101",
+            "name": "mesure et instrumentation",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "25820101",
+                "name": "théorie de la mesure et traitement informatique",
+                "coefficient": 2,
+                "credits": 1.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "25820103",
+                "name": "atelier de mesure et instrumentation",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "25820102",
+                "name": "les capteurs",
+                "coefficient": 2,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "25820102",
+            "name": "matériaux",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "25820105",
+                "name": "semi-conducteurs",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "25820104",
+                "name": "polyméres et composites",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "25820106",
+                "name": "ateliers de matériaux",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "25820103",
+            "name": "électrotechnique",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "25820110",
+                "name": "atelier d'électrotechnique",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "25820108",
+                "name": "circuits électriques",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "25820109",
+                "name": "machines électriques",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "25820104",
+            "name": "combustion et impact sur l'environnement",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "25820111",
+                "name": "thermochimie de la combustion",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "25820112",
+                "name": "impact sur l'environnement et traitement",
+                "coefficient": 3,
+                "credits": 2.5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "25820105",
+            "name": "unité transversale 3",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "25820114",
+                "name": "culture d'entreprise 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "25820113",
+                "name": "tech.com. :francais1",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "25820115",
+                "name": "anglais3",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "169904843",
+            "name": "UOP3.18/19",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169911165",
+                "name": "stratigraphie et géologie structurale",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169911166",
+                "name": "Géo-ressources",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169911167",
+                "name": "TP Géo-ressources",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "169903861",
+            "name": "U option3.17/18",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169907608",
+                "name": "Géologie pétrolière",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169907607",
+                "name": "Exploration pétrolière",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169907609",
+                "name": "TP exploration pétrolière",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "631",
+            "name": "Technologie de conception",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "517",
+                "name": "atelier de DAO",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "515",
+                "name": "dessin technique",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "516",
+                "name": "analyse fonctionnelle",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "633",
+            "name": "Chaudières brûleurs et échangeurs",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "523",
+                "name": "atelier de chaudières et brûleurs et échangeurs",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "521",
+                "name": "chaudières et brûleurs",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "522",
+                "name": "échangeurs",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "632",
+            "name": "Electronique de puissance et asservissement",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "520",
+                "name": "atelier d'électronique de puissance et d'asservissement",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "518",
+                "name": "électronique de puissance",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "519",
+                "name": "asservissement",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "630",
+            "name": "Travaux personnalisés",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "514",
+                "name": "travaux personnalisés",
+                "coefficient": 6,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 63,
+                  "integrated_course": null,
+                  "total": 63
+                }
+              }
+            ]
+          },
+          {
+            "code": "634",
+            "name": "Unités tranversales 4",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "525",
+                "name": "tech.com: français 2",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "524",
+                "name": "anglais 4",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "526",
+                "name": "culture d'entreprises 2",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "169904061",
+            "name": "U option4.17/18",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169908374",
+                "name": "Géo-ressources",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169908375",
+                "name": "Hydrologie et forage",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169908376",
+                "name": "Cartographie thématique",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "169904842",
+            "name": "UO4. 18/19",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169911162",
+                "name": "Géologie pétrolière",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169911163",
+                "name": "Hydrologie et forage",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169911164",
+                "name": "Cartographie thématique",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "258201041",
+            "name": "systémes energétiques",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "258201141",
+                "name": "atelier de systémes énergétiques",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "258201142",
+                "name": "machines thermiques",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "258201143",
+                "name": "équipements fluidiques",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "258201042",
+            "name": "production du froid",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "258201146",
+                "name": "atelier de machines électriques",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "258201144",
+                "name": "fluides frigorigénes et impact sur l'environnement",
+                "coefficient": 1,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 10.5
+                }
+              },
+              {
+                "code": "258201145",
+                "name": "machines frigoriques",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "258201043",
+            "name": "unité transversale",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "258201149",
+                "name": "culture d'entreprise 3",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "258201147",
+                "name": "anglais 5",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "258201148",
+                "name": "tech. com : francais 3",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999870911",
+            "name": "UOP3",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169910156",
+                "name": "Pétro-physique et diagenèse des réservoirs fracturés",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169910157",
+                "name": "Technique de forage pétrolier et puits",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169910158",
+                "name": "Géomatique",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "169904572",
+            "name": "UOP1",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169910151",
+                "name": "Economie et optimisation de l'énergie",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169910150",
+                "name": "Hygiène et sécurité dans l'entreprise",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169910152",
+                "name": "Analyse économique et évaluation des projets",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "169905194",
+            "name": "UOP1*",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169912671",
+                "name": "Analyse économique et évaluation des projets",
+                "coefficient": 2,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169912670",
+                "name": "Economie et optimisation de l'énergie",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "9999870910",
+            "name": "UOP2",
+            "credits": 5,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169910154",
+                "name": "Exploitation et exploration des gisements pétroliers",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169910153",
+                "name": "Chimie des hydrocarbures",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169910155",
+                "name": "Raffinage et pétrochimie",
+                "coefficient": 2,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 10.5,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "258201044",
+            "name": "activité pratique de fin d'étude",
+            "credits": 30,
+            "coefficient": 1,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "258201150",
+                "name": "activité pratique de fin d'étude",
+                "coefficient": 1,
+                "credits": 30,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

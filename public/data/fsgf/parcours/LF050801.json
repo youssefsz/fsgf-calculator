@@ -1,0 +1,564 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF050801",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Mathématiques 2010-2011",
+    "listed_specialty": "Mathématiques Fondamentales",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=UEgCQAEuUTAAKVY7VHQAMw==&etab=Wz5XYl1p",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Fondamentale",
+    "domain": "Sciences et technologies",
+    "mention": "Mathématiques 2010-2011",
+    "specialty": "Mathématiques Fondamentales",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "169903233",
+            "name": "UO1 .2017",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169906234",
+                "name": "Théorie des ensembles",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 2,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "169900680",
+            "name": "UE 8",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169901334",
+                "name": "Pépinières de productions ornementales",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 20,
+                  "tutorial": null,
+                  "practical": 15,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "169901335",
+                "name": "Cultures potagères",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 20,
+                  "tutorial": null,
+                  "practical": 15,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "169903234",
+            "name": "UO3 .2017",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169906235",
+                "name": "Equations Différentielles Ordinaires",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 2,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "169900682",
+            "name": "UE 20",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169901340",
+                "name": "Le végétal dans le projet",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 15,
+                  "tutorial": null,
+                  "practical": 9,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "169901339",
+                "name": "CAO - Photoshop",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 15,
+                  "tutorial": null,
+                  "practical": 9,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "169901338",
+                "name": "Jardins suspendus",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 15,
+                  "tutorial": null,
+                  "practical": 9,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "169900681",
+            "name": "UE 18",
+            "credits": 4,
+            "coefficient": 4,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169901337",
+                "name": "Ravageurs des plantes ornementales",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 15,
+                  "tutorial": null,
+                  "practical": 12,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "169901336",
+                "name": "Pathologie des plantes ornementales",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 15,
+                  "tutorial": null,
+                  "practical": 12,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "050803",
+            "name": "Topologie",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050812",
+                "name": "Topologie",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 56
+                }
+              }
+            ]
+          },
+          {
+            "code": "050801",
+            "name": "Calcul intégral",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050810",
+                "name": "Calcul intégral",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 98
+                }
+              }
+            ]
+          },
+          {
+            "code": "050802",
+            "name": "Calcul différentiel",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050811",
+                "name": "Calcul différentiel",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 98
+                }
+              }
+            ]
+          },
+          {
+            "code": "050804",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "050813",
+                "name": "Anglais",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "169903235",
+            "name": "UO5.2017",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "mx",
+            "subjects": [
+              {
+                "code": "169906236",
+                "name": "Variables Complexes",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "mx",
+                "hours": {
+                  "course": 2,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00532703123",
+            "name": "UEO1",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "005327031230",
+                "name": "Variable complexe",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00532703124",
+            "name": "UEO2",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "005327031240",
+                "name": "Introduction à la théorie des A-modules",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "050807",
+            "name": "Probabilité",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050817",
+                "name": "Probabilité",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 70
+                }
+              }
+            ]
+          },
+          {
+            "code": "050805",
+            "name": "Algébre générale",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050814",
+                "name": "Algébre générale",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 98
+                }
+              }
+            ]
+          },
+          {
+            "code": "050806",
+            "name": "Equations différentielles",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050816",
+                "name": "Equations différentielles",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 70
+                }
+              }
+            ]
+          },
+          {
+            "code": "050808",
+            "name": "Analyse numérique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050818",
+                "name": "Analyse numérique",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 70
+                }
+              }
+            ]
+          },
+          {
+            "code": "005327031241",
+            "name": "UEO1",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "005327031242",
+                "name": "Polynomes orthogonaux et fonctions spéciales",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "169900687",
+            "name": "uoptionnelle6",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169901347",
+                "name": "Introduction à l'Analyse Hilbertienne",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "005327031243",
+            "name": "UEO2",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "005327031244",
+                "name": "Théorie du point fixe",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

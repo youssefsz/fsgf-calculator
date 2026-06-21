@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF250202",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences appliquées et technologies",
+    "listed_mention": "Mathématiques (2014-2015)",
+    "listed_specialty": "Mathématiques",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=BBxVFwskAmRSYQR+DjNRfAgz&etab=A2ZQZQg8",
+    "semesters": [],
+    "warnings": [
+      "No study-plan table found"
+    ],
+    "scrape_status": "no_plan"
+  }
+}

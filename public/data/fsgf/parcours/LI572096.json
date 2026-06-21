@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI572096",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Exactes et Technologies",
+    "listed_mention": "Sciences du Vivant",
+    "listed_specialty": "Tronc commun ( FAC. des Sciences de Gafsa)",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=W0MCTwwjWTgGNwR+Az5WZAkvX2tWZA==&etab=AWRUYQA0",
+    "semesters": [],
+    "warnings": [
+      "No study-plan table found"
+    ],
+    "scrape_status": "no_plan"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF250204",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences appliquées et technologies",
+    "listed_mention": "Mathématiques (2014-2015)",
+    "listed_specialty": "Mathématiques et applications",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=VExQEgwjUTcGNQF7VGkEKQA9&etab=A2YANQE1",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Fondamentale",
+    "domain": "Sciences appliquées et technologies",
+    "mention": "Mathématiques (2014-2015)",
+    "specialty": "Mathématiques et applications",
+    "semesters": [
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "25415435",
+            "name": "Calcul différentiel",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "65896999",
+                "name": "calcul différentiel",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415436",
+            "name": "Calcul intégral",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "658969100",
+                "name": "calcul intégral",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415437",
+            "name": "Topologie",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "658969101",
+                "name": "topologie dans les espaces métriques",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415438",
+            "name": "Unité transversale",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "658969103",
+                "name": "statistiques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "658969102",
+                "name": "anglais 5",
+                "coefficient": 1.5,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "25415439",
+            "name": "Analyse numérique",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "658969104",
+                "name": "analyse numérique",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415440",
+            "name": "Module 1",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "658969105",
+                "name": "module 1",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415441",
+            "name": "Module2",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "658969106",
+                "name": "module 2",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 84
+                }
+              }
+            ]
+          },
+          {
+            "code": "25415442",
+            "name": "Unité transversale",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "658969108",
+                "name": "résolutions numériques des EDO",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "658969107",
+                "name": "méthodologie",
+                "coefficient": 1.5,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

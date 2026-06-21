@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LA058902",
+    "listed_type": "Licence Appliquée",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Georessources et environnement",
+    "listed_specialty": "Géomatériaux",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=UEhXEgolVDVSe1Y7DjhRfAU+&etab=UDVXYgk9",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Appliquée",
+    "domain": "Sciences et technologies",
+    "mention": "Georessources et environnement",
+    "specialty": "",
+    "semesters": [],
+    "warnings": [
+      "No study-plan table found"
+    ],
+    "scrape_status": "no_plan"
+  }
+}

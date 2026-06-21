@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI574499",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Exactes et Technologies",
+    "listed_mention": "Génie Energétique",
+    "listed_specialty": "Tronc commun",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=V09VGAEuVjcAMVUvDjVUYlF3CT0BPA==&etab=VDEEMQs/",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence",
+    "domain": "Sciences Exactes et Technologies",
+    "mention": "Génie Energétique",
+    "specialty": "Tronc commun",
+    "semesters": [],
+    "warnings": [
+      "No study-plan table found"
+    ],
+    "scrape_status": "no_plan"
+  }
+}

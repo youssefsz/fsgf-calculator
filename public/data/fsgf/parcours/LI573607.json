@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LI573607",
+    "listed_type": "Licence",
+    "listed_domain": "Sciences Exactes et Technologies",
+    "listed_mention": "Electronique, Electrotechnique et Automatique",
+    "listed_specialty": "Automatique et Informatique Industrielle",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=VU0HSlh3UDFQYVUvAj5RZVJ0XWc=&etab=B2IHMg46",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence",
+    "domain": "Sciences Exactes et Technologies",
+    "mention": "Electronique, Electrotechnique et Automatique",
+    "specialty": "Automatique et Informatique Industrielle",
+    "semesters": [],
+    "warnings": [
+      "No study-plan table found"
+    ],
+    "scrape_status": "no_plan"
+  }
+}

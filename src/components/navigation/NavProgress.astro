@@ -1,0 +1,75 @@
+<div
+  id="nav-progress"
+  role="progressbar"
+  aria-hidden="true"
+  class="fixed top-0 left-0 z-[100] h-1 w-0 bg-primary opacity-0 transition-[width] duration-300 ease-out motion-reduce:transition-none"
+  transition:persist="nav-progress"
+>
+</div>
+
+<script is:inline>
+  (function initNavProgress() {
+    if (typeof window === "undefined") return
+    if (window.__fsgfNavProgressInitialized) return
+    window.__fsgfNavProgressInitialized = true
+
+    let reducedMotion = false
+    let active = false
+    let startedAt = 0
+    let completionTimer = null
+    let resetTimer = null
+
+    function checkReducedMotion() {
+      reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    }
+
+    function getBar() {
+      return document.getElementById("nav-progress")
+    }
+
+    function setProgress(value) {
+      const bar = getBar()
+      if (!bar) return
+      bar.style.width = `${value}%`
+      bar.style.opacity = value > 0 ? "1" : "0"
+    }
+
+    function start() {
+      checkReducedMotion()
+      if (completionTimer) clearTimeout(completionTimer)
+      if (resetTimer) clearTimeout(resetTimer)
+      active = true
+      startedAt = performance.now()
+      setProgress(reducedMotion ? 50 : 18)
+    }
+
+    function advance() {
+      if (!active) return
+      setProgress(reducedMotion ? 75 : 70)
+    }
+
+    function complete() {
+      if (!active) return
+      const minimumVisibleTime = reducedMotion ? 0 : 180
+      const elapsed = performance.now() - startedAt
+      const delay = Math.max(0, minimumVisibleTime - elapsed)
+
+      completionTimer = setTimeout(() => {
+        setProgress(100)
+        resetTimer = setTimeout(() => {
+          const bar = getBar()
+          if (!bar) return
+          bar.style.opacity = "0"
+          setTimeout(() => {
+            if (bar.style.opacity === "0") bar.style.width = "0%"
+            active = false
+          }, reducedMotion ? 0 : 200)
+        }, reducedMotion ? 0 : 120)
+      }, delay)
+    }
+
+    document.addEventListener("astro:before-preparation", start)
+    document.addEventListener("astro:after-preparation", advance)
+    document.addEventListener("astro:page-load", complete)
+  })()
+</script>

@@ -1,0 +1,105 @@
+---
+import { ThemeDropdown } from "@/components/theme/ThemeDropdown"
+import type { Locale, RouteKey } from "@/i18n/routes"
+import { ROUTES } from "@/i18n/routes"
+
+interface Props {
+  locale: Locale
+  t: {
+    site: { name: string }
+    nav: Record<string, string>
+    language: { label: string; en: string; fr: string; switchTo: string }
+    theme: { label: string; light: string; dark: string; system: string }
+  }
+  alternates: Record<Locale, string>
+  currentRoute: RouteKey
+}
+
+const { locale, t, alternates, currentRoute } = Astro.props
+const otherLocale = locale === "en" ? "fr" : "en"
+const otherLabel = locale === "en" ? t.language.fr : t.language.en
+const otherPath = alternates[otherLocale]
+
+const navItems: { key: RouteKey; label: string }[] = [
+  { key: "programs", label: t.nav.programs },
+  { key: "methodology", label: t.nav.methodology },
+  { key: "dataStatus", label: t.nav.dataStatus },
+  { key: "privacy", label: t.nav.privacy },
+]
+
+function isActive(key: RouteKey): boolean {
+  if (key === currentRoute) return true
+  if (key === "programs" && currentRoute === "program") return true
+  return false
+}
+---
+
+<header class="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
+  <div class="mx-auto flex h-14 max-w-5xl items-center justify-between px-4">
+    <a href={ROUTES.home[locale]} class="text-sm font-semibold tracking-tight">
+      {t.site.name}
+    </a>
+
+    <nav aria-label={t.language.label} class="hidden items-center gap-1 md:flex">
+      {
+        navItems.map((item) => (
+          <a
+            href={ROUTES[item.key][locale]}
+            class:list={[
+              "rounded-md px-2.5 py-1.5 text-sm transition-colors",
+              isActive(item.key)
+                ? "bg-primary font-medium text-primary-foreground"
+                : "text-muted-foreground hover:bg-secondary/20 hover:text-foreground",
+            ]}
+            aria-current={isActive(item.key) ? "page" : undefined}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="flex items-center gap-1">
+      <a
+        href={otherPath}
+        class="rounded-md px-2.5 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+        aria-label={t.language.switchTo}
+        hreflang={otherLocale}
+      >
+        {otherLabel}
+      </a>
+      <ThemeDropdown
+        client:load
+        labels={{
+          label: t.theme.label,
+          light: t.theme.light,
+          dark: t.theme.dark,
+          system: t.theme.system,
+        }}
+      />
+    </div>
+  </div>
+
+  <!-- Mobile nav -->
+  <nav
+    aria-label={t.language.label}
+    class="flex overflow-x-auto border-t border-border px-4 py-2 md:hidden"
+  >
+    {
+      navItems.map((item) => (
+        <a
+          href={ROUTES[item.key][locale]}
+          class:list={[
+            "shrink-0 rounded-md px-3 py-1.5 text-sm transition-colors",
+              isActive(item.key)
+                ? "bg-primary font-medium text-primary-foreground"
+                : "text-muted-foreground hover:bg-secondary/20 hover:text-foreground",
+          ]}
+          aria-current={isActive(item.key) ? "page" : undefined}
+        >
+          {item.label}
+        </a>
+      ))
+    }
+  </nav>
+</header>

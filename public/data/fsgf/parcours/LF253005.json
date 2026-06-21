@@ -1,0 +1,588 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF253005",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences appliquées et technologies",
+    "listed_mention": "Sciences du vivant ( 2015-2016)",
+    "listed_specialty": "Biologie moléculaire et cellulaire",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=VU1RE19wUzVQY1IoUm4AMlRyDjY=&etab=BGFSZ1xo",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Fondamentale",
+    "domain": "Sciences appliquées et technologies",
+    "mention": "Sciences du vivant ( 2015-2016)",
+    "specialty": "Biologie moléculaire et cellulaire",
+    "semesters": [
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "213654537",
+            "name": "UM 1 Physiologie animale / végétale",
+            "credits": 7,
+            "coefficient": 7,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "25645369",
+                "name": "physiologie animale 1",
+                "coefficient": 4,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 3.5,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "25645370",
+                "name": "physiologie végétale 1",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 3.5,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "213654539",
+            "name": "UM 3 Biochimie / Enzymologie",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "25645378",
+                "name": "enzymologie",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "25645377",
+                "name": "biochimie métabolique",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 31.5
+                }
+              },
+              {
+                "code": "25645379",
+                "name": "TP d'enzymologie et de B. métabolique",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "213654538",
+            "name": "UM 2 BA3 /génétique moléculaire",
+            "credits": 7,
+            "coefficient": 7,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "25645371",
+                "name": "biologie animale 3",
+                "coefficient": 4,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 3.5,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "25645372",
+                "name": "génétique moléculaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 4.5,
+                  "integrated_course": null,
+                  "total": 39.5
+                }
+              }
+            ]
+          },
+          {
+            "code": "213654640",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 4,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "25645380",
+                "name": "élément 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "25645381",
+                "name": "élément 2",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "213654643",
+            "name": "UM 3 Biologie moléculaire /immunologie",
+            "credits": 7,
+            "coefficient": 7,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "25645386",
+                "name": "biologie moléculaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "25645387",
+                "name": "immunologie",
+                "coefficient": 4,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 10.5,
+                  "practical": 10.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "213654641",
+            "name": "UM 1 Pphysiologie animale /végétale",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "25645383",
+                "name": "physiologie végétale 2",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 3.5,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "25645382",
+                "name": "physiologie animale 2",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 3.5,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "213654642",
+            "name": "UM 2 Biologie végétale 3/Ecologie",
+            "credits": 7,
+            "coefficient": 7,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "25645384",
+                "name": "biologie végétale3",
+                "coefficient": 4,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 3.5,
+                  "practical": 17.5,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              },
+              {
+                "code": "25645385",
+                "name": "écologie des populations",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 42
+                }
+              }
+            ]
+          },
+          {
+            "code": "213654644",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 4,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "25645389",
+                "name": "élément 2",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "25645388",
+                "name": "élément 1",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "59871",
+            "name": "Immunologie /microbiologie",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "45269",
+                "name": "immunologie moléculaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 4.2,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 39.2
+                }
+              },
+              {
+                "code": "45270",
+                "name": "microbiologie moléculaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 4.2,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 39.2
+                }
+              }
+            ]
+          },
+          {
+            "code": "59869",
+            "name": "Génétique",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "45265",
+                "name": "génétique des populations",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 4.2,
+                  "integrated_course": null,
+                  "total": 39.2
+                }
+              },
+              {
+                "code": "45266",
+                "name": "génie génétique",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 6.3,
+                  "practical": 6.3,
+                  "integrated_course": null,
+                  "total": 33.6
+                }
+              }
+            ]
+          },
+          {
+            "code": "59870",
+            "name": "Biochimie",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "45267",
+                "name": "structure / fonctions des proteines",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 6.3,
+                  "practical": 6.3,
+                  "integrated_course": null,
+                  "total": 33.6
+                }
+              },
+              {
+                "code": "45268",
+                "name": "biochimie métabolique 2",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 6.3,
+                  "practical": 6.3,
+                  "integrated_course": null,
+                  "total": 33.6
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "59872",
+            "name": "Physiologie cellulaire animale",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "45272",
+                "name": "endocrinologie moléculaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 4.2,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 39.2
+                }
+              },
+              {
+                "code": "45271",
+                "name": "neurophysiologie et signalisation cellulaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 4.2,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 39.2
+                }
+              }
+            ]
+          },
+          {
+            "code": "59874",
+            "name": "Cycles cellulaires /Génomique",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "45275",
+                "name": "cycles et différenciation cellulaire",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 4.2,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 39.2
+                }
+              },
+              {
+                "code": "45276",
+                "name": "Génomique",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 6.3,
+                  "practical": 6.3,
+                  "integrated_course": null,
+                  "total": 33.6
+                }
+              }
+            ]
+          },
+          {
+            "code": "59873",
+            "name": "Physiologie et biotechnologie végétale",
+            "credits": 6,
+            "coefficient": 6,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "45273",
+                "name": "régulation du développement végétal",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 6.3,
+                  "practical": 6.3,
+                  "integrated_course": null,
+                  "total": 33.6
+                }
+              },
+              {
+                "code": "45274",
+                "name": "biotechnologie végétale",
+                "coefficient": 3,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 6.3,
+                  "practical": 6.3,
+                  "integrated_course": null,
+                  "total": 33.6
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

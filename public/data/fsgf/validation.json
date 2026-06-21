@@ -1,0 +1,1669 @@
+{
+  "schemaVersion": 1,
+  "sourceFile": "all_gafsa_science_grade_data.json",
+  "sourceSha256": "e78983b8aa289f4048187689e14693c3676564745929c3f82a620c1f7ac12c86",
+  "checks": {
+    "indexEntries": 134,
+    "parcoursFiles": 134,
+    "uniqueCodes": 134,
+    "validForEstimatedAverage": 121,
+    "requiresReview": 13
+  },
+  "parcours": [
+    {
+      "code": "LA050103",
+      "file": "parcours/LA050103.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 28,
+        "subjects": 38
+      }
+    },
+    {
+      "code": "LA050104",
+      "file": "parcours/LA050104.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LA050199",
+      "file": "parcours/LA050199.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 16
+      }
+    },
+    {
+      "code": "LA051799",
+      "file": "parcours/LA051799.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LA053101",
+      "file": "parcours/LA053101.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "Semester 3 UE 00533458 has no subject rows"
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 29,
+        "subjects": 78
+      }
+    },
+    {
+      "code": "LA053199",
+      "file": "parcours/LA053199.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 31,
+        "subjects": 89
+      }
+    },
+    {
+      "code": "LA053507",
+      "file": "parcours/LA053507.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 31,
+        "subjects": 84
+      }
+    },
+    {
+      "code": "LA053510",
+      "file": "parcours/LA053510.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 22,
+        "subjects": 60
+      }
+    },
+    {
+      "code": "LA053599",
+      "file": "parcours/LA053599.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 22,
+        "subjects": 60
+      }
+    },
+    {
+      "code": "LA053901",
+      "file": "parcours/LA053901.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "Semester 3 UE 005314158 has no subject rows",
+        "Semester 3 UE 005314162 has no subject rows",
+        "Semester 5 UE 005314166 has no subject rows",
+        "Semester 5 UE 005314170 has no subject rows"
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 42,
+        "subjects": 86
+      }
+    },
+    {
+      "code": "LA055012",
+      "file": "parcours/LA055012.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "Semester 3 UE 005314149 has no subject rows",
+        "Semester 3 UE 005314146 has no subject rows"
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 30,
+        "subjects": 61
+      }
+    },
+    {
+      "code": "LA055104",
+      "file": "parcours/LA055104.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 38,
+        "subjects": 85
+      }
+    },
+    {
+      "code": "LA055105",
+      "file": "parcours/LA055105.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 38,
+        "subjects": 85
+      }
+    },
+    {
+      "code": "LA055106",
+      "file": "parcours/LA055106.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 38,
+        "subjects": 85
+      }
+    },
+    {
+      "code": "LA055107",
+      "file": "parcours/LA055107.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 28,
+        "subjects": 65
+      }
+    },
+    {
+      "code": "LA055199",
+      "file": "parcours/LA055199.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 3,
+        "teachingUnits": 15,
+        "subjects": 36
+      }
+    },
+    {
+      "code": "LA056505",
+      "file": "parcours/LA056505.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 38,
+        "subjects": 87
+      }
+    },
+    {
+      "code": "LA057703",
+      "file": "parcours/LA057703.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 55
+      }
+    },
+    {
+      "code": "LA058901",
+      "file": "parcours/LA058901.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 23,
+        "subjects": 53
+      }
+    },
+    {
+      "code": "LA058902",
+      "file": "parcours/LA058902.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LA058903",
+      "file": "parcours/LA058903.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 55
+      }
+    },
+    {
+      "code": "LA058999",
+      "file": "parcours/LA058999.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 28,
+        "subjects": 62
+      }
+    },
+    {
+      "code": "LA059903",
+      "file": "parcours/LA059903.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 21,
+        "subjects": 49
+      }
+    },
+    {
+      "code": "LA059999",
+      "file": "parcours/LA059999.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 16,
+        "subjects": 36
+      }
+    },
+    {
+      "code": "LA253199",
+      "file": "parcours/LA253199.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 9,
+        "subjects": 19
+      }
+    },
+    {
+      "code": "LA254001",
+      "file": "parcours/LA254001.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 21,
+        "subjects": 52
+      }
+    },
+    {
+      "code": "LA254003",
+      "file": "parcours/LA254003.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 34,
+        "subjects": 79
+      }
+    },
+    {
+      "code": "LA254301",
+      "file": "parcours/LA254301.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 22,
+        "subjects": 46
+      }
+    },
+    {
+      "code": "LA254304",
+      "file": "parcours/LA254304.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LA254306",
+      "file": "parcours/LA254306.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LF050101",
+      "file": "parcours/LF050101.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 33,
+        "subjects": 46
+      }
+    },
+    {
+      "code": "LF050301",
+      "file": "parcours/LF050301.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 37,
+        "subjects": 59
+      }
+    },
+    {
+      "code": "LF050302",
+      "file": "parcours/LF050302.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 37,
+        "subjects": 59
+      }
+    },
+    {
+      "code": "LF050303",
+      "file": "parcours/LF050303.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 29,
+        "subjects": 51
+      }
+    },
+    {
+      "code": "LF050399",
+      "file": "parcours/LF050399.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 25,
+        "subjects": 42
+      }
+    },
+    {
+      "code": "LF050405",
+      "file": "parcours/LF050405.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 54
+      }
+    },
+    {
+      "code": "LF050410",
+      "file": "parcours/LF050410.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 38,
+        "subjects": 84
+      }
+    },
+    {
+      "code": "LF050499",
+      "file": "parcours/LF050499.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "Semester 1 UE 005314125 has no subject rows",
+        "Semester 1 UE 0053141122 has no subject rows",
+        "Semester 2 UE 005412215 has no subject rows"
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 34,
+        "subjects": 69
+      }
+    },
+    {
+      "code": "LF050702",
+      "file": "parcours/LF050702.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 33,
+        "subjects": 41
+      }
+    },
+    {
+      "code": "LF050801",
+      "file": "parcours/LF050801.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 19,
+        "subjects": 23
+      }
+    },
+    {
+      "code": "LF050802",
+      "file": "parcours/LF050802.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 13,
+        "subjects": 13
+      }
+    },
+    {
+      "code": "LF050899",
+      "file": "parcours/LF050899.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 5,
+        "teachingUnits": 26,
+        "subjects": 34
+      }
+    },
+    {
+      "code": "LF051005",
+      "file": "parcours/LF051005.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 37,
+        "subjects": 80
+      }
+    },
+    {
+      "code": "LF051006",
+      "file": "parcours/LF051006.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 27,
+        "subjects": 63
+      }
+    },
+    {
+      "code": "LF051007",
+      "file": "parcours/LF051007.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 35,
+        "subjects": 77
+      }
+    },
+    {
+      "code": "LF051099",
+      "file": "parcours/LF051099.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 35,
+        "subjects": 80
+      }
+    },
+    {
+      "code": "LF052301",
+      "file": "parcours/LF052301.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 48
+      }
+    },
+    {
+      "code": "LF053006",
+      "file": "parcours/LF053006.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 31,
+        "subjects": 91
+      }
+    },
+    {
+      "code": "LF053008",
+      "file": "parcours/LF053008.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 68
+      }
+    },
+    {
+      "code": "LF053099",
+      "file": "parcours/LF053099.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 19,
+        "subjects": 55
+      }
+    },
+    {
+      "code": "LF053701",
+      "file": "parcours/LF053701.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LF250201",
+      "file": "parcours/LF250201.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 5,
+        "teachingUnits": 27,
+        "subjects": 33
+      }
+    },
+    {
+      "code": "LF250202",
+      "file": "parcours/LF250202.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LF250203",
+      "file": "parcours/LF250203.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 9,
+        "subjects": 11
+      }
+    },
+    {
+      "code": "LF250204",
+      "file": "parcours/LF250204.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 8,
+        "subjects": 10
+      }
+    },
+    {
+      "code": "LF250205",
+      "file": "parcours/LF250205.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 15,
+        "subjects": 17
+      }
+    },
+    {
+      "code": "LF250299",
+      "file": "parcours/LF250299.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 14
+      }
+    },
+    {
+      "code": "LF250301",
+      "file": "parcours/LF250301.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 32,
+        "subjects": 88
+      }
+    },
+    {
+      "code": "LF251001",
+      "file": "parcours/LF251001.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 39,
+        "subjects": 61
+      }
+    },
+    {
+      "code": "LF253002",
+      "file": "parcours/LF253002.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 22
+      }
+    },
+    {
+      "code": "LF253005",
+      "file": "parcours/LF253005.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 14,
+        "subjects": 29
+      }
+    },
+    {
+      "code": "LF253006",
+      "file": "parcours/LF253006.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 16,
+        "subjects": 33
+      }
+    },
+    {
+      "code": "LF253012",
+      "file": "parcours/LF253012.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 21
+      }
+    },
+    {
+      "code": "LF253013",
+      "file": "parcours/LF253013.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 19,
+        "subjects": 39
+      }
+    },
+    {
+      "code": "LF253014",
+      "file": "parcours/LF253014.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "Semester 4 UE 169902630 has no subject rows"
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 22,
+        "subjects": 43
+      }
+    },
+    {
+      "code": "LF253018",
+      "file": "parcours/LF253018.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 18,
+        "subjects": 38
+      }
+    },
+    {
+      "code": "LF253019",
+      "file": "parcours/LF253019.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 20,
+        "subjects": 41
+      }
+    },
+    {
+      "code": "LF253099",
+      "file": "parcours/LF253099.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 9,
+        "subjects": 19
+      }
+    },
+    {
+      "code": "LF253301",
+      "file": "parcours/LF253301.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 27,
+        "subjects": 58
+      }
+    },
+    {
+      "code": "LF253302",
+      "file": "parcours/LF253302.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 52
+      }
+    },
+    {
+      "code": "LF253306",
+      "file": "parcours/LF253306.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 31,
+        "subjects": 66
+      }
+    },
+    {
+      "code": "LF253308",
+      "file": "parcours/LF253308.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 29,
+        "subjects": 62
+      }
+    },
+    {
+      "code": "LF253309",
+      "file": "parcours/LF253309.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 32,
+        "subjects": 68
+      }
+    },
+    {
+      "code": "LF254101",
+      "file": "parcours/LF254101.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 24,
+        "subjects": 57
+      }
+    },
+    {
+      "code": "LF254105",
+      "file": "parcours/LF254105.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 19
+      }
+    },
+    {
+      "code": "LF254106",
+      "file": "parcours/LF254106.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 19
+      }
+    },
+    {
+      "code": "LF254107",
+      "file": "parcours/LF254107.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 23
+      }
+    },
+    {
+      "code": "LF254108",
+      "file": "parcours/LF254108.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 23
+      }
+    },
+    {
+      "code": "LF257701",
+      "file": "parcours/LF257701.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 12
+      }
+    },
+    {
+      "code": "LF257799",
+      "file": "parcours/LF257799.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 20,
+        "subjects": 24
+      }
+    },
+    {
+      "code": "LI570199",
+      "file": "parcours/LI570199.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 13,
+        "subjects": 18
+      }
+    },
+    {
+      "code": "LI570401",
+      "file": "parcours/LI570401.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 14,
+        "subjects": 20
+      }
+    },
+    {
+      "code": "LI571001",
+      "file": "parcours/LI571001.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 13,
+        "subjects": 21
+      }
+    },
+    {
+      "code": "LI571097",
+      "file": "parcours/LI571097.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 20
+      }
+    },
+    {
+      "code": "LI571099",
+      "file": "parcours/LI571099.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 18
+      }
+    },
+    {
+      "code": "LI571201",
+      "file": "parcours/LI571201.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 13,
+        "subjects": 20
+      }
+    },
+    {
+      "code": "LI571297",
+      "file": "parcours/LI571297.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 20
+      }
+    },
+    {
+      "code": "LI571299",
+      "file": "parcours/LI571299.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 18
+      }
+    },
+    {
+      "code": "LI571507",
+      "file": "parcours/LI571507.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 25,
+        "subjects": 43
+      }
+    },
+    {
+      "code": "LI571597",
+      "file": "parcours/LI571597.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 18
+      }
+    },
+    {
+      "code": "LI571599",
+      "file": "parcours/LI571599.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 18
+      }
+    },
+    {
+      "code": "LI571898",
+      "file": "parcours/LI571898.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 24,
+        "subjects": 38
+      }
+    },
+    {
+      "code": "LI571899",
+      "file": "parcours/LI571899.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 22,
+        "subjects": 36
+      }
+    },
+    {
+      "code": "LI572001",
+      "file": "parcours/LI572001.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 23,
+        "subjects": 42
+      }
+    },
+    {
+      "code": "LI572002",
+      "file": "parcours/LI572002.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 20,
+        "subjects": 36
+      }
+    },
+    {
+      "code": "LI572005",
+      "file": "parcours/LI572005.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 25,
+        "subjects": 46
+      }
+    },
+    {
+      "code": "LI572006",
+      "file": "parcours/LI572006.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 25,
+        "subjects": 46
+      }
+    },
+    {
+      "code": "LI572096",
+      "file": "parcours/LI572096.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LI572099",
+      "file": "parcours/LI572099.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 9,
+        "subjects": 18
+      }
+    },
+    {
+      "code": "LI572201",
+      "file": "parcours/LI572201.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 26,
+        "subjects": 54
+      }
+    },
+    {
+      "code": "LI572203",
+      "file": "parcours/LI572203.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 30,
+        "subjects": 62
+      }
+    },
+    {
+      "code": "LI572210",
+      "file": "parcours/LI572210.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 26,
+        "subjects": 56
+      }
+    },
+    {
+      "code": "LI572215",
+      "file": "parcours/LI572215.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 32,
+        "subjects": 67
+      }
+    },
+    {
+      "code": "LI572306",
+      "file": "parcours/LI572306.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 25,
+        "subjects": 49
+      }
+    },
+    {
+      "code": "LI572399",
+      "file": "parcours/LI572399.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 14,
+        "subjects": 28
+      }
+    },
+    {
+      "code": "LI572401",
+      "file": "parcours/LI572401.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 18,
+        "subjects": 33
+      }
+    },
+    {
+      "code": "LI572499",
+      "file": "parcours/LI572499.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 14,
+        "subjects": 27
+      }
+    },
+    {
+      "code": "LI573102",
+      "file": "parcours/LI573102.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 17,
+        "subjects": 34
+      }
+    },
+    {
+      "code": "LI573103",
+      "file": "parcours/LI573103.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 19,
+        "subjects": 36
+      }
+    },
+    {
+      "code": "LI573107",
+      "file": "parcours/LI573107.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 18,
+        "subjects": 36
+      }
+    },
+    {
+      "code": "LI573199",
+      "file": "parcours/LI573199.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 3,
+        "teachingUnits": 15,
+        "subjects": 30
+      }
+    },
+    {
+      "code": "LI573601",
+      "file": "parcours/LI573601.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LI573607",
+      "file": "parcours/LI573607.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LI573619",
+      "file": "parcours/LI573619.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 18,
+        "subjects": 37
+      }
+    },
+    {
+      "code": "LI573638",
+      "file": "parcours/LI573638.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 18,
+        "subjects": 37
+      }
+    },
+    {
+      "code": "LI573693",
+      "file": "parcours/LI573693.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 20
+      }
+    },
+    {
+      "code": "LI573699",
+      "file": "parcours/LI573699.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LI573808",
+      "file": "parcours/LI573808.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 13,
+        "subjects": 34
+      }
+    },
+    {
+      "code": "LI573819",
+      "file": "parcours/LI573819.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 19,
+        "subjects": 51
+      }
+    },
+    {
+      "code": "LI573891",
+      "file": "parcours/LI573891.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "Semester 3 UE 573891370 has no subject rows",
+        "Semester 3 UE 573891360 has no subject rows",
+        "Semester 3 UE 573891380 has no subject rows",
+        "Semester 3 UE 573891390 has no subject rows"
+      ],
+      "counts": {
+        "semesters": 3,
+        "teachingUnits": 14,
+        "subjects": 26
+      }
+    },
+    {
+      "code": "LI573899",
+      "file": "parcours/LI573899.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 8,
+        "subjects": 22
+      }
+    },
+    {
+      "code": "LI574404",
+      "file": "parcours/LI574404.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LI574407",
+      "file": "parcours/LI574407.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 19,
+        "subjects": 52
+      }
+    },
+    {
+      "code": "LI574493",
+      "file": "parcours/LI574493.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 28
+      }
+    },
+    {
+      "code": "LI574499",
+      "file": "parcours/LI574499.json",
+      "validForEstimatedAverage": false,
+      "structuralErrors": [],
+      "sourceWarnings": [
+        "No study-plan table found"
+      ],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      }
+    },
+    {
+      "code": "LI577304",
+      "file": "parcours/LI577304.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 23,
+        "subjects": 35
+      }
+    },
+    {
+      "code": "LI577399",
+      "file": "parcours/LI577399.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 15
+      }
+    },
+    {
+      "code": "LI577402",
+      "file": "parcours/LI577402.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 31,
+        "subjects": 45
+      }
+    },
+    {
+      "code": "LI577499",
+      "file": "parcours/LI577499.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 13,
+        "subjects": 21
+      }
+    },
+    {
+      "code": "LI577599",
+      "file": "parcours/LI577599.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 5,
+        "teachingUnits": 26,
+        "subjects": 42
+      }
+    },
+    {
+      "code": "LI600103",
+      "file": "parcours/LI600103.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 22,
+        "subjects": 40
+      }
+    },
+    {
+      "code": "LI600114",
+      "file": "parcours/LI600114.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 29,
+        "subjects": 56
+      }
+    },
+    {
+      "code": "LI600194",
+      "file": "parcours/LI600194.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 20
+      }
+    },
+    {
+      "code": "LI600199",
+      "file": "parcours/LI600199.json",
+      "validForEstimatedAverage": true,
+      "structuralErrors": [],
+      "sourceWarnings": [],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 9,
+        "subjects": 18
+      }
+    }
+  ]
+}

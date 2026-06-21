@@ -1,0 +1,864 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LA050103",
+    "listed_type": "Licence Appliquée",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Chimie",
+    "listed_specialty": "Chimie Industrielle",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=ABhZHAskVTRddAdjDy9TYg==&etab=UTQFMAo+",
+    "institution": "INSTITUT SUPERIEUR DES LANGUES DE GABES",
+    "degree_type": "Licence Appliquée",
+    "domain": "Sciences et technologies",
+    "mention": "Chimie",
+    "specialty": "Chimie Industrielle",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "053110",
+            "name": "Atomistique et Liaisons Chimiques",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "053245",
+                "name": "Atomistique et Liaisons Chimiques",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 43
+                }
+              }
+            ]
+          },
+          {
+            "code": "053111",
+            "name": "Thermodynamique et Cinétique Chimique",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "053246",
+                "name": "Thermodynamique et Cinétique Chimiques",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 43
+                }
+              }
+            ]
+          },
+          {
+            "code": "053112",
+            "name": "Chimie Expérimentale",
+            "credits": 4,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "053247",
+                "name": "Chimie Expérimentale",
+                "coefficient": 3,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 35,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              }
+            ]
+          },
+          {
+            "code": "053113",
+            "name": "Physique",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "053248",
+                "name": "Physique",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "053114",
+            "name": "Mathématique",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "053249",
+                "name": "Mathématiques",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 43
+                }
+              }
+            ]
+          },
+          {
+            "code": "053115",
+            "name": "UE Transversales 1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "053250",
+                "name": "Informatique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "053251",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "053252",
+                "name": "Droits de l'homme",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "053116",
+            "name": "Chimie des Solutions Aqueuses",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "053253",
+                "name": "Chimie des Solutions Aqueuses",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "053117",
+            "name": "Chimie Organique Générale",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "053254",
+                "name": "Chimie Organique Générale",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "053118",
+            "name": "Chimie Inorganique Générale",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "053255",
+                "name": "Chimie Inorganique Générale",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "053119",
+            "name": "Mathématiques",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "053256",
+                "name": "Mathématiques",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 43
+                }
+              }
+            ]
+          },
+          {
+            "code": "053120",
+            "name": "Physique",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "053257",
+                "name": "Physique",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "053121",
+            "name": "UE Transversales 2",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "053258",
+                "name": "Informatique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "053259",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "053260",
+                "name": "Droits de l'homme",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "054048",
+            "name": "Fonctions en chimie organique",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054098",
+                "name": "Fonctions en chimie organique",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054049",
+            "name": "Chimie inorganique",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054099",
+                "name": "Chimie inorganique",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054051",
+            "name": "Techniques d'analyses physico-chimiques",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054101",
+                "name": "Techniques d’analyses physico-chimiques",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054050",
+            "name": "Génie chimique",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054100",
+                "name": "génie chimique",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054052",
+            "name": "Unité transversale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "054102",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "054103",
+                "name": "Culture de l’entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "054104",
+                "name": "Français",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "054053",
+            "name": "Techniques de séparation",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054105",
+                "name": "Techniques de séparation",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054054",
+            "name": "Opérations unitaires",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054106",
+                "name": "Opérations unitaires",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054055",
+            "name": "Mécanique des fluides et transfert thermique",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054107",
+                "name": "Mécanique des fluides et transfert thermique",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054056",
+            "name": "Techniques d’analyses physico-chimiques",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054108",
+                "name": "Techniques d’analyses physico-chimiques",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054057",
+            "name": "Unité transversale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "054109",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "054110",
+                "name": "Culture de l’entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "054111",
+                "name": "Informatique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "054058",
+            "name": "Chimie organique Industrielle",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054112",
+                "name": "Chimie organique Industrielle",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054059",
+            "name": "Chimie inorganique Industrielle",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054113",
+                "name": "Chimie inorganique Industrielle",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054060",
+            "name": "Normes et contrôle de qualité",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054114",
+                "name": "Normes et contrôle de qualité",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 43
+                }
+              }
+            ]
+          },
+          {
+            "code": "054061",
+            "name": "Contexte réglementaire et environnement en milieu industriel",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054115",
+                "name": "Contexte réglementaire et environnement en milieu industriel",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 21,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 64
+                }
+              }
+            ]
+          },
+          {
+            "code": "054062",
+            "name": "Unité transversale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "054116",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "054117",
+                "name": "Culture de l’entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "054118",
+                "name": "Technique de communication",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "054063",
+            "name": "Projet de fin d’études",
+            "credits": 30,
+            "coefficient": 1,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "054119",
+                "name": "Projet de fin d'étude",
+                "coefficient": 1,
+                "credits": 30,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LA050104",
+    "listed_type": "Licence Appliquée",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Chimie",
+    "listed_specialty": "Céramiques et Verres",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=ARkHQg0iUzJcdVo+VnZWYA==&etab=A2ZUYQ46",
+    "semesters": [],
+    "warnings": [
+      "No study-plan table found"
+    ],
+    "scrape_status": "no_plan"
+  }
+}

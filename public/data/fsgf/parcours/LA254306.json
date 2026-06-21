@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LA254306",
+    "listed_type": "Licence Appliquée",
+    "listed_domain": "Sciences appliquées et technologies",
+    "listed_mention": "Biologie analytique et expérimentale",
+    "listed_specialty": "Biologie analytique et expérimentale ( Fac .des Sciences de Gafsa)",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=WkJWE1h3BGJcbwR+AToKO1J0CjE=&etab=UTRUYV1p",
+    "semesters": [],
+    "warnings": [
+      "No study-plan table found"
+    ],
+    "scrape_status": "no_plan"
+  }
+}

@@ -1,0 +1,39 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro"
+import { ProgramSearch } from "@/components/programs/ProgramSearch"
+import { fr } from "@/i18n/fr"
+import { getAlternateRoutes, ROUTES } from "@/i18n/routes"
+import { loadIndex } from "@/lib/data.server"
+
+const locale = "fr" as const
+const t = fr
+const alternates = getAlternateRoutes("programs")
+const title = t.seo.titleTemplate.replace("{title}", t.programs.title)
+
+const index = await loadIndex()
+---
+
+<BaseLayout
+  title={title}
+  description={t.programs.description}
+  locale={locale}
+  alternates={alternates}
+  canonicalPath={ROUTES.programs[locale]}
+  currentRoute="programs"
+>
+  <section class="mb-8 space-y-2">
+    <h1 class="text-2xl font-bold tracking-tight">{t.programs.title}</h1>
+    <p class="text-muted-foreground">{t.programs.description}</p>
+    <p class="text-sm text-muted-foreground">
+      {index.summary.parcours} {t.dataStatus.totalPrograms.toLowerCase()} · {index.summary.withPlan} {t.dataStatus.usablePlans.toLowerCase()}
+    </p>
+  </section>
+
+  <ProgramSearch
+    programs={index.parcours}
+    locale={locale}
+    t={t}
+    programRoute={ROUTES.program[locale]}
+    client:load
+  />
+</BaseLayout>

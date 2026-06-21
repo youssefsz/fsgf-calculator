@@ -1,0 +1,1650 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LA056505",
+    "listed_type": "Licence Appliquée",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Géomatique - Terre et environnement",
+    "listed_specialty": "Géomatique, terre et environnement",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=Bx9RFFt0UTADKls4Bz0HKgE9&etab=UzYANQE1",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Appliquée",
+    "domain": "Sciences et technologies",
+    "mention": "Géomatique - Terre et environnement",
+    "specialty": "Géomatique, terre et environnement",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "055002",
+            "name": "Système de Positionnement Global",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "55007",
+                "name": "- Système de Positionnement Spatial",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 7,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 29
+                }
+              },
+              {
+                "code": "55006",
+                "name": "- Topographie de base et numérique",
+                "coefficient": 2,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 21,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 43
+                }
+              }
+            ]
+          },
+          {
+            "code": "055000",
+            "name": "Géodynamique interne de la Terre et manifestations lithosphériques",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "55001",
+                "name": "La Terre dans l’univers",
+                "coefficient": 1.5,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 5,
+                  "integrated_course": null,
+                  "total": 11
+                }
+              },
+              {
+                "code": "55002",
+                "name": "Structure, dynamique interne de la Terre et manifestations lithosphériques",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "55003",
+                "name": "Matériaux lithosphériques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 16,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 38
+                }
+              }
+            ]
+          },
+          {
+            "code": "055001",
+            "name": "Calcul Scientifique",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "55004",
+                "name": "Mathématiques appliqués",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 10,
+                  "tutorial": 18,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 29
+                }
+              },
+              {
+                "code": "55005",
+                "name": "Statistiques et Théorie des erreurs",
+                "coefficient": 2,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 43
+                }
+              }
+            ]
+          },
+          {
+            "code": "055003",
+            "name": "DAO et Infographie",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "55008",
+                "name": "DAO",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "55009",
+                "name": "Infographie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 27
+                }
+              }
+            ]
+          },
+          {
+            "code": "055004",
+            "name": "Anglais, C2i, Droits de l’Homme",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "55010",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "55011",
+                "name": "C2i",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 12
+                }
+              },
+              {
+                "code": "55012",
+                "name": "Droits de l'Homme",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "00533012",
+            "name": "UO1",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00533013",
+                "name": "Géomorphologie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "00533014",
+                "name": "Concepts de base de la topographie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00533015",
+            "name": "UO2",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00533016",
+                "name": "Processus de surface et milieux sédimentaires",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "00533017",
+                "name": "Utilisation artistique des roches",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "005314200",
+            "name": "UO3",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "005314203",
+                "name": "Géomorphologie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "005314204",
+                "name": "Procesus de surface et milieu de sédimentation",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "055008",
+            "name": "Algo-Programmation C",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "55021",
+                "name": "Algorithmique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "55022",
+                "name": "Programmation C",
+                "coefficient": 2,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 28,
+                  "integrated_course": null,
+                  "total": 36
+                }
+              }
+            ]
+          },
+          {
+            "code": "055006",
+            "name": "Photogrammétrie",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "55016",
+                "name": "Photogrammétrie de base",
+                "coefficient": 1.5,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 0,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 29
+                }
+              },
+              {
+                "code": "55017",
+                "name": "Photogrammétrie numérique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "55018",
+                "name": "Orthophoto",
+                "coefficient": 0.5,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 15
+                }
+              }
+            ]
+          },
+          {
+            "code": "055007",
+            "name": "Cartographie Numérique",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "55019",
+                "name": "Les concepts de base de la cartographie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 7,
+                  "practical": 24,
+                  "integrated_course": null,
+                  "total": 32
+                }
+              },
+              {
+                "code": "55020",
+                "name": "Techniques de numérisation et habillage des cartes thématiques",
+                "coefficient": 2,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 7,
+                  "practical": 25,
+                  "integrated_course": null,
+                  "total": 33
+                }
+              }
+            ]
+          },
+          {
+            "code": "055005",
+            "name": "Principes de Stratigraphie et de Cartographie",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "55013",
+                "name": "- Eléments de base de Stratigraphie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 6,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "55014",
+                "name": "- Outils et techniques de Cartographie géologiquee",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 6,
+                  "tutorial": 6,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 20
+                }
+              },
+              {
+                "code": "55015",
+                "name": "- Initiation à la stratigraphie et à la cartographie géologique sur le terrain",
+                "coefficient": 1,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 24,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 25
+                }
+              }
+            ]
+          },
+          {
+            "code": "054009",
+            "name": "Anglais, C2i, Droits de l’Homme",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "54022",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "54023",
+                "name": "C2i",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "54024",
+                "name": "Droits de l’Homme",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "00533021",
+            "name": "UO2",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00533022",
+                "name": "Géochimie organique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "00533023",
+                "name": "Tectonique des plaques",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "169900692",
+            "name": "UO1/1",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169901355",
+                "name": "Initiation à la géophysique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "169901354",
+                "name": "Pédologie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00533018",
+            "name": "UO1",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00533019",
+                "name": "Initiation à la géophysique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "00533020",
+                "name": "Pédologie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "055010",
+            "name": "Structures et déformations",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "055027",
+                "name": "Elements de Géophysique et aléas sismiques",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 13,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "055026",
+                "name": "Notions de tectonique, déformations de surface et géotechnique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 21,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 35
+                }
+              },
+              {
+                "code": "055028",
+                "name": "Terrain (1 j)",
+                "coefficient": 0.5,
+                "credits": 1,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 8,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 9
+                }
+              }
+            ]
+          },
+          {
+            "code": "055011",
+            "name": "Télédétection",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "055029",
+                "name": "Principes de télédétection",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 15
+                }
+              },
+              {
+                "code": "055030",
+                "name": "Traitement d'images",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 28,
+                  "integrated_course": null,
+                  "total": 29
+                }
+              },
+              {
+                "code": "55031",
+                "name": "Spatiocartes",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 28,
+                  "integrated_course": null,
+                  "total": 29
+                }
+              }
+            ]
+          },
+          {
+            "code": "055012",
+            "name": "Système d'Information Géographique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "055033",
+                "name": "Concepts des Base de Données Géographiques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 7,
+                  "practical": 21,
+                  "integrated_course": null,
+                  "total": 36
+                }
+              },
+              {
+                "code": "55032",
+                "name": "Introduction au SIG",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 28,
+                  "integrated_course": null,
+                  "total": 36
+                }
+              }
+            ]
+          },
+          {
+            "code": "055013",
+            "name": "Unité Transversale",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "55035",
+                "name": "Culture de l'entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "55036",
+                "name": "Techniques de communication",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "55034",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "00533024",
+            "name": "UO1",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00533025",
+                "name": "Hydrogéophysique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 15,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "00533026",
+                "name": "Gemmologie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 15,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "005330300",
+            "name": "UO3",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "005330310",
+                "name": "Hydogéophysique",
+                "coefficient": 0.5,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "005330320",
+                "name": "Paléogéographie",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "005330330",
+                "name": "Pollution et assainissement des eaux",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              },
+              {
+                "code": "005330340",
+                "name": "Patrimoine géologique",
+                "coefficient": 0.5,
+                "credits": 1,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00533027",
+            "name": "UO2",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00533028",
+                "name": "Paléogéographie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 15,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "00533029",
+                "name": "Patrimoine géologique",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 15,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "055016",
+            "name": "SIG mobile",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "055042",
+                "name": "SIG et GPS",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 28,
+                  "integrated_course": null,
+                  "total": 36
+                }
+              },
+              {
+                "code": "055043",
+                "name": "Internet et cartographie",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 28,
+                  "integrated_course": null,
+                  "total": 36
+                }
+              }
+            ]
+          },
+          {
+            "code": "055015",
+            "name": "Interfaçage SIGe",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "055040",
+                "name": "Programmation Orienté Objet",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 28,
+                  "integrated_course": null,
+                  "total": 36
+                }
+              },
+              {
+                "code": "55041",
+                "name": "Systèmes de Gestion des Bases de données géographiques",
+                "coefficient": 1.5,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 28,
+                  "integrated_course": null,
+                  "total": 36
+                }
+              }
+            ]
+          },
+          {
+            "code": "055014",
+            "name": "Ressources naturelles et environnement durable",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "055038",
+                "name": "Matériaux utiles et ressources énergétiques",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "55037",
+                "name": "Eau et sol",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 7,
+                  "tutorial": 0,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "55039",
+                "name": "Vulnérabilité des environnements",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "055017",
+            "name": "Unité Transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "055044",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "55045",
+                "name": "Culture de l'entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "00533003",
+            "name": "UO2",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00533005",
+                "name": "Essais géotechniques",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "00533004",
+                "name": "Pollution des environnement",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "005330343",
+            "name": "UO4",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "005330344",
+                "name": "Pollution des environnements",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "005330341",
+            "name": "UO3",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "005330342",
+                "name": "Essais géotechniques",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00533030",
+            "name": "UO1",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00533031",
+                "name": "Voies de traitement des eaux usées",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "00533032",
+                "name": "Systèmes pétroliers",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "055019",
+            "name": "Gestion et Prévision en Environnement",
+            "credits": 6,
+            "coefficient": 1,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "055050",
+                "name": "Modélisation des risques et simulation des catastrophes",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 14,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 29
+                }
+              },
+              {
+                "code": "055051",
+                "name": "Mini-Projet bibliographique",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 15
+                }
+              },
+              {
+                "code": "55049",
+                "name": "Geostatistique et risques",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": 29
+                }
+              }
+            ]
+          },
+          {
+            "code": "055020",
+            "name": "Géomatique et Législation",
+            "credits": 6,
+            "coefficient": 1,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "055054",
+                "name": "Droit de l'environnement",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 15
+                }
+              },
+              {
+                "code": "055052",
+                "name": "Législation foncière",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 7,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              },
+              {
+                "code": "055053",
+                "name": "Code minier, code forestier et code des eaux",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 14,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "055018",
+            "name": "Mini projet SIG Tutoré",
+            "credits": 6,
+            "coefficient": 1,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "055046",
+                "name": "SIG et ressources naturelles",
+                "coefficient": 1,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 8,
+                  "practical": 13,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              },
+              {
+                "code": "055047",
+                "name": "SIG et Aménagement",
+                "coefficient": 1,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 8,
+                  "practical": 20,
+                  "integrated_course": null,
+                  "total": 29
+                }
+              },
+              {
+                "code": "55048",
+                "name": "SIG et risques naturels",
+                "coefficient": 1,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 8,
+                  "practical": 13,
+                  "integrated_course": null,
+                  "total": 22
+                }
+              }
+            ]
+          },
+          {
+            "code": "055021",
+            "name": "Unités Transversales",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "055055",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "055056",
+                "name": "Culture de l’Entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "00533009",
+            "name": "UO1",
+            "credits": 4,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00533010",
+                "name": "Hydrologie",
+                "coefficient": 1.5,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "00533011",
+                "name": "Ecosystèmes humides",
+                "coefficient": 1.5,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00533006",
+            "name": "UO2",
+            "credits": 4,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00533007",
+                "name": "Dégradation des littoraux",
+                "coefficient": 1.5,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              },
+              {
+                "code": "00533008",
+                "name": "Etude d'impact",
+                "coefficient": 1.5,
+                "credits": 2,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 14,
+                  "tutorial": 7,
+                  "practical": 7,
+                  "integrated_course": null,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "055022",
+            "name": "Activité pratique de Fin d’Etudes",
+            "credits": 30,
+            "coefficient": 1,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "055057",
+                "name": "Activité pratique de Fin d’Etudes",
+                "coefficient": 1,
+                "credits": 30,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 0
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

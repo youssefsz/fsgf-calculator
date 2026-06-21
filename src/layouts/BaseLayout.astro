@@ -1,0 +1,54 @@
+---
+import { ClientRouter } from "astro:transitions"
+
+import SEOHead from "@/components/seo/SEOHead.astro"
+import Header from "@/components/navigation/Header.astro"
+import NavProgress from "@/components/navigation/NavProgress.astro"
+import ThemeScript from "@/components/theme/ThemeScript.astro"
+import { en } from "@/i18n/en"
+import { fr } from "@/i18n/fr"
+import type { Locale, RouteKey } from "@/i18n/routes"
+import "@/styles/global.css"
+
+interface Props {
+  title: string
+  description: string
+  locale: Locale
+  alternates: Record<Locale, string>
+  canonicalPath: string
+  currentRoute: RouteKey
+}
+
+const { title, description, locale, alternates, canonicalPath, currentRoute } =
+  Astro.props
+const t = locale === "fr" ? fr : en
+const siteUrl = Astro.site?.toString() ?? "http://localhost:4321"
+---
+
+<!doctype html>
+<html lang={locale} dir="ltr">
+  <head>
+    <SEOHead
+      title={title}
+      description={description}
+      locale={locale}
+      alternates={alternates}
+      canonicalPath={canonicalPath}
+      siteUrl={siteUrl}
+    />
+    <ThemeScript />
+    <ClientRouter />
+  </head>
+  <body class="flex min-h-svh flex-col bg-background text-foreground">
+    <NavProgress />
+    <Header locale={locale} t={t} alternates={alternates} currentRoute={currentRoute} />
+    <main class="mx-auto w-full max-w-5xl flex-1 px-4 py-8">
+      <slot />
+    </main>
+    <footer class="mt-auto border-t border-border py-8 text-center text-sm text-muted-foreground">
+      <div class="mx-auto max-w-5xl px-4">
+        &copy; {new Date().getFullYear()} {t.site.name}. {t.privacy.localOnly}
+      </div>
+    </footer>
+  </body>
+</html>

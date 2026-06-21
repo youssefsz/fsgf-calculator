@@ -1,0 +1,86 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro"
+import { en } from "@/i18n/en"
+import { getAlternateRoutes, ROUTES } from "@/i18n/routes"
+import { loadIndex } from "@/lib/data.server"
+
+const locale = "en" as const
+const t = en
+const alternates = getAlternateRoutes("dataStatus")
+const title = t.seo.titleTemplate.replace("{title}", t.dataStatus.title)
+
+const index = await loadIndex()
+const unavailable = index.parcours.filter((p) => !p.hasPlan)
+const generatedAt = new Date(index.generatedAt).toLocaleDateString(locale, {
+  dateStyle: "long",
+})
+---
+
+<BaseLayout
+  title={title}
+  description={t.dataStatus.description}
+  locale={locale}
+  alternates={alternates}
+  canonicalPath={ROUTES.dataStatus[locale]}
+  currentRoute="dataStatus"
+>
+  <article class="max-w-3xl space-y-8">
+    <header class="space-y-2">
+      <h1 class="text-2xl font-bold tracking-tight">{t.dataStatus.title}</h1>
+      <p class="text-muted-foreground">{t.dataStatus.description}</p>
+      <p class="text-sm text-muted-foreground">
+        {t.dataStatus.generatedAt.replace("{date}", generatedAt)}
+      </p>
+    </header>
+
+    <section class="space-y-4">
+      <h2 class="text-lg font-semibold">{t.dataStatus.summary}</h2>
+      <dl class="grid gap-3 sm:grid-cols-2">
+        <div>
+          <dt class="text-sm text-muted-foreground">{t.dataStatus.totalPrograms}</dt>
+          <dd class="text-lg font-medium">{index.summary.parcours}</dd>
+        </div>
+        <div>
+          <dt class="text-sm text-muted-foreground">{t.dataStatus.usablePlans}</dt>
+          <dd class="text-lg font-medium">{index.summary.withPlan}</dd>
+        </div>
+        <div>
+          <dt class="text-sm text-muted-foreground">{t.dataStatus.unavailablePlans}</dt>
+          <dd class="text-lg font-medium">{index.summary.withoutPlan}</dd>
+        </div>
+        <div>
+          <dt class="text-sm text-muted-foreground">{t.dataStatus.totalUnits}</dt>
+          <dd class="text-lg font-medium">{index.summary.teachingUnits}</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="space-y-4">
+      <h2 class="text-lg font-semibold">{t.dataStatus.unavailablePlans}</h2>
+      <p class="text-muted-foreground">{t.dataStatus.unavailablePlansDescription}</p>
+      <ul class="divide-y divide-border border-t border-border">
+        {
+          unavailable.map((p) => (
+            <li class="py-3">
+              <a
+                href={ROUTES.program[locale].replace("{code}", p.code)}
+                class="font-mono text-sm text-muted-foreground hover:underline"
+              >
+                {p.code}
+              </a>
+              <p class="font-medium">{p.specialty}</p>
+              <p class="text-sm text-muted-foreground">
+                {p.degreeType} · {p.mention}
+              </p>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.dataStatus.sourceInconsistencies}</h2>
+      <p class="text-muted-foreground">{t.dataStatus.sourceInconsistenciesDescription}</p>
+    </section>
+  </article>
+</BaseLayout>

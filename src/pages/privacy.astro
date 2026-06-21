@@ -1,0 +1,73 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro"
+import { en } from "@/i18n/en"
+import { getAlternateRoutes, ROUTES } from "@/i18n/routes"
+
+const locale = "en" as const
+const t = en
+const alternates = getAlternateRoutes("privacy")
+const title = t.seo.titleTemplate.replace("{title}", t.privacy.title)
+---
+
+<BaseLayout
+  title={title}
+  description={t.privacy.description}
+  locale={locale}
+  alternates={alternates}
+  canonicalPath={ROUTES.privacy[locale]}
+  currentRoute="privacy"
+>
+  <article class="max-w-3xl space-y-8">
+    <header class="space-y-2">
+      <h1 class="text-2xl font-bold tracking-tight">{t.privacy.title}</h1>
+      <p class="text-muted-foreground">{t.privacy.description}</p>
+    </header>
+
+    <p>{t.privacy.intro}</p>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.privacy.localOnlyTitle}</h2>
+      <p class="text-muted-foreground">{t.privacy.localOnly}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.privacy.noAccountTitle}</h2>
+      <p class="text-muted-foreground">{t.privacy.noAccount}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.privacy.dataWeCollectTitle}</h2>
+      <p class="text-muted-foreground">{t.privacy.dataWeCollect}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.privacy.localStorageTitle}</h2>
+      <p class="text-muted-foreground">{t.privacy.localStorage}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.privacy.clearingDataTitle}</h2>
+      <p class="text-muted-foreground">{t.privacy.clearing}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.privacy.analyticsTitle}</h2>
+      <p class="text-muted-foreground">{t.privacy.analytics}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.privacy.thirdPartiesTitle}</h2>
+      <p class="text-muted-foreground">{t.privacy.thirdParties}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.privacy.changesTitle}</h2>
+      <p class="text-muted-foreground">{t.privacy.changes}</p>
+    </section>
+
+    <section class="space-y-2">
+      <h2 class="text-lg font-semibold">{t.privacy.questionsTitle}</h2>
+      <p class="text-muted-foreground">{t.privacy.questions}</p>
+    </section>
+  </article>
+</BaseLayout>

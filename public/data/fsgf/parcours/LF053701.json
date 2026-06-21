@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF053701",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Sciences de la nature et applications",
+    "listed_specialty": "Biologie-Géologie",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=W0NVF19wA2IBKFI0Bj4KJwY+&etab=BGEFMAA0",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Fondamentale",
+    "domain": "Sciences et technologies",
+    "mention": "Sciences de la nature et applications",
+    "specialty": "",
+    "semesters": [],
+    "warnings": [
+      "No study-plan table found"
+    ],
+    "scrape_status": "no_plan"
+  }
+}

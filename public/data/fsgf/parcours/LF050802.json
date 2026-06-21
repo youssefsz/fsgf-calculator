@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF050802",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Mathématiques 2010-2011",
+    "listed_specialty": "Mathématiques et applications",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=VExRE1h3BWRVfAZrU3NUZA==&etab=UzYCNw87",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Fondamentale",
+    "domain": "Sciences et technologies",
+    "mention": "Mathématiques 2010-2011",
+    "specialty": "Mathématiques et applications",
+    "semesters": [
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "050812",
+            "name": "Calcul intégral",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050822",
+                "name": "Calcul intégral",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 98
+                }
+              }
+            ]
+          },
+          {
+            "code": "050811",
+            "name": "Calcul scientifique",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050821",
+                "name": "Calcul scientifique",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 98
+                }
+              }
+            ]
+          },
+          {
+            "code": "050810",
+            "name": "Calcul différentiel",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050820",
+                "name": "Calcul différentiel",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 98
+                }
+              }
+            ]
+          },
+          {
+            "code": "050813",
+            "name": "Unité transversale",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "050823",
+                "name": "Unité transversale",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "005327031213",
+            "name": "UO1",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "0053270312130",
+                "name": "Variables complexe",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "005327031214",
+            "name": "UO2",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "053270312140",
+                "name": "Introduction des A modules",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "050817",
+            "name": "Transformation de fourier",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050827",
+                "name": "Transformation de fourier",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 70
+                }
+              }
+            ]
+          },
+          {
+            "code": "050815",
+            "name": "Optimisation-convexité",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050825",
+                "name": "Optimisation - convexité",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 70
+                }
+              }
+            ]
+          },
+          {
+            "code": "050814",
+            "name": "Probabilité et statistiques II",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050824",
+                "name": "Probabilités et statistiques",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 98
+                }
+              }
+            ]
+          },
+          {
+            "code": "050816",
+            "name": "Equations différentielles",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "050826",
+                "name": "Equations différentielles",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 70
+                }
+              }
+            ]
+          },
+          {
+            "code": "005327031215",
+            "name": "UO1",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "0053270312150",
+                "name": "Polynômes orthogonaux et fonctions spéciales",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "005327031216",
+            "name": "UO2",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "0053270312160",
+                "name": "Théorie du point fixe",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "169900694",
+            "name": "UO3",
+            "credits": 5,
+            "coefficient": 2,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "169901357",
+                "name": "Introduction à l'analyse Hilbertienne",
+                "coefficient": 2,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

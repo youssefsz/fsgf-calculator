@@ -1,0 +1,218 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro"
+import { Button } from "@/components/ui/button"
+import { fr } from "@/i18n/fr"
+import { getAlternateRoutes, ROUTES } from "@/i18n/routes"
+import { loadIndex, loadPlan } from "@/lib/data.server"
+import type { ParcoursIndexEntry, ParcoursPlanFile } from "@/lib/schemas"
+
+export async function getStaticPaths() {
+  const index = await loadIndex()
+  return index.parcours.map((p) => ({
+    params: { code: p.code },
+  }))
+}
+
+const { code } = Astro.params
+const locale = "fr" as const
+const t = fr
+
+const index = await loadIndex()
+const entry = index.parcours.find((p) => p.code === code) as ParcoursIndexEntry
+let planFile: ParcoursPlanFile | null = null
+if (entry.hasPlan) {
+  planFile = await loadPlan(code)
+}
+
+const alternates = getAlternateRoutes("program", { code })
+const title = t.seo.titleTemplate.replace(
+  "{title}",
+  t.programs.programPageTitle.replace("{code}", entry.code).replace("{specialty}", entry.specialty)
+)
+
+const totalCredits = planFile
+  ? planFile.parcours.semesters.reduce(
+      (sum, s) =>
+        sum + s.teaching_units.reduce((uSum, ue) => uSum + ue.credits, 0),
+      0
+    )
+  : 0
+
+const calculatorHref = `${ROUTES.home[locale]}?code=${encodeURIComponent(entry.code)}`
+
+const siteUrl = Astro.site?.toString() ?? "http://localhost:4321"
+const pageUrl = new URL(ROUTES.program[locale].replace("{code}", entry.code), siteUrl).toString()
+const structuredData = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: t.site.shortName,
+        item: new URL(ROUTES.home[locale], siteUrl).toString(),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: t.nav.programs,
+        item: new URL(ROUTES.programs[locale], siteUrl).toString(),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: entry.specialty,
+        item: pageUrl,
+      },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: t.site.name,
+    applicationCategory: "EducationApplication",
+    operatingSystem: "Any",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+  },
+]
+---
+
+<BaseLayout
+  title={title}
+  description={t.programs.description}
+  locale={locale}
+  alternates={alternates}
+  canonicalPath={ROUTES.program[locale].replace("{code}", entry.code)}
+  currentRoute="program"
+>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+  <article class="max-w-3xl space-y-8">
+    <header class="space-y-4">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <p class="font-mono text-sm text-primary">{entry.code}</p>
+          <h1 class="text-2xl font-bold tracking-tight text-foreground">{entry.specialty}</h1>
+        </div>
+        {entry.hasPlan ? (
+          <Button asChild>
+            <a href={calculatorHref}>{t.programs.calculateFor}</a>
+          </Button>
+        ) : (
+          <Button disabled>{t.programs.notAvailable}</Button>
+        )}
+      </div>
+
+      <dl class="grid gap-2 text-sm sm:grid-cols-2">
+        <div>
+          <dt class="text-muted-foreground">{t.programs.degreeType}</dt>
+          <dd class="font-medium text-foreground">{entry.degreeType}</dd>
+        </div>
+        <div>
+          <dt class="text-muted-foreground">{t.programs.domain}</dt>
+          <dd class="font-medium text-foreground">{entry.domain}</dd>
+        </div>
+        <div>
+          <dt class="text-muted-foreground">{t.programs.mention}</dt>
+          <dd class="font-medium text-foreground">{entry.mention}</dd>
+        </div>
+        <div>
+          <dt class="text-muted-foreground">{t.programs.specialty}</dt>
+          <dd class="font-medium text-foreground">{entry.specialty}</dd>
+        </div>
+      </dl>
+    </header>
+
+    {
+      !entry.hasPlan ? (
+        <section>
+          <h2 class="text-lg font-semibold">{t.programs.notAvailable}</h2>
+          <p class="text-muted-foreground">{t.programs.notAvailableDescription}</p>
+        </section>
+      ) : null
+    }
+
+    {
+      entry.hasPlan && planFile ? (
+        <>
+          <section class="space-y-4 rounded-xl bg-secondary/5 p-4">
+            <h2 class="text-lg font-semibold text-foreground">{t.programs.teachingUnits}</h2>
+            <dl class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <div>
+                <dt class="text-sm text-muted-foreground">{t.programs.availableYears}</dt>
+                <dd class="text-lg font-semibold text-primary">{entry.academicYears.length}</dd>
+              </div>
+              <div>
+                <dt class="text-sm text-muted-foreground">{t.programs.teachingUnits}</dt>
+                <dd class="text-lg font-semibold text-primary">{entry.counts.teachingUnits}</dd>
+              </div>
+              <div>
+                <dt class="text-sm text-muted-foreground">{t.programs.subjects}</dt>
+                <dd class="text-lg font-semibold text-primary">{entry.counts.subjects}</dd>
+              </div>
+              <div>
+                <dt class="text-sm text-muted-foreground">{t.programs.credits}</dt>
+                <dd class="text-lg font-semibold text-primary">{totalCredits}</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="space-y-6">
+            {planFile.parcours.semesters.map((semester) => (
+              <div class="space-y-3">
+                <h3 class="font-medium text-muted-foreground">
+                  {t.calculator.semester.replace("{semester}", semester.number.toString())}
+                </h3>
+                <ul class="divide-y divide-border border-t border-border">
+                  {semester.teaching_units.map((ue) => (
+                    <li class="py-3">
+                      <div>
+                        <h4 class="font-medium">
+                          {ue.code} — {ue.name}
+                        </h4>
+                        <p class="text-sm text-muted-foreground">
+                          {t.programs.coefficients}: {ue.coefficient} · {t.programs.credits}: {ue.credits}
+                        </p>
+                      </div>
+                      {ue.subjects.length > 0 ? (
+                        <ul class="mt-2 space-y-1 text-sm">
+                          {ue.subjects.map((subject) => (
+                            <li class="flex items-center justify-between">
+                              <span>{subject.name}</span>
+                              <span class="text-muted-foreground">
+                                Coef {subject.coefficient}
+                                {subject.credits !== null ? ` · ${subject.credits} cr` : ""}
+                              </span>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p class="mt-2 text-sm text-muted-foreground">
+                          {t.calculator.missingSubjectsDescription}
+                        </p>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </section>
+        </>
+      ) : null
+    }
+
+    <section class="space-y-2 text-sm text-muted-foreground">
+      <h2 class="text-base font-semibold text-foreground">{t.programs.dataSource}</h2>
+      <p>{t.programs.dataSourceDescription}</p>
+      <p>
+        <strong class="text-foreground">{t.common.disclaimer}.</strong>{" "}
+        {t.landing.disclaimer}
+      </p>
+    </section>
+  </article>
+</BaseLayout>

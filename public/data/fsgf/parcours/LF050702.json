@@ -1,0 +1,956 @@
+{
+  "schemaVersion": 1,
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "parcours": {
+    "code": "LF050702",
+    "listed_type": "Licence Fondamentale",
+    "listed_domain": "Sciences et technologies",
+    "listed_mention": "Mathématiques (2008)",
+    "listed_specialty": "Mathématiques",
+    "source_url": "http://parcours-lmd.salima.tn/listeueetab.php?parc=VU0ERlxzAGFUfQRmBSUENA==&etab=B2JYbQ46",
+    "institution": "FACULTE DES SCIENCES DE GAFSA",
+    "degree_type": "Licence Fondamentale",
+    "domain": "Sciences et technologies",
+    "mention": "Mathématiques (2008)",
+    "specialty": "Mathématiques",
+    "semesters": [
+      {
+        "number": 1,
+        "teaching_units": [
+          {
+            "code": "051154",
+            "name": "Mathematique de base",
+            "credits": 7,
+            "coefficient": 5,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051500",
+                "name": "Mathématiques de base",
+                "coefficient": 5,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 56,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 113
+                }
+              }
+            ]
+          },
+          {
+            "code": "051155",
+            "name": "Physique 1",
+            "credits": 6,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051501",
+                "name": "Mécanique 1",
+                "coefficient": 2,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 50
+                }
+              },
+              {
+                "code": "051502",
+                "name": "Optique",
+                "coefficient": 2,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 50
+                }
+              }
+            ]
+          },
+          {
+            "code": "051156",
+            "name": "Algorithme et structure de données(I)",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051503",
+                "name": "Algorithmique et structure de données I",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 35,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 57
+                }
+              }
+            ]
+          },
+          {
+            "code": "051157",
+            "name": "UE transversales",
+            "credits": 6,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "051506",
+                "name": "Droit de l'Homme",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "51504",
+                "name": "Anglaise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051505",
+                "name": "C2i",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "teaching_units": [
+          {
+            "code": "051158",
+            "name": "Algèbre linéaire",
+            "credits": 6,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051507",
+                "name": "Algèbre linéaire",
+                "coefficient": 4,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 85
+                }
+              }
+            ]
+          },
+          {
+            "code": "051159",
+            "name": "Physique 2",
+            "credits": 5,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051509",
+                "name": "Electromagnétisme",
+                "coefficient": 2,
+                "credits": 2,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 50
+                }
+              },
+              {
+                "code": "051508",
+                "name": "Mécanique 2",
+                "coefficient": 2,
+                "credits": 3,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 14,
+                  "practical": 14,
+                  "integrated_course": null,
+                  "total": 50
+                }
+              }
+            ]
+          },
+          {
+            "code": "051160",
+            "name": "Algorithme et structure de données(II)",
+            "credits": 4,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051510",
+                "name": "Algorithmique et structure de données II",
+                "coefficient": 3,
+                "credits": 4,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 21,
+                  "tutorial": 35,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 57
+                }
+              }
+            ]
+          },
+          {
+            "code": "051161",
+            "name": "Analyse",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051511",
+                "name": "Analyse",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 57
+                }
+              }
+            ]
+          },
+          {
+            "code": "051162",
+            "name": "UE transversales",
+            "credits": 6,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "051512",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051513",
+                "name": "C2i",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051514",
+                "name": "Droit de l'Homme",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "teaching_units": [
+          {
+            "code": "051164",
+            "name": "Calcul diférentiel dans Rn",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051516",
+                "name": "Calcul différentiel dans Rn",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 99
+                }
+              }
+            ]
+          },
+          {
+            "code": "051165",
+            "name": "Algèbre et arithmetique",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051517",
+                "name": "Algèbre et arithmétique",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 85
+                }
+              }
+            ]
+          },
+          {
+            "code": "051163",
+            "name": "Séries et intégrales (I)",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051515",
+                "name": "Séries et integrales(I)",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 99
+                }
+              }
+            ]
+          },
+          {
+            "code": "051166",
+            "name": "UE transversales",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "051518",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051519",
+                "name": "Culture d'Entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "00532721",
+            "name": "Optionnelle 3*",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00532722",
+                "name": "Analyse combinatoire",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00532719",
+            "name": "Optionnelle 3",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00532720",
+                "name": "Algèbre de boole",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "teaching_units": [
+          {
+            "code": "051169",
+            "name": "Probabilité et statistiques (I)",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051522",
+                "name": "Probabilité et statistiques(I)",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 85
+                }
+              }
+            ]
+          },
+          {
+            "code": "051168",
+            "name": "Algèbre euclidienne",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051521",
+                "name": "Algèbre euclidienne",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 99
+                }
+              }
+            ]
+          },
+          {
+            "code": "051167",
+            "name": "Séries et intégrales (II)",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051520",
+                "name": "Series et integrale(II)",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 99
+                }
+              }
+            ]
+          },
+          {
+            "code": "051170",
+            "name": "UE transversales",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "51523",
+                "name": "Anglais",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              },
+              {
+                "code": "051524",
+                "name": "Culture d'Entreprise",
+                "coefficient": 1,
+                "credits": 2,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 21
+                }
+              }
+            ]
+          },
+          {
+            "code": "00532723",
+            "name": "Optionnelle 4",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00532724",
+                "name": "Transformation de laplace",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00532725",
+            "name": "Optionnelle 4*",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00532726",
+                "name": "Variable Complexe",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "teaching_units": [
+          {
+            "code": "051173",
+            "name": "Topologie",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051527",
+                "name": "Topologie",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 99
+                }
+              }
+            ]
+          },
+          {
+            "code": "051171",
+            "name": "Calcul intégral",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051525",
+                "name": "Calcul intégral",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 99
+                }
+              }
+            ]
+          },
+          {
+            "code": "051172",
+            "name": "calcul différentiel",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051526",
+                "name": "Calcul différentiel",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 99
+                }
+              }
+            ]
+          },
+          {
+            "code": "051174",
+            "name": "UE transversales Anglais",
+            "credits": 4,
+            "coefficient": 2,
+            "nature": "Trans",
+            "exam_regime": "CC",
+            "subjects": [
+              {
+                "code": "051528",
+                "name": "Anglais",
+                "coefficient": 2,
+                "credits": 4,
+                "exam_regime": "CC",
+                "hours": {
+                  "course": 0,
+                  "tutorial": 0,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 28
+                }
+              }
+            ]
+          },
+          {
+            "code": "00532729",
+            "name": "UEO 1",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00532730",
+                "name": "Variable Complexe",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00532727",
+            "name": "UEO 2",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00532728",
+                "name": "Introduction à la théorie des A-modules",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "teaching_units": [
+          {
+            "code": "051175",
+            "name": "Algèbre générale",
+            "credits": 7,
+            "coefficient": 4,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051529",
+                "name": "Algèbre générale",
+                "coefficient": 4,
+                "credits": 7,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 42,
+                  "tutorial": 56,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 99
+                }
+              }
+            ]
+          },
+          {
+            "code": "051176",
+            "name": "Equations différentielles",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "051530",
+                "name": "Equations différentielles",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 71
+                }
+              }
+            ]
+          },
+          {
+            "code": "051177",
+            "name": "Probabilité",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "51175",
+                "name": "Probabilité",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 70
+                }
+              }
+            ]
+          },
+          {
+            "code": "051178",
+            "name": "Analyse numérique",
+            "credits": 6,
+            "coefficient": 3,
+            "nature": "Fond",
+            "exam_regime": "MX",
+            "subjects": [
+              {
+                "code": "51176",
+                "name": "Analyse numérique",
+                "coefficient": 3,
+                "credits": 6,
+                "exam_regime": "MX",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 42,
+                  "practical": 0,
+                  "integrated_course": null,
+                  "total": 70
+                }
+              }
+            ]
+          },
+          {
+            "code": "00532731",
+            "name": "UEO 1",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00532732",
+                "name": "Convexité et optimisation",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          },
+          {
+            "code": "00532733",
+            "name": "UEO 2",
+            "credits": 5,
+            "coefficient": 3,
+            "nature": "",
+            "exam_regime": "cc",
+            "subjects": [
+              {
+                "code": "00532734",
+                "name": "Théorie du point fixe",
+                "coefficient": 3,
+                "credits": 5,
+                "exam_regime": "cc",
+                "hours": {
+                  "course": 28,
+                  "tutorial": 28,
+                  "practical": 0,
+                  "integrated_course": 0,
+                  "total": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [],
+    "scrape_status": "ok"
+  }
+}

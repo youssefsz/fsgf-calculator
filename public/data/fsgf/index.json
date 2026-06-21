@@ -1,0 +1,6039 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-20T12:05:19.007115+00:00",
+  "university": "Université de Gafsa",
+  "institution": "Faculté des Sciences de Gafsa",
+  "establishmentId": "114",
+  "gradeCalculatorNote": "Use subject coefficients as grade weights. Exam-regime codes are preserved exactly as published, but the source does not define percentage splits between exams, continuous assessment, practical work, or other assessment components.",
+  "summary": {
+    "parcours": 134,
+    "withPlan": 121,
+    "withoutPlan": 13,
+    "teachingUnits": 2617,
+    "subjects": 5267
+  },
+  "parcours": [
+    {
+      "code": "LA050103",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Chimie",
+      "specialty": "Chimie Industrielle",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 28,
+        "subjects": 38
+      },
+      "dataFile": "parcours/LA050103.json"
+    },
+    {
+      "code": "LA050104",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Chimie",
+      "specialty": "Céramiques et Verres",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LA050104.json"
+    },
+    {
+      "code": "LA050199",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Chimie",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 16
+      },
+      "dataFile": "parcours/LA050199.json"
+    },
+    {
+      "code": "LA051799",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Géologie",
+      "specialty": "TRONC COMMUN 2010-2011",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LA051799.json"
+    },
+    {
+      "code": "LA053101",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Electromécanique",
+      "specialty": "Maintenance Industrielle",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 29,
+        "subjects": 78
+      },
+      "dataFile": "parcours/LA053101.json"
+    },
+    {
+      "code": "LA053199",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Electromécanique",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 31,
+        "subjects": 89
+      },
+      "dataFile": "parcours/LA053199.json"
+    },
+    {
+      "code": "LA053507",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Energétique",
+      "specialty": "Enérgies Renouvelables et Environnement",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 31,
+        "subjects": 84
+      },
+      "dataFile": "parcours/LA053507.json"
+    },
+    {
+      "code": "LA053510",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Energétique",
+      "specialty": "Exploration et exploitation des gisements pétroliers",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 22,
+        "subjects": 60
+      },
+      "dataFile": "parcours/LA053510.json"
+    },
+    {
+      "code": "LA053599",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Energétique",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 22,
+        "subjects": 60
+      },
+      "dataFile": "parcours/LA053599.json"
+    },
+    {
+      "code": "LA053901",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Biologie Analytique et Expérimentale",
+      "specialty": "Analyses et Qualité",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 42,
+        "subjects": 86
+      },
+      "dataFile": "parcours/LA053901.json"
+    },
+    {
+      "code": "LA055012",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Biotechnologie",
+      "specialty": "Valorisation des bioressouces des milieux arides",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 30,
+        "subjects": 61
+      },
+      "dataFile": "parcours/LA055012.json"
+    },
+    {
+      "code": "LA055104",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Physique",
+      "specialty": "Instrumentation pour l'électronique",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 38,
+        "subjects": 85
+      },
+      "dataFile": "parcours/LA055104.json"
+    },
+    {
+      "code": "LA055105",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Physique",
+      "specialty": "Instrumentation biomédicale",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 38,
+        "subjects": 85
+      },
+      "dataFile": "parcours/LA055105.json"
+    },
+    {
+      "code": "LA055106",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Physique",
+      "specialty": "Instrumentation pour les analyses physico-chimiques des matériaux",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 38,
+        "subjects": 85
+      },
+      "dataFile": "parcours/LA055106.json"
+    },
+    {
+      "code": "LA055107",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Physique",
+      "specialty": "Instrumentation pour l'énergie",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 28,
+        "subjects": 65
+      },
+      "dataFile": "parcours/LA055107.json"
+    },
+    {
+      "code": "LA055199",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Physique",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3
+          ],
+          "complete": false
+        }
+      ],
+      "counts": {
+        "semesters": 3,
+        "teachingUnits": 15,
+        "subjects": 36
+      },
+      "dataFile": "parcours/LA055199.json"
+    },
+    {
+      "code": "LA056505",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Géomatique - Terre et environnement",
+      "specialty": "Géomatique, terre et environnement",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 38,
+        "subjects": 87
+      },
+      "dataFile": "parcours/LA056505.json"
+    },
+    {
+      "code": "LA057703",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Informatique",
+      "specialty": "Technologies de l'informatique et du Multimédia",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 55
+      },
+      "dataFile": "parcours/LA057703.json"
+    },
+    {
+      "code": "LA058901",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Georessources et environnement",
+      "specialty": "Géologie de l'environnement",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 23,
+        "subjects": 53
+      },
+      "dataFile": "parcours/LA058901.json"
+    },
+    {
+      "code": "LA058902",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Georessources et environnement",
+      "specialty": "Géomatériaux",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LA058902.json"
+    },
+    {
+      "code": "LA058903",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Georessources et environnement",
+      "specialty": "Géologie des réservoirs",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 55
+      },
+      "dataFile": "parcours/LA058903.json"
+    },
+    {
+      "code": "LA058999",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Georessources et environnement",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 28,
+        "subjects": 62
+      },
+      "dataFile": "parcours/LA058999.json"
+    },
+    {
+      "code": "LA059903",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Protection de L'Environnement",
+      "specialty": "Géologie des réservoirs",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 21,
+        "subjects": 49
+      },
+      "dataFile": "parcours/LA059903.json"
+    },
+    {
+      "code": "LA059999",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences et technologies",
+      "mention": "Protection de L'Environnement",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 16,
+        "subjects": 36
+      },
+      "dataFile": "parcours/LA059999.json"
+    },
+    {
+      "code": "LA253199",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Protection de l'environnement ( 2015-2016)",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 9,
+        "subjects": 19
+      },
+      "dataFile": "parcours/LA253199.json"
+    },
+    {
+      "code": "LA254001",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Géomatique ( 2015-2016)",
+      "specialty": "Géomatique : terre et environnement",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 21,
+        "subjects": 52
+      },
+      "dataFile": "parcours/LA254001.json"
+    },
+    {
+      "code": "LA254003",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Géomatique ( 2015-2016)",
+      "specialty": "Géomatique : terre et environnement ( FAC des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 34,
+        "subjects": 79
+      },
+      "dataFile": "parcours/LA254003.json"
+    },
+    {
+      "code": "LA254301",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Biologie analytique et expérimentale",
+      "specialty": "Biologie analytique et expérimentale",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 22,
+        "subjects": 46
+      },
+      "dataFile": "parcours/LA254301.json"
+    },
+    {
+      "code": "LA254304",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Biologie analytique et expérimentale",
+      "specialty": "Biologie analytique et expérimentale ( Fac .des Sciences de Gafsa)",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LA254304.json"
+    },
+    {
+      "code": "LA254306",
+      "degreeType": "Licence Appliquée",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Biologie analytique et expérimentale",
+      "specialty": "Biologie analytique et expérimentale ( Fac .des Sciences de Gafsa)",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LA254306.json"
+    },
+    {
+      "code": "LF050101",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Chimie",
+      "specialty": "Chimie",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 33,
+        "subjects": 46
+      },
+      "dataFile": "parcours/LF050101.json"
+    },
+    {
+      "code": "LF050301",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Physique",
+      "specialty": "Eléctronique",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 37,
+        "subjects": 59
+      },
+      "dataFile": "parcours/LF050301.json"
+    },
+    {
+      "code": "LF050302",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Physique",
+      "specialty": "Mécanique",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 37,
+        "subjects": 59
+      },
+      "dataFile": "parcours/LF050302.json"
+    },
+    {
+      "code": "LF050303",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Physique",
+      "specialty": "Physique Générale",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 29,
+        "subjects": 51
+      },
+      "dataFile": "parcours/LF050303.json"
+    },
+    {
+      "code": "LF050399",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Physique",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 25,
+        "subjects": 42
+      },
+      "dataFile": "parcours/LF050399.json"
+    },
+    {
+      "code": "LF050405",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Sciences de la vie",
+      "specialty": "Biologie integrative",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 54
+      },
+      "dataFile": "parcours/LF050405.json"
+    },
+    {
+      "code": "LF050410",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Sciences de la vie",
+      "specialty": "Biologie cellulaire, moléculaire et biotechnologie",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 38,
+        "subjects": 84
+      },
+      "dataFile": "parcours/LF050410.json"
+    },
+    {
+      "code": "LF050499",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Sciences de la vie",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 34,
+        "subjects": 69
+      },
+      "dataFile": "parcours/LF050499.json"
+    },
+    {
+      "code": "LF050702",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Mathématiques (2008)",
+      "specialty": "Mathématiques",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 33,
+        "subjects": 41
+      },
+      "dataFile": "parcours/LF050702.json"
+    },
+    {
+      "code": "LF050801",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Mathématiques 2010-2011",
+      "specialty": "Mathématiques Fondamentales",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 19,
+        "subjects": 23
+      },
+      "dataFile": "parcours/LF050801.json"
+    },
+    {
+      "code": "LF050802",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Mathématiques 2010-2011",
+      "specialty": "Mathématiques et applications",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 13,
+        "subjects": 13
+      },
+      "dataFile": "parcours/LF050802.json"
+    },
+    {
+      "code": "LF050899",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Mathématiques 2010-2011",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            6
+          ],
+          "complete": false
+        }
+      ],
+      "counts": {
+        "semesters": 5,
+        "teachingUnits": 26,
+        "subjects": 34
+      },
+      "dataFile": "parcours/LF050899.json"
+    },
+    {
+      "code": "LF051005",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Sciences de La terre",
+      "specialty": "Géologie des bassins sédimentaires",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 37,
+        "subjects": 80
+      },
+      "dataFile": "parcours/LF051005.json"
+    },
+    {
+      "code": "LF051006",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Sciences de La terre",
+      "specialty": "Ressources minérales et énérgétiques",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 27,
+        "subjects": 63
+      },
+      "dataFile": "parcours/LF051006.json"
+    },
+    {
+      "code": "LF051007",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Sciences de La terre",
+      "specialty": "Ressources en eau et en sol",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 35,
+        "subjects": 77
+      },
+      "dataFile": "parcours/LF051007.json"
+    },
+    {
+      "code": "LF051099",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Sciences de La terre",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 35,
+        "subjects": 80
+      },
+      "dataFile": "parcours/LF051099.json"
+    },
+    {
+      "code": "LF052301",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Sciences de l’informatique",
+      "specialty": "Sciences de l'Informatique",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 48
+      },
+      "dataFile": "parcours/LF052301.json"
+    },
+    {
+      "code": "LF053006",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Génie mécanique",
+      "specialty": "Mécatronique",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 31,
+        "subjects": 91
+      },
+      "dataFile": "parcours/LF053006.json"
+    },
+    {
+      "code": "LF053008",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Génie mécanique",
+      "specialty": "Matériaux et Procédés de production",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 68
+      },
+      "dataFile": "parcours/LF053008.json"
+    },
+    {
+      "code": "LF053099",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Génie mécanique",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 19,
+        "subjects": 55
+      },
+      "dataFile": "parcours/LF053099.json"
+    },
+    {
+      "code": "LF053701",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences et technologies",
+      "mention": "Sciences de la nature et applications",
+      "specialty": "Biologie-Géologie",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LF053701.json"
+    },
+    {
+      "code": "LF250201",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Mathématiques (2014-2015)",
+      "specialty": "Tronc commun ( Fac.des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5
+          ],
+          "complete": false
+        }
+      ],
+      "counts": {
+        "semesters": 5,
+        "teachingUnits": 27,
+        "subjects": 33
+      },
+      "dataFile": "parcours/LF250201.json"
+    },
+    {
+      "code": "LF250202",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Mathématiques (2014-2015)",
+      "specialty": "Mathématiques",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LF250202.json"
+    },
+    {
+      "code": "LF250203",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Mathématiques (2014-2015)",
+      "specialty": "Mathématiques",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 9,
+        "subjects": 11
+      },
+      "dataFile": "parcours/LF250203.json"
+    },
+    {
+      "code": "LF250204",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Mathématiques (2014-2015)",
+      "specialty": "Mathématiques et applications",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 8,
+        "subjects": 10
+      },
+      "dataFile": "parcours/LF250204.json"
+    },
+    {
+      "code": "LF250205",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Mathématiques (2014-2015)",
+      "specialty": "Mathématiques ( Fac.Sciences Gafsa).",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 15,
+        "subjects": 17
+      },
+      "dataFile": "parcours/LF250205.json"
+    },
+    {
+      "code": "LF250299",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Mathématiques (2014-2015)",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 14
+      },
+      "dataFile": "parcours/LF250299.json"
+    },
+    {
+      "code": "LF250301",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Génie des procédés",
+      "specialty": "Génie des procédés",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 32,
+        "subjects": 88
+      },
+      "dataFile": "parcours/LF250301.json"
+    },
+    {
+      "code": "LF251001",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Physique ( 2015-2016)",
+      "specialty": "physique",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 39,
+        "subjects": 61
+      },
+      "dataFile": "parcours/LF251001.json"
+    },
+    {
+      "code": "LF253002",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences du vivant ( 2015-2016)",
+      "specialty": "Tronc commun ( Fac.des sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 22
+      },
+      "dataFile": "parcours/LF253002.json"
+    },
+    {
+      "code": "LF253005",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences du vivant ( 2015-2016)",
+      "specialty": "Biologie moléculaire et cellulaire",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 14,
+        "subjects": 29
+      },
+      "dataFile": "parcours/LF253005.json"
+    },
+    {
+      "code": "LF253006",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences du vivant ( 2015-2016)",
+      "specialty": "Biologie des populations et des organismes",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 16,
+        "subjects": 33
+      },
+      "dataFile": "parcours/LF253006.json"
+    },
+    {
+      "code": "LF253012",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences du vivant ( 2015-2016)",
+      "specialty": "Tronc commun ( Fac.des sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 21
+      },
+      "dataFile": "parcours/LF253012.json"
+    },
+    {
+      "code": "LF253013",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences du vivant ( 2015-2016)",
+      "specialty": "Biologie moléculaire et cellulaire (Fac. des sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 19,
+        "subjects": 39
+      },
+      "dataFile": "parcours/LF253013.json"
+    },
+    {
+      "code": "LF253014",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences du vivant ( 2015-2016)",
+      "specialty": "Biologie des populations et des organismes (Fac. des sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 22,
+        "subjects": 43
+      },
+      "dataFile": "parcours/LF253014.json"
+    },
+    {
+      "code": "LF253018",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences du vivant ( 2015-2016)",
+      "specialty": "Biologie moléculaire et cellulaire (Fac. des sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 18,
+        "subjects": 38
+      },
+      "dataFile": "parcours/LF253018.json"
+    },
+    {
+      "code": "LF253019",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences du vivant ( 2015-2016)",
+      "specialty": "Biologie des populations et des organismes (Fac. des sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 20,
+        "subjects": 41
+      },
+      "dataFile": "parcours/LF253019.json"
+    },
+    {
+      "code": "LF253099",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences du vivant ( 2015-2016)",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 9,
+        "subjects": 19
+      },
+      "dataFile": "parcours/LF253099.json"
+    },
+    {
+      "code": "LF253301",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences de la vie et de la terre ( 2015-2016)",
+      "specialty": "Sciences de la vie et de la terre",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 27,
+        "subjects": 58
+      },
+      "dataFile": "parcours/LF253301.json"
+    },
+    {
+      "code": "LF253302",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences de la vie et de la terre ( 2015-2016)",
+      "specialty": "Sciences de la vie et de la terre ( Fac. des Sciences de Gafsa )",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 24,
+        "subjects": 52
+      },
+      "dataFile": "parcours/LF253302.json"
+    },
+    {
+      "code": "LF253306",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences de la vie et de la terre ( 2015-2016)",
+      "specialty": "Sciences de la vie et de la terre ( Fac. des Sciences de Gafsa )",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 31,
+        "subjects": 66
+      },
+      "dataFile": "parcours/LF253306.json"
+    },
+    {
+      "code": "LF253308",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences de la vie et de la terre ( 2015-2016)",
+      "specialty": "Sciences de la vie et de la terre ( Fac. des Sciences de Gafsa )",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 29,
+        "subjects": 62
+      },
+      "dataFile": "parcours/LF253308.json"
+    },
+    {
+      "code": "LF253309",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences de la vie et de la terre ( 2015-2016)",
+      "specialty": "Sciences de la vie et de la terre ( Fac. des Sciences de Gafsa )",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 32,
+        "subjects": 68
+      },
+      "dataFile": "parcours/LF253309.json"
+    },
+    {
+      "code": "LF254101",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences de la terre ( 2015-2016)",
+      "specialty": "Sciences de la terre ( 2015-2016)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 24,
+        "subjects": 57
+      },
+      "dataFile": "parcours/LF254101.json"
+    },
+    {
+      "code": "LF254105",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences de la terre ( 2015-2016)",
+      "specialty": "Géologie des bassins sédimentaires ( FAC. des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 19
+      },
+      "dataFile": "parcours/LF254105.json"
+    },
+    {
+      "code": "LF254106",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences de la terre ( 2015-2016)",
+      "specialty": "Ressources en eau et en sol ( FAC. des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 19
+      },
+      "dataFile": "parcours/LF254106.json"
+    },
+    {
+      "code": "LF254107",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences de la terre ( 2015-2016)",
+      "specialty": "Géologie des bassins sédimentaires ( FAC. des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 23
+      },
+      "dataFile": "parcours/LF254107.json"
+    },
+    {
+      "code": "LF254108",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Sciences de la terre ( 2015-2016)",
+      "specialty": "Ressources en eau et en sol ( FAC. des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 23
+      },
+      "dataFile": "parcours/LF254108.json"
+    },
+    {
+      "code": "LF257701",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Mathématiques (2018-2019)",
+      "specialty": "Mathématiques",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 12
+      },
+      "dataFile": "parcours/LF257701.json"
+    },
+    {
+      "code": "LF257799",
+      "degreeType": "Licence Fondamentale",
+      "domain": "Sciences appliquées et technologies",
+      "mention": "Mathématiques (2018-2019)",
+      "specialty": "Tronc Commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 20,
+        "subjects": 24
+      },
+      "dataFile": "parcours/LF257799.json"
+    },
+    {
+      "code": "LI570199",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Mathématiques",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 13,
+        "subjects": 18
+      },
+      "dataFile": "parcours/LI570199.json"
+    },
+    {
+      "code": "LI570401",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Mathématiques Financières",
+      "specialty": "Mathématiques Financières",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 14,
+        "subjects": 20
+      },
+      "dataFile": "parcours/LI570401.json"
+    },
+    {
+      "code": "LI571001",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Physique",
+      "specialty": "Physique",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 13,
+        "subjects": 21
+      },
+      "dataFile": "parcours/LI571001.json"
+    },
+    {
+      "code": "LI571097",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Physique",
+      "specialty": "Tronc commun( Fac.des Siences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 20
+      },
+      "dataFile": "parcours/LI571097.json"
+    },
+    {
+      "code": "LI571099",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Physique",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 18
+      },
+      "dataFile": "parcours/LI571099.json"
+    },
+    {
+      "code": "LI571201",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Physique et Energie",
+      "specialty": "Physique et Energie",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 13,
+        "subjects": 20
+      },
+      "dataFile": "parcours/LI571201.json"
+    },
+    {
+      "code": "LI571297",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Physique et Energie",
+      "specialty": "Tronc commun( Fac.des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 20
+      },
+      "dataFile": "parcours/LI571297.json"
+    },
+    {
+      "code": "LI571299",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Physique et Energie",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 18
+      },
+      "dataFile": "parcours/LI571299.json"
+    },
+    {
+      "code": "LI571507",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Chimie",
+      "specialty": "Recherche",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 25,
+        "subjects": 43
+      },
+      "dataFile": "parcours/LI571507.json"
+    },
+    {
+      "code": "LI571597",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Chimie",
+      "specialty": "Tronc commun (Fac. des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 18
+      },
+      "dataFile": "parcours/LI571597.json"
+    },
+    {
+      "code": "LI571599",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Chimie",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 12,
+        "subjects": 18
+      },
+      "dataFile": "parcours/LI571599.json"
+    },
+    {
+      "code": "LI571898",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Physique",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 24,
+        "subjects": 38
+      },
+      "dataFile": "parcours/LI571898.json"
+    },
+    {
+      "code": "LI571899",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Physique",
+      "specialty": "Tronc Commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 22,
+        "subjects": 36
+      },
+      "dataFile": "parcours/LI571899.json"
+    },
+    {
+      "code": "LI572001",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences du Vivant",
+      "specialty": "Biologie Moléculaire et Cellulaire",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 23,
+        "subjects": 42
+      },
+      "dataFile": "parcours/LI572001.json"
+    },
+    {
+      "code": "LI572002",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences du Vivant",
+      "specialty": "Biologie des Organismes et des Populations",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 20,
+        "subjects": 36
+      },
+      "dataFile": "parcours/LI572002.json"
+    },
+    {
+      "code": "LI572005",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences du Vivant",
+      "specialty": "Biologie des Organismes et des Populations ( Fac. des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 25,
+        "subjects": 46
+      },
+      "dataFile": "parcours/LI572005.json"
+    },
+    {
+      "code": "LI572006",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences du Vivant",
+      "specialty": "Biologie Moléculaire et Cellulaire( Fac. des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 25,
+        "subjects": 46
+      },
+      "dataFile": "parcours/LI572006.json"
+    },
+    {
+      "code": "LI572096",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences du Vivant",
+      "specialty": "Tronc commun ( FAC. des Sciences de Gafsa)",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LI572096.json"
+    },
+    {
+      "code": "LI572099",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences du Vivant",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 9,
+        "subjects": 18
+      },
+      "dataFile": "parcours/LI572099.json"
+    },
+    {
+      "code": "LI572201",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences de la Vie et de la Terre",
+      "specialty": "Sciences de la Vie et de la Terre",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 26,
+        "subjects": 54
+      },
+      "dataFile": "parcours/LI572201.json"
+    },
+    {
+      "code": "LI572203",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences de la Vie et de la Terre",
+      "specialty": "Sciences de la Vie et de la Terre ( Fac .des sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 30,
+        "subjects": 62
+      },
+      "dataFile": "parcours/LI572203.json"
+    },
+    {
+      "code": "LI572210",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences de la Vie et de la Terre",
+      "specialty": "Sciences de la Vie et de la Terre ( Fac .des sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 26,
+        "subjects": 56
+      },
+      "dataFile": "parcours/LI572210.json"
+    },
+    {
+      "code": "LI572215",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences de la Vie et de la Terre",
+      "specialty": "Sciences de la Vie et de la Terre ( Fac .des sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 6,
+        "teachingUnits": 32,
+        "subjects": 67
+      },
+      "dataFile": "parcours/LI572215.json"
+    },
+    {
+      "code": "LI572306",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences de la Terre",
+      "specialty": "Sciences et Techniques de Géologie",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 25,
+        "subjects": 49
+      },
+      "dataFile": "parcours/LI572306.json"
+    },
+    {
+      "code": "LI572399",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Sciences de la Terre",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 14,
+        "subjects": 28
+      },
+      "dataFile": "parcours/LI572399.json"
+    },
+    {
+      "code": "LI572401",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Géomatiques et Applications",
+      "specialty": "Géomatique Appliquée aux Sciences de la Terre",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 18,
+        "subjects": 33
+      },
+      "dataFile": "parcours/LI572401.json"
+    },
+    {
+      "code": "LI572499",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Géomatiques et Applications",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 14,
+        "subjects": 27
+      },
+      "dataFile": "parcours/LI572499.json"
+    },
+    {
+      "code": "LI573102",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Science de l’Informatique \"Computer Science\"",
+      "specialty": "Informatique et Multimédia",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 17,
+        "subjects": 34
+      },
+      "dataFile": "parcours/LI573102.json"
+    },
+    {
+      "code": "LI573103",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Science de l’Informatique \"Computer Science\"",
+      "specialty": "Génie Logiciel et Système d'Information",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 19,
+        "subjects": 36
+      },
+      "dataFile": "parcours/LI573103.json"
+    },
+    {
+      "code": "LI573107",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Science de l’Informatique \"Computer Science\"",
+      "specialty": "Informatique et Multimédia ( Fac. des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 18,
+        "subjects": 36
+      },
+      "dataFile": "parcours/LI573107.json"
+    },
+    {
+      "code": "LI573199",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Science de l’Informatique \"Computer Science\"",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3
+          ],
+          "complete": false
+        }
+      ],
+      "counts": {
+        "semesters": 3,
+        "teachingUnits": 15,
+        "subjects": 30
+      },
+      "dataFile": "parcours/LI573199.json"
+    },
+    {
+      "code": "LI573601",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Electronique, Electrotechnique et Automatique",
+      "specialty": "Electronique Industrielle",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LI573601.json"
+    },
+    {
+      "code": "LI573607",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Electronique, Electrotechnique et Automatique",
+      "specialty": "Automatique et Informatique Industrielle",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LI573607.json"
+    },
+    {
+      "code": "LI573619",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Electronique, Electrotechnique et Automatique",
+      "specialty": "Automatique et Informatique Industrielle ( Fac des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 18,
+        "subjects": 37
+      },
+      "dataFile": "parcours/LI573619.json"
+    },
+    {
+      "code": "LI573638",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Electronique, Electrotechnique et Automatique",
+      "specialty": "Electronique Industrielle (Fac .des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 18,
+        "subjects": 37
+      },
+      "dataFile": "parcours/LI573638.json"
+    },
+    {
+      "code": "LI573693",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Electronique, Electrotechnique et Automatique",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 20
+      },
+      "dataFile": "parcours/LI573693.json"
+    },
+    {
+      "code": "LI573699",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Electronique, Electrotechnique et Automatique",
+      "specialty": "Tronc commun",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LI573699.json"
+    },
+    {
+      "code": "LI573808",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Génie Mécanique",
+      "specialty": "Conception et Production Intégrée ( Fac. des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 13,
+        "subjects": 34
+      },
+      "dataFile": "parcours/LI573808.json"
+    },
+    {
+      "code": "LI573819",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Génie Mécanique",
+      "specialty": "Maintenance Industrielle ( Fac. des Sciences de GAfsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 19,
+        "subjects": 51
+      },
+      "dataFile": "parcours/LI573819.json"
+    },
+    {
+      "code": "LI573891",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Génie Mécanique",
+      "specialty": "Tronc commun (Fac. des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3
+          ],
+          "complete": false
+        }
+      ],
+      "counts": {
+        "semesters": 3,
+        "teachingUnits": 14,
+        "subjects": 26
+      },
+      "dataFile": "parcours/LI573891.json"
+    },
+    {
+      "code": "LI573899",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Génie Mécanique",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 8,
+        "subjects": 22
+      },
+      "dataFile": "parcours/LI573899.json"
+    },
+    {
+      "code": "LI574404",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Génie Energétique",
+      "specialty": "Génie Energétique",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LI574404.json"
+    },
+    {
+      "code": "LI574407",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Génie Energétique",
+      "specialty": "Energies Renouvelables (Fac des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 19,
+        "subjects": 52
+      },
+      "dataFile": "parcours/LI574407.json"
+    },
+    {
+      "code": "LI574493",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Génie Energétique",
+      "specialty": "Tronc commun (Fac .des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 28
+      },
+      "dataFile": "parcours/LI574493.json"
+    },
+    {
+      "code": "LI574499",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Génie Energétique",
+      "specialty": "Tronc commun",
+      "hasPlan": false,
+      "scrapeStatus": "no_plan",
+      "availableSemesters": [],
+      "academicYears": [],
+      "counts": {
+        "semesters": 0,
+        "teachingUnits": 0,
+        "subjects": 0
+      },
+      "dataFile": "parcours/LI574499.json"
+    },
+    {
+      "code": "LI577304",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Mathématiques Appliquées",
+      "specialty": "Mathématiques Financiéres",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 23,
+        "subjects": 35
+      },
+      "dataFile": "parcours/LI577304.json"
+    },
+    {
+      "code": "LI577399",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Mathématiques Appliquées",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 15
+      },
+      "dataFile": "parcours/LI577399.json"
+    },
+    {
+      "code": "LI577402",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Mathématiques",
+      "specialty": "Mathématiques",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 31,
+        "subjects": 45
+      },
+      "dataFile": "parcours/LI577402.json"
+    },
+    {
+      "code": "LI577499",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Mathématiques",
+      "specialty": "Tronc Commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 13,
+        "subjects": 21
+      },
+      "dataFile": "parcours/LI577499.json"
+    },
+    {
+      "code": "LI577599",
+      "degreeType": "Licence",
+      "domain": "Sciences Exactes et Technologies",
+      "mention": "Physique et Energie",
+      "specialty": "Tronc Commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        },
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5
+          ],
+          "complete": false
+        }
+      ],
+      "counts": {
+        "semesters": 5,
+        "teachingUnits": 26,
+        "subjects": 42
+      },
+      "dataFile": "parcours/LI577599.json"
+    },
+    {
+      "code": "LI600103",
+      "degreeType": "Licence",
+      "domain": "Sciences Agronomiques,Biotechnologie et Environnement",
+      "mention": "Biotechnologie",
+      "specialty": "Analyses Biologiques et Expérimentation",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 22,
+        "subjects": 40
+      },
+      "dataFile": "parcours/LI600103.json"
+    },
+    {
+      "code": "LI600114",
+      "degreeType": "Licence",
+      "domain": "Sciences Agronomiques,Biotechnologie et Environnement",
+      "mention": "Biotechnologie",
+      "specialty": "Analyses Biologiques et Expérimentation( Fac des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "academicYears": [
+        {
+          "year": 2,
+          "expectedSemesters": [
+            3,
+            4
+          ],
+          "availableSemesters": [
+            3,
+            4
+          ],
+          "complete": true
+        },
+        {
+          "year": 3,
+          "expectedSemesters": [
+            5,
+            6
+          ],
+          "availableSemesters": [
+            5,
+            6
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 4,
+        "teachingUnits": 29,
+        "subjects": 56
+      },
+      "dataFile": "parcours/LI600114.json"
+    },
+    {
+      "code": "LI600194",
+      "degreeType": "Licence",
+      "domain": "Sciences Agronomiques,Biotechnologie et Environnement",
+      "mention": "Biotechnologie",
+      "specialty": "Tronc commun (Fac .des Sciences de Gafsa)",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 10,
+        "subjects": 20
+      },
+      "dataFile": "parcours/LI600194.json"
+    },
+    {
+      "code": "LI600199",
+      "degreeType": "Licence",
+      "domain": "Sciences Agronomiques,Biotechnologie et Environnement",
+      "mention": "Biotechnologie",
+      "specialty": "Tronc commun",
+      "hasPlan": true,
+      "scrapeStatus": "ok",
+      "availableSemesters": [
+        1,
+        2
+      ],
+      "academicYears": [
+        {
+          "year": 1,
+          "expectedSemesters": [
+            1,
+            2
+          ],
+          "availableSemesters": [
+            1,
+            2
+          ],
+          "complete": true
+        }
+      ],
+      "counts": {
+        "semesters": 2,
+        "teachingUnits": 9,
+        "subjects": 18
+      },
+      "dataFile": "parcours/LI600199.json"
+    }
+  ]
+}
