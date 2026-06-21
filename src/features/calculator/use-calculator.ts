@@ -234,10 +234,15 @@ export function useCalculator(): CalculatorState & CalculatorActions {
     (subjectCode: string, formula: FormulaConfig) => {
       setGrades((prev) => {
         const existing = prev[subjectCode]
-        if (!existing || existing.mode !== "components") return prev
+        if (existing && existing.mode === "components") {
+          return {
+            ...prev,
+            [subjectCode]: { ...existing, formula },
+          }
+        }
         return {
           ...prev,
-          [subjectCode]: { ...existing, formula },
+          [subjectCode]: { mode: "components", components: {}, formula },
         }
       })
     },

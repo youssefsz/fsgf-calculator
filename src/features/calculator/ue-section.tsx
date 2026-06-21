@@ -1,12 +1,12 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import type { SubjectGradeEntry, FormulaConfig, TeachingUnit } from "@/lib/schemas"
 import { calculateUeAverage } from "./calculation"
 import { SubjectInput } from "./subject-input"
-import { formatNumber, parseGrade } from "./calculator-utils"
+import { formatNumber } from "./calculator-utils"
+import { GradeInput } from "./grade-input"
 import type { Translations } from "@/i18n/en"
 
 interface UeSectionProps {
@@ -84,18 +84,12 @@ export function UeSection({
             <Label className="sr-only" htmlFor={`ue-${ue.code}`}>
               {t.calculator.enterDirectUeGrade}
             </Label>
-            <Input
+            <GradeInput
               id={`ue-${ue.code}`}
-              type="number"
-              inputMode="decimal"
-              min={0}
-              max={20}
-              step={0.01}
+              value={directUeGrade}
               placeholder={t.calculator.enterDirectUeGrade}
-              value={directUeGrade ?? ""}
-              onChange={(e) =>
-                onDirectUeGrade(ue.code, parseGrade(e.target.value))
-              }
+              ariaLabel={t.calculator.enterDirectUeGrade}
+              onChange={(v) => onDirectUeGrade(ue.code, v)}
               className="w-32"
             />
           </div>

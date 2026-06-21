@@ -64,25 +64,28 @@ export function FormulaEditor({
           {t.calculator.formulaDescription}
         </p>
         <div className="flex flex-wrap items-end gap-3">
-          {(["exam", "ds", "tp"] as const).map((field) => (
-            <div key={field} className="space-y-1">
-              <Label className="text-xs" htmlFor={`formula-${subject.code}-${field}`}>
-                {field === "exam" ? t.calculator.exam : field === "ds" ? t.calculator.ds : t.calculator.tp}
-              </Label>
-              <Input
-                id={`formula-${subject.code}-${field}`}
-                type="number"
-                inputMode="numeric"
-                min={0}
-                max={100}
-                step={1}
-                value={percentageValue(formula[field])}
-                onChange={(e) => updateField(field, e.target.value)}
-                className="w-20"
-                aria-invalid={!isValid}
-              />
-            </div>
-          ))}
+          {(["exam", "ds", "tp"] as const).map((field) => {
+            if (field === "tp" && formula.tp === 0) return null
+            return (
+              <div key={field} className="space-y-1">
+                <Label className="text-xs" htmlFor={`formula-${subject.code}-${field}`}>
+                  {field === "exam" ? t.calculator.exam : field === "ds" ? t.calculator.ds : t.calculator.tp}
+                </Label>
+                <Input
+                  id={`formula-${subject.code}-${field}`}
+                  type="number"
+                  inputMode="numeric"
+                  min={0}
+                  max={100}
+                  step={1}
+                  value={percentageValue(formula[field])}
+                  onChange={(e) => updateField(field, e.target.value)}
+                  className="w-20"
+                  aria-invalid={!isValid}
+                />
+              </div>
+            )
+          })}
           <span
             className={`text-xs font-medium ${
               isValid ? "text-muted-foreground" : "text-destructive"

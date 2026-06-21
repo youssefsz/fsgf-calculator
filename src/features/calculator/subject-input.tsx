@@ -3,7 +3,6 @@
 import * as React from "react"
 
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import type { Subject, SubjectGradeEntry, FormulaConfig } from "@/lib/schemas"
 import {
@@ -13,7 +12,8 @@ import {
   shouldDefaultToDirectGrade,
 } from "./calculation"
 import { FormulaEditor } from "./formula-editor"
-import { formatNumber, parseGrade } from "./calculator-utils"
+import { formatNumber } from "./calculator-utils"
+import { GradeInput } from "./grade-input"
 import type { Translations } from "@/i18n/en"
 
 interface SubjectInputProps {
@@ -42,7 +42,13 @@ export function SubjectInput({
   t,
 }: SubjectInputProps) {
   const defaultsToDirect = shouldDefaultToDirectGrade(subject)
-  const mode = entry?.mode ?? (defaultsToDirect ? "direct" : "components")
+  const [modePreference, setModePreference] = React.useState<"direct" | "components" | null>(
+    null
+  )
+  const mode =
+    entry?.mode ??
+    modePreference ??
+    (defaultsToDirect ? "direct" : "components")
   const components = React.useMemo(
     () => (entry?.mode === "components" ? entry.components : {}),
     [entry]
@@ -72,6 +78,7 @@ export function SubjectInput({
       preserved =
         components.exam ?? components.ds ?? components.tp ?? undefined
     }
+    setModePreference("direct")
     if (preserved === undefined) {
       onChange(null)
     } else {
@@ -84,6 +91,7 @@ export function SubjectInput({
       mode: "components",
       components: { exam: direct },
     }
+    setModePreference("components")
     onChange(next)
   }, [direct, onChange])
 
@@ -104,6 +112,17 @@ export function SubjectInput({
       }
     },
     [components, onChange]
+  )
+
+  const setDirect = React.useCallback(
+    (value: number | null) => {
+      if (value === null) {
+        onChange(null)
+      } else {
+        onChange({ mode: "direct", direct: value })
+      }
+    },
+    [onChange]
   )
 
   return (
@@ -140,76 +159,62 @@ export function SubjectInput({
 
         {mode === "direct" ? (
           <div className="flex items-center gap-2">
-            <Label className="sr-only" htmlFor={`subject-${subject.code}`}>
-              {t.calculator.directGrade}
-            </Label>
-            <Input
+            <GradeInput
               id={`subject-${subject.code}`}
-              type="number"
-              inputMode="decimal"
-              min={0}
-              max={20}
-              step={0.01}
+              value={direct}
               placeholder={t.calculator.directGrade}
-              value={direct ?? ""}
-              onChange={(e) => {
-                const value = parseGrade(e.target.value)
-                if (value === null) {
-                  onChange(null)
-                } else {
-                  onChange({ mode: "direct", direct: value })
-                }
-              }}
+              ariaLabel={t.calculator.directGrade}
+              onChange={setDirect}
               className="w-24"
             />
           </div>
         ) : (
           <div className="flex flex-wrap items-center gap-2">
-            <Label className="sr-only" htmlFor={`exam-${subject.code}`}>
-              {labels.exam}
-            </Label>
-            <Input
-              id={`exam-${subject.code}`}
-              type="number"
-              inputMode="decimal"
-              min={0}
-              max={20}
-              step={0.01}
-              placeholder={labels.exam}
-              value={components.exam ?? ""}
-              onChange={(e) => updateComponent("exam", parseGrade(e.target.value))}
-              className="w-20"
-            />
-            <Label className="sr-only" htmlFor={`ds-${subject.code}`}>
-              {labels.ds}
-            </Label>
-            <Input
-              id={`ds-${subject.code}`}
-              type="number"
-              inputMode="decimal"
-              min={0}
-              max={20}
-              step={0.01}
-              placeholder={labels.ds}
-              value={components.ds ?? ""}
-              onChange={(e) => updateComponent("ds", parseGrade(e.target.value))}
-              className="w-20"
-            />
-            <Label className="sr-only" htmlFor={`tp-${subject.code}`}>
-              {labels.tp}
-            </Label>
-            <Input
-              id={`tp-${subject.code}`}
-              type="number"
-              inputMode="decimal"
-              min={0}
-              max={20}
-              step={0.01}
-              placeholder={labels.tp}
-              value={components.tp ?? ""}
-              onChange={(e) => updateComponent("tp", parseGrade(e.target.value))}
-              className="w-20"
-            />
+            {formula !== null && formula.exam > 0 && (
+              <>
+                <Label className="sr-only" htmlFor={`exam-${subject.code}`}>
+                  {labels.exam}
+                </Label>
+                <GradeInput
+                  id={`exam-${subject.code}`}
+                  value={components.exam}
+                  placeholder={labels.exam}
+                  ariaLabel={labels.exam}
+                  onChange={(v) => updateComponent("exam", v)}
+                  className="w-20"
+                />
+              </>
+            )}
+            {formula !== null && formula.ds > 0 && (
+              <>
+                <Label className="sr-only" htmlFor={`ds-${subject.code}`}>
+                  {labels.ds}
+                </Label>
+                <GradeInput
+                  id={`ds-${subject.code}`}
+                  value={components.ds}
+                  placeholder={labels.ds}
+                  ariaLabel={labels.ds}
+                  onChange={(v) => updateComponent("ds", v)}
+                  className="w-20"
+                />
+              </>
+            )}
+            {formula !== null && formula.tp > 0 && (
+              <>
+                <Label className="sr-only" htmlFor={`tp-${subject.code}`}>
+                  {labels.tp}
+                </Label>
+                <GradeInput
+                  id={`tp-${subject.code}`}
+                  value={components.tp}
+                  placeholder={labels.tp}
+                  ariaLabel={labels.tp}
+                  onChange={(v) => updateComponent("tp", v)}
+                  className="w-20"
+                />
+              </>
+            )}
           </div>
         )}
 
