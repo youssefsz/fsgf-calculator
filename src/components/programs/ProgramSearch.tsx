@@ -75,7 +75,7 @@ export function ProgramSearch({
                     {p.code}
                   </span>
                   {!p.hasPlan ? (
-                    <span className="rounded bg-muted px-1.5 py-0.5 text-xs text-muted-foreground">
+                    <span className="rounded-sm bg-muted px-1.5 py-0.5 text-xs text-muted-foreground">
                       {t.common.unavailable}
                     </span>
                   ) : null}
