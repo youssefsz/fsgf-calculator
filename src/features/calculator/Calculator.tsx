@@ -174,6 +174,7 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
         <h2 className="text-2xl font-bold tracking-tight text-primary">
           {t.calculator.title}
         </h2>
+        <p className="text-muted-foreground">{t.landing.description}</p>
         <div className="space-y-3">
           <div className="text-destructive">
             {t.common.error}: {indexError}
@@ -215,6 +216,7 @@ export function Calculator({ preselectedCode, locale }: CalculatorProps) {
       <h2 className="text-2xl font-bold tracking-tight text-primary">
         {t.calculator.title}
       </h2>
+      <p className="text-muted-foreground">{t.landing.description}</p>
 
       {invalidStateCleared ? (
         <p className="text-sm text-muted-foreground">
