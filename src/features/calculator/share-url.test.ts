@@ -35,7 +35,34 @@ describe("share URL round-trip", () => {
   it("encodes and decodes a snapshot losslessly", () => {
     const snapshot = makeSnapshot()
     const encoded = encodeShareSnapshot(snapshot)
-    expect(encoded.startsWith(`v${CALCULATION_SCHEMA_VERSION}.`)).toBe(true)
+    expect(encoded.startsWith("v2.")).toBe(true)
+    expect(decodeShareSnapshot(encoded)).toEqual(snapshot)
+  })
+
+  it("omits default unit selections from v2 tokens", () => {
+    const snapshot = makeSnapshot()
+    const encoded = encodeShareSnapshot(snapshot, {
+      defaultUnitSelections: {
+        UE11: { included: true },
+        UE12: { included: false, chosenOptionCode: "UE12-B" },
+      },
+    })
+
+    expect(decodeShareSnapshot(encoded)).toEqual({
+      ...snapshot,
+      unitSelections: {},
+    })
+    expect(encoded.length).toBeLessThan(encodeShareSnapshot(snapshot).length)
+  })
+
+  it("decodes legacy v1 JSON tokens", () => {
+    const snapshot = makeSnapshot()
+    const payload = btoa(JSON.stringify(snapshot))
+      .replace(/\+/g, "-")
+      .replace(/\//g, "_")
+      .replace(/=+$/, "")
+    const encoded = `v${CALCULATION_SCHEMA_VERSION}.${payload}`
+
     expect(decodeShareSnapshot(encoded)).toEqual(snapshot)
   })
 
@@ -63,9 +90,9 @@ describe("share URL round-trip", () => {
   it("reads a snapshot from a search string", () => {
     const snapshot = makeSnapshot()
     const encoded = encodeShareSnapshot(snapshot)
-    expect(readShareSnapshotFromUrl(`?${SHARE_QUERY_PARAM}=${encoded}`)).toEqual(
-      snapshot
-    )
+    expect(
+      readShareSnapshotFromUrl(`?${SHARE_QUERY_PARAM}=${encoded}`)
+    ).toEqual(snapshot)
   })
 })
 
@@ -104,7 +131,8 @@ describe("share URL validation", () => {
       subjectGrades: {},
       directUeGrades: {},
     }
-    const encoded = `v${CALCULATION_SCHEMA_VERSION}.` + btoa(JSON.stringify(invalid))
+    const encoded =
+      `v${CALCULATION_SCHEMA_VERSION}.` + btoa(JSON.stringify(invalid))
     expect(decodeShareSnapshot(encoded)).toBeNull()
   })
 

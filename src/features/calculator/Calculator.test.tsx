@@ -517,7 +517,7 @@ describe("Calculator", () => {
       const url = new URL(window.location.href)
       const token = url.searchParams.get("s")
       expect(token).toBeTruthy()
-      expect(token).toMatch(/^v1\.[A-Za-z0-9_-]+$/)
+      expect(token).toMatch(/^v2\.[A-Za-z0-9_-]+$/)
     })
   })
 

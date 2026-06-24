@@ -81,6 +81,16 @@ function buildSnapshotFromState(
   }
 }
 
+function restoreSharedSelections(
+  plan: ParcoursPlanFile,
+  sharedSelections: UnitSelectionMap
+): UnitSelectionMap {
+  return {
+    ...getInitialSelections(plan.parcours.semesters),
+    ...sharedSelections,
+  }
+}
+
 export function useCalculator(): CalculatorState & CalculatorActions {
   const [parcours, setParcours] = useState<ParcoursIndexEntry | null>(null)
   const [academicYear, setAcademicYear] = useState<number | null>(null)
@@ -158,7 +168,9 @@ export function useCalculator(): CalculatorState & CalculatorActions {
           if (latestYearRef.current === null) {
             setAcademicYear(year)
           }
-          setSelections(shared.unitSelections)
+          setSelections(
+            restoreSharedSelections(loadedPlan, shared.unitSelections)
+          )
           setGrades(shared.subjectGrades)
           setDirectUeGrades(shared.directUeGrades)
           setHydratedFromShare(true)
@@ -222,7 +234,11 @@ export function useCalculator(): CalculatorState & CalculatorActions {
       grades,
       directUeGrades
     )
-    const token = encodeShareSnapshot(snapshot)
+    const token = encodeShareSnapshot(snapshot, {
+      defaultUnitSelections: plan
+        ? getInitialSelections(plan.parcours.semesters)
+        : undefined,
+    })
     const url = new URL(window.location.href)
     if (url.searchParams.get(SHARE_QUERY_PARAM) === token) return
     url.searchParams.set(SHARE_QUERY_PARAM, token)
@@ -235,6 +251,7 @@ export function useCalculator(): CalculatorState & CalculatorActions {
     grades,
     directUeGrades,
     planLoading,
+    plan,
   ])
 
   const setUeIncluded = useCallback((ueCode: string, included: boolean) => {
