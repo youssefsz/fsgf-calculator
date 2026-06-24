@@ -145,7 +145,13 @@ The dev server is served at `http://localhost:4321` by default. Edits to `.astro
 
 ### First-time setup
 
-There is no database to seed and no `.env` file to configure. The programme data ships in `public/data/fsgf/` and is validated on load.
+There is no database to seed. Copy `.env.example` to `.env` if you need to override the public site URL used for canonical URLs and sitemap generation:
+
+```sh
+cp .env.example .env
+```
+
+Set `SITE_URL` to the deployed origin for production builds. Local development defaults to `http://localhost:4321`. The programme data ships in `public/data/fsgf/` and is validated on load.
 
 ---
 
