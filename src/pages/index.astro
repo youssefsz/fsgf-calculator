@@ -19,11 +19,6 @@ const preselectedCode = Astro.url.searchParams.get("code") ?? undefined
   canonicalPath={ROUTES.home[locale]}
   currentRoute="home"
 >
-  <section class="mb-8 space-y-3">
-    <h1 class="text-2xl font-bold tracking-tight text-foreground">{t.site.name}</h1>
-    <p class="text-muted-foreground">{t.landing.description}</p>
-  </section>
-
   <div transition:animate="none">
     <Calculator locale={locale} preselectedCode={preselectedCode} client:load />
   </div>
