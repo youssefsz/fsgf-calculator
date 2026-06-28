@@ -11,6 +11,7 @@ import type {
 } from "@/lib/schemas"
 
 import { Calculator } from "./Calculator"
+import { encodeShareSnapshot } from "./share-url"
 
 function createSubject(
   code: string,
@@ -260,9 +261,7 @@ describe("Calculator", () => {
       /search by code, specialty/i
     )
     await userEvent.type(search, "Test Specialty")
-    const option = within(dialog).getByText(
-      "TEST01 — Test Specialty (Licence)"
-    )
+    const option = within(dialog).getByText("TEST01 — Test Specialty (Licence)")
     await userEvent.click(option)
     expect(screen.getByLabelText(/academic year/i)).toBeInTheDocument()
   })
@@ -414,9 +413,7 @@ describe("Calculator", () => {
     await waitForPlanLoaded()
 
     expect(screen.getByText(/UE3 — No Subjects/)).toBeInTheDocument()
-    expect(
-      screen.getByPlaceholderText(/enter unit grade/i)
-    ).toBeInTheDocument()
+    expect(screen.getByPlaceholderText(/enter unit grade/i)).toBeInTheDocument()
   })
 
   it("excludes a normal UE and shows the excluded section", async () => {
@@ -452,10 +449,7 @@ describe("Calculator", () => {
       "type",
       "number"
     )
-    expect(screen.getAllByLabelText(/ds/i)[0]).toHaveAttribute(
-      "type",
-      "number"
-    )
+    expect(screen.getAllByLabelText(/ds/i)[0]).toHaveAttribute("type", "number")
     expect(screen.getAllByLabelText(/tp \/ practical/i)[0]).toHaveAttribute(
       "type",
       "number"
@@ -477,7 +471,7 @@ describe("Calculator", () => {
 
   it("hydrates program and grades from a shared URL on initial load", async () => {
     const snapshot = {
-      schemaVersion: 1,
+      schemaVersion: 1 as const,
       parcoursCode: "TEST01",
       academicYear: 1,
       unitSelections: {},
@@ -505,6 +499,34 @@ describe("Calculator", () => {
     expect(directInput).toHaveValue(14)
   })
 
+  it("hydrates program and grades from a v3 shared URL on initial load", async () => {
+    const snapshot = {
+      schemaVersion: 1 as const,
+      parcoursCode: "TEST01",
+      academicYear: 1,
+      unitSelections: {},
+      subjectGrades: {
+        S1: { mode: "direct" as const, direct: 14 },
+      },
+      directUeGrades: {},
+    }
+    const token = encodeShareSnapshot(snapshot, { plan })
+    expect(token).toMatch(/^v3\.[A-Za-z0-9_-]+$/)
+    window.history.replaceState(
+      window.history.state,
+      "",
+      `${window.location.pathname}?s=${token}`
+    )
+
+    await renderCalculator("en")
+    await waitForPlanLoaded()
+
+    expect(getProgramCombobox()).toHaveTextContent(/TEST01.*Test Specialty/)
+    expect(screen.getByText(/loaded from a shared link/i)).toBeInTheDocument()
+    const directInput = screen.getByLabelText(/direct grade/i)
+    expect(directInput).toHaveValue(14)
+  })
+
   it("writes a share token to the URL after grades are entered", async () => {
     await renderCalculator("en")
     await selectProgram("TEST01", "TEST01 — Test Specialty (Licence)")
@@ -517,7 +539,7 @@ describe("Calculator", () => {
       const url = new URL(window.location.href)
       const token = url.searchParams.get("s")
       expect(token).toBeTruthy()
-      expect(token).toMatch(/^v2\.[A-Za-z0-9_-]+$/)
+      expect(token).toMatch(/^v3\.[A-Za-z0-9_-]+$/)
     })
   })
 
@@ -542,9 +564,7 @@ describe("Calculator", () => {
 
     await renderCalculator("en")
     await waitFor(() => {
-      expect(
-        screen.getByText(/isn't available/i)
-      ).toBeInTheDocument()
+      expect(screen.getByText(/isn't available/i)).toBeInTheDocument()
     })
   })
 })

@@ -33,8 +33,10 @@ import {
 } from "./persistence"
 import {
   encodeShareSnapshot,
+  readShareMetadataFromUrl,
   readShareSnapshotFromUrl,
   SHARE_QUERY_PARAM,
+  type ShareSnapshotMetadata,
 } from "./share-url"
 
 export interface CalculatorState {
@@ -48,7 +50,7 @@ export interface CalculatorState {
   directUeGrades: DirectUeGradeMap
   invalidStateCleared: boolean
   hydratedFromShare: boolean
-  shareSnapshot: CalculationSnapshot | null
+  shareSnapshot: ShareSnapshotMetadata | null
 }
 
 export interface CalculatorActions {
@@ -56,7 +58,10 @@ export interface CalculatorActions {
   selectYear: (year: number) => void
   setUeIncluded: (ueCode: string, included: boolean) => void
   chooseOptionalUe: (ueCode: string, groupCodes: string[]) => void
-  setSubjectGrade: (subjectCode: string, entry: SubjectGradeEntry | null) => void
+  setSubjectGrade: (
+    subjectCode: string,
+    entry: SubjectGradeEntry | null
+  ) => void
   setDirectUeGrade: (ueCode: string, grade: number | null) => void
   setFormulaOverride: (subjectCode: string, formula: FormulaConfig) => void
   resetCalculation: () => void
@@ -94,9 +99,9 @@ function restoreSharedSelections(
 export function useCalculator(): CalculatorState & CalculatorActions {
   const [parcours, setParcours] = useState<ParcoursIndexEntry | null>(null)
   const [academicYear, setAcademicYear] = useState<number | null>(null)
-  const [plan, setPlan] = useState<Awaited<ReturnType<typeof fetchPlan>> | null>(
-    null
-  )
+  const [plan, setPlan] = useState<Awaited<
+    ReturnType<typeof fetchPlan>
+  > | null>(null)
   const [planLoading, setPlanLoading] = useState(false)
   const [planError, setPlanError] = useState<string | null>(null)
   const [selections, setSelections] = useState<UnitSelectionMap>({})
@@ -105,9 +110,14 @@ export function useCalculator(): CalculatorState & CalculatorActions {
   const [invalidStateCleared, setInvalidStateCleared] = useState(false)
   const [hydratedFromShare, setHydratedFromShare] = useState(false)
 
-  const [shareSnapshot] = useState<CalculationSnapshot | null>(() => {
+  const [shareSearch] = useState(() => {
     if (typeof window === "undefined") return null
-    return readShareSnapshotFromUrl(window.location.search)
+    return window.location.search
+  })
+
+  const [shareSnapshot] = useState<ShareSnapshotMetadata | null>(() => {
+    if (!shareSearch) return null
+    return readShareMetadataFromUrl(shareSearch)
   })
 
   const selectParcours = useCallback((entry: ParcoursIndexEntry | null) => {
@@ -158,7 +168,9 @@ export function useCalculator(): CalculatorState & CalculatorActions {
       .then((loadedPlan) => {
         if (cancelled) return
         setPlan(loadedPlan)
-        const shared = shareSnapshot
+        const shared = shareSearch
+          ? readShareSnapshotFromUrl(shareSearch, { plan: loadedPlan })
+          : null
         const isMatchingShare =
           shared !== null &&
           shared.parcoursCode === parcours.code &&
@@ -205,7 +217,7 @@ export function useCalculator(): CalculatorState & CalculatorActions {
     return () => {
       cancelled = true
     }
-    // shareSnapshot is intentionally excluded: it is a mount-time constant
+    // shareSearch is intentionally excluded: it is a mount-time constant
     // read from window.location.search via useState lazy init, and adding
     // it to deps would re-fetch the plan on every state change.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -235,6 +247,7 @@ export function useCalculator(): CalculatorState & CalculatorActions {
       directUeGrades
     )
     const token = encodeShareSnapshot(snapshot, {
+      plan,
       defaultUnitSelections: plan
         ? getInitialSelections(plan.parcours.semesters)
         : undefined,
@@ -267,9 +280,17 @@ export function useCalculator(): CalculatorState & CalculatorActions {
         const next = { ...prev }
         for (const code of groupCodes) {
           if (code === ueCode) {
-            next[code] = { ...next[code], included: true, chosenOptionCode: ueCode }
+            next[code] = {
+              ...next[code],
+              included: true,
+              chosenOptionCode: ueCode,
+            }
           } else {
-            next[code] = { ...next[code], included: false, chosenOptionCode: ueCode }
+            next[code] = {
+              ...next[code],
+              included: false,
+              chosenOptionCode: ueCode,
+            }
           }
         }
         return next
@@ -426,12 +447,7 @@ export function useSemesterResult(
       (s: Semester) => s.number === semesterNumber
     )
     if (!semester) return null
-    return calculateSemesterResult(
-      semester,
-      selections,
-      grades,
-      directUeGrades
-    )
+    return calculateSemesterResult(semester, selections, grades, directUeGrades)
   }, [plan, semesterNumber, selections, grades, directUeGrades])
 }
 

@@ -1,11 +1,18 @@
 import { describe, expect, it } from "vitest"
 
 import { CALCULATION_SCHEMA_VERSION } from "@/lib/schemas"
-import type { CalculationSnapshot } from "@/lib/schemas"
+import type {
+  CalculationSnapshot,
+  ParcoursPlanFile,
+  Subject,
+  TeachingUnit,
+} from "@/lib/schemas"
 
 import {
+  decodeShareMetadata,
   decodeShareSnapshot,
   encodeShareSnapshot,
+  readShareMetadataFromUrl,
   readShareSnapshotFromUrl,
   SHARE_QUERY_PARAM,
 } from "./share-url"
@@ -31,28 +38,116 @@ function makeSnapshot(): CalculationSnapshot {
   }
 }
 
+function makeSubject(code: string): Subject {
+  return {
+    code,
+    name: code,
+    coefficient: 1,
+    credits: null,
+    exam_regime: "MX",
+    hours: {
+      course: 21,
+      tutorial: 0,
+      practical: 0,
+      integrated_course: null,
+      total: null,
+    },
+  }
+}
+
+function makeUe(
+  code: string,
+  subjects: TeachingUnit["subjects"] = []
+): TeachingUnit {
+  return {
+    code,
+    name: code,
+    credits: 4,
+    coefficient: 1,
+    nature: "Fond",
+    exam_regime: "MX",
+    subjects,
+  }
+}
+
+function makePlan(): ParcoursPlanFile {
+  return {
+    schemaVersion: 1,
+    university: "Test University",
+    institution: "Test Institution",
+    parcours: {
+      code: "L1MATH",
+      listed_type: "Licence",
+      listed_domain: "Sciences",
+      listed_mention: "Math",
+      listed_specialty: "Math",
+      source_url: "http://example.com",
+      semesters: [
+        {
+          number: 1,
+          teaching_units: [
+            makeUe("UE11", [makeSubject("MATH101")]),
+            makeUe("UE12", [makeSubject("INFO102")]),
+            makeUe("UE12-B"),
+          ],
+        },
+        {
+          number: 2,
+          teaching_units: [makeUe("UE21", [makeSubject("PHYS201")])],
+        },
+      ],
+      warnings: [],
+      scrape_status: "ok",
+    },
+  }
+}
+
 describe("share URL round-trip", () => {
-  it("encodes and decodes a snapshot losslessly", () => {
+  it("encodes and decodes a plan-relative v3 snapshot losslessly", () => {
+    const snapshot = makeSnapshot()
+    const plan = makePlan()
+    const encoded = encodeShareSnapshot(snapshot, { plan })
+    expect(encoded.startsWith("v3.")).toBe(true)
+    expect(decodeShareSnapshot(encoded, { plan })).toEqual(snapshot)
+  })
+
+  it("falls back to v2 when no plan is available", () => {
     const snapshot = makeSnapshot()
     const encoded = encodeShareSnapshot(snapshot)
     expect(encoded.startsWith("v2.")).toBe(true)
     expect(decodeShareSnapshot(encoded)).toEqual(snapshot)
   })
 
-  it("omits default unit selections from v2 tokens", () => {
+  it("omits default unit selections from v3 tokens", () => {
     const snapshot = makeSnapshot()
+    const plan = makePlan()
     const encoded = encodeShareSnapshot(snapshot, {
+      plan,
       defaultUnitSelections: {
         UE11: { included: true },
         UE12: { included: false, chosenOptionCode: "UE12-B" },
       },
     })
 
-    expect(decodeShareSnapshot(encoded)).toEqual({
+    expect(decodeShareSnapshot(encoded, { plan })).toEqual({
       ...snapshot,
       unitSelections: {},
     })
-    expect(encoded.length).toBeLessThan(encodeShareSnapshot(snapshot).length)
+    expect(encoded.length).toBeLessThan(
+      encodeShareSnapshot(snapshot, { plan }).length
+    )
+  })
+
+  it("reads v3 metadata without needing the plan", () => {
+    const snapshot = makeSnapshot()
+    const encoded = encodeShareSnapshot(snapshot, { plan: makePlan() })
+
+    expect(decodeShareMetadata(encoded)).toEqual({
+      schemaVersion: CALCULATION_SCHEMA_VERSION,
+      parcoursCode: "L1MATH",
+      academicYear: 1,
+    })
+    expect(decodeShareSnapshot(encoded)).toBeNull()
   })
 
   it("decodes legacy v1 JSON tokens", () => {
@@ -81,10 +176,11 @@ describe("share URL round-trip", () => {
 
   it("reads a snapshot from a URLSearchParams instance", () => {
     const snapshot = makeSnapshot()
-    const encoded = encodeShareSnapshot(snapshot)
+    const plan = makePlan()
+    const encoded = encodeShareSnapshot(snapshot, { plan })
     const params = new URLSearchParams()
     params.set(SHARE_QUERY_PARAM, encoded)
-    expect(readShareSnapshotFromUrl(params)).toEqual(snapshot)
+    expect(readShareSnapshotFromUrl(params, { plan })).toEqual(snapshot)
   })
 
   it("reads a snapshot from a search string", () => {
@@ -93,6 +189,17 @@ describe("share URL round-trip", () => {
     expect(
       readShareSnapshotFromUrl(`?${SHARE_QUERY_PARAM}=${encoded}`)
     ).toEqual(snapshot)
+  })
+
+  it("reads metadata from a search string", () => {
+    const encoded = encodeShareSnapshot(makeSnapshot(), { plan: makePlan() })
+    expect(
+      readShareMetadataFromUrl(`?${SHARE_QUERY_PARAM}=${encoded}`)
+    ).toEqual({
+      schemaVersion: CALCULATION_SCHEMA_VERSION,
+      parcoursCode: "L1MATH",
+      academicYear: 1,
+    })
   })
 })
 

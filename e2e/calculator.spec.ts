@@ -12,7 +12,9 @@ async function selectProgram(page: Page, search: string) {
 }
 
 async function selectYear(page: Page, yearLabel: RegExp) {
-  await page.getByLabel(/academic year/i).click()
+  const yearSelect = page.getByLabel(/academic year/i)
+  await expect(yearSelect).toBeEnabled()
+  await yearSelect.click()
   await page.getByRole("option", { name: yearLabel }).click()
 }
 
@@ -40,21 +42,57 @@ async function fillSubject(
 }
 
 async function switchToDirect(page: Page, code: string, grade: string) {
-  const subjectRow = page.locator(`#exam-${code}`).locator("xpath=ancestor::div[contains(@class, 'flex-col')][contains(@class, 'sm:flex-row')]")
-  await subjectRow.getByRole("button", { name: /i know the final grade/i }).click()
+  const subjectRow = page
+    .locator(`#exam-${code}`)
+    .locator(
+      "xpath=ancestor::div[contains(@class, 'flex-col')][contains(@class, 'sm:flex-row')]"
+    )
+  await subjectRow
+    .getByRole("button", { name: /i know the final grade/i })
+    .click()
   await page.locator(`#subject-${code}`).fill(grade)
 }
 
 async function openFormulaEditor(page: Page, code: string) {
-  const subjectRow = page.locator(`#exam-${code}`).locator("xpath=ancestor::div[contains(@class, 'flex-col')][contains(@class, 'sm:flex-row')]")
-  await subjectRow.getByRole("button", { name: /calculation assumptions/i }).click()
+  const subjectRow = page
+    .locator(`#exam-${code}`)
+    .locator(
+      "xpath=ancestor::div[contains(@class, 'flex-col')][contains(@class, 'sm:flex-row')]"
+    )
+  await subjectRow
+    .getByRole("button", { name: /calculation assumptions/i })
+    .click()
 }
 
 async function selectTheme(page: Page, theme: "light" | "dark" | "system") {
-  const themeButton = page.getByRole("button", { name: /theme/i })
-  await expect(themeButton).toHaveAttribute("data-hydrated", "true")
-  await themeButton.click()
-  await page.getByRole("menuitem", { name: new RegExp(theme, "i") }).click()
+  const themeButton = page
+    .locator('button[aria-label="Theme"]')
+    .filter({ visible: true })
+    .first()
+  if (await themeButton.isVisible().catch(() => false)) {
+    await expect(themeButton).toHaveAttribute("data-hydrated", "true")
+    await themeButton.click()
+    const item = page.getByRole("menuitem", { name: new RegExp(theme, "i") })
+    const opened = await item
+      .waitFor({ state: "visible", timeout: 1000 })
+      .then(() => true)
+      .catch(() => false)
+    if (!opened) {
+      await themeButton.press("Enter")
+    }
+    await expect(item).toBeVisible()
+    await item.click()
+    return
+  }
+
+  const menuButton = page.getByRole("button", { name: /open menu/i })
+  await expect(menuButton).toHaveAttribute("data-hydrated", "true")
+  await menuButton.click()
+  await page
+    .getByRole("dialog")
+    .getByRole("radio", { name: new RegExp(theme, "i") })
+    .click()
+  await page.keyboard.press("Escape")
 }
 
 test.describe("Calculator E2E", () => {
@@ -65,15 +103,19 @@ test.describe("Calculator E2E", () => {
   test("open English homepage and start calculating", async ({ page }) => {
     await expect(page).toHaveTitle(/FSGF Grade Calculator/)
     await expect(
-      page.getByRole("heading", { level: 2, name: "Grade calculator", exact: true })
+      page.getByRole("heading", {
+        level: 2,
+        name: "Grade calculator",
+        exact: true,
+      })
     ).toBeVisible()
-    await page
-      .getByRole("combobox", { name: /select a program/i })
-      .click()
+    await page.getByRole("combobox", { name: /select a program/i }).click()
     await expect(page.getByRole("dialog")).toBeVisible()
   })
 
-  test("search for and select LI573102, then select Year 2", async ({ page }) => {
+  test("search for and select LI573102, then select Year 2", async ({
+    page,
+  }) => {
     await page.goto("/")
     await selectProgram(page, `${PROGRAM_CODE} — Informatique et Multimédia`)
     await expect(
@@ -83,6 +125,8 @@ test.describe("Calculator E2E", () => {
     await expect(
       page.getByRole("heading", { level: 3, name: /semester 3/i })
     ).toBeVisible()
+    await expect(page.getByRole("tab", { name: /semester 4/i })).toBeVisible()
+    await page.getByRole("tab", { name: /semester 4/i }).click()
     await expect(
       page.getByRole("heading", { level: 3, name: /semester 4/i })
     ).toBeVisible()
@@ -113,6 +157,13 @@ test.describe("Calculator E2E", () => {
     await fillSubject(page, "573102311", { exam: "12", ds: "14" })
 
     await page.waitForTimeout(500)
+    await page.evaluate(() => {
+      window.history.replaceState(
+        window.history.state,
+        "",
+        window.location.pathname
+      )
+    })
     await page.reload()
 
     await selectProgram(page, `${PROGRAM_CODE} — Informatique et Multimédia`)
@@ -121,7 +172,9 @@ test.describe("Calculator E2E", () => {
     await expect(page.locator("#ds-573102311")).toHaveValue("14")
   })
 
-  test("complete both semesters and verify yearly average", async ({ page }) => {
+  test("complete both semesters and verify yearly average", async ({
+    page,
+  }) => {
     await page.goto("/")
     await selectProgram(page, `${PROGRAM_CODE} — Informatique et Multimédia`)
     await selectYear(page, /year 2/i)
@@ -147,6 +200,8 @@ test.describe("Calculator E2E", () => {
         tp: subject.tp,
       })
     }
+
+    await page.getByRole("tab", { name: /semester 4/i }).click()
 
     const s4Subjects: {
       code: string
@@ -178,7 +233,9 @@ test.describe("Calculator E2E", () => {
       })
     }
 
-    const yearAverageLabel = page.getByText("Academic-year average", { exact: true })
+    const yearAverageLabel = page.getByText("Academic-year average", {
+      exact: true,
+    })
     await expect(yearAverageLabel).toBeVisible()
     const yearAverage = await yearAverageLabel
       .locator("xpath=..")
@@ -219,7 +276,10 @@ test.describe("Calculator E2E", () => {
     await selectProgram(page, `${PROGRAM_CODE} — Informatique et Multimédia`)
     await selectYear(page, /year 2/i)
 
-    await page.getByRole("button", { name: /exclude this unit/i }).first().click()
+    await page
+      .getByRole("button", { name: /exclude this unit/i })
+      .first()
+      .click()
     await expect(page.getByText(/excluded teaching units/i)).toBeVisible()
   })
 
@@ -233,7 +293,9 @@ test.describe("Calculator E2E", () => {
     await expect(optionButton).toHaveAttribute("data-variant", "default")
   })
 
-  test("open an unavailable parcours and verify explanation", async ({ page }) => {
+  test("open an unavailable parcours and verify explanation", async ({
+    page,
+  }) => {
     await page.goto(`/programs/${UNAVAILABLE_PROGRAM}`)
     await expect(page.getByText(/not available/i).first()).toBeVisible()
     await expect(
@@ -244,13 +306,21 @@ test.describe("Calculator E2E", () => {
   test("navigate equivalent French routes", async ({ page }) => {
     await page.goto("/fr")
     await expect(
-      page.getByRole("heading", { level: 2, name: "Calculateur de notes", exact: true })
+      page.getByRole("heading", {
+        level: 2,
+        name: "Calculateur de notes",
+        exact: true,
+      })
     ).toBeVisible()
 
     await page.goto("/fr/calculateur")
     await expect(page).toHaveURL(/\/fr\/?$/)
     await expect(
-      page.getByRole("heading", { level: 2, name: "Calculateur de notes", exact: true })
+      page.getByRole("heading", {
+        level: 2,
+        name: "Calculateur de notes",
+        exact: true,
+      })
     ).toBeVisible()
   })
 
@@ -294,7 +364,9 @@ test.describe("Calculator E2E", () => {
     expect(theme).toBe("dark")
   })
 
-  test("navigate with Astro transitions without theme flicker", async ({ page }) => {
+  test("navigate with Astro transitions without theme flicker", async ({
+    page,
+  }) => {
     await page.goto("/programs")
     await selectTheme(page, "dark")
 
@@ -338,9 +410,7 @@ test.describe("Calculator E2E", () => {
     page,
   }) => {
     await page.goto("/programs/LA050103")
-    await page
-      .getByRole("link", { name: "Calculate for this program" })
-      .click()
+    await page.getByRole("link", { name: "Calculate for this program" }).click()
 
     await expect(page).toHaveURL(/\/\?code=LA050103$/)
     await expect(
@@ -375,7 +445,11 @@ test.describe("Calculator E2E", () => {
     })
     await page.reload()
     await expect(
-      page.getByRole("heading", { level: 2, name: "Grade calculator", exact: true })
+      page.getByRole("heading", {
+        level: 2,
+        name: "Grade calculator",
+        exact: true,
+      })
     ).toBeVisible()
   })
 
